@@ -1,0 +1,112 @@
+[
+
+    {
+        
+        "lang": "en",
+        "title": "Spice up your night!",
+        "buttonTitle": "START FREE TRIAL",
+        "product": {
+            "title": "%trial_period% FREE \nthen %subscription_price% / %subscription_period%",
+            "productId": ""
+        },
+        "reasons": [
+            "Have even more fun",
+            "Truly candid levels await you",
+            "The coolest updates"
+        ],
+        "showCloseButton": true,
+        "freeTasksCount": 1,
+        
+    },
+    {
+        
+        "lang": "ru",
+        "title": "Украсьте свой вечер!",
+        "buttonTitle": "НАЧАТЬ ПРОБНЫЙ ПЕРИОД",
+        "product": {
+            "title": "%trial_period% БЕСПЛАТНО \nзатем %subscription_price% / %subscription_period%",
+            "productId": ""
+        },
+        "reasons": [
+            "Получайте еще больше удовольствия",
+            "Вас ждут поистине откровенные уровни",
+            "Самые классные обновления"
+        ],
+        "showCloseButton": true,
+        "freeTasksCount": 1,
+        
+    },
+    {
+        
+        "lang": "de",
+        "title": "Peppen Sie Ihren Abend auf!",
+        "buttonTitle": "KOSTENLOSE TESTVERSION STARTEN",
+        "product": {
+            "title": "%trial_period% GRATIS \ndann %subscription_price% / %subscription_period%",
+            "productId": ""
+        },
+        "reasons": [
+            "Noch mehr Spaß haben",
+            "Wirklich offene Levels warten auf Sie",
+            "Die coolsten Updates"
+        ],
+        "showCloseButton": true,
+        "freeTasksCount": 1,
+        
+    },
+    {
+        
+        "lang": "it",
+        "title": "Date un po' di pepe alla vostra serata!",
+        "buttonTitle": "INIZIA LA PROVA GRATUITA",
+        "product": {
+            "title": "%trial_period% GRATIS \npoi %subscription_price% / %subscription_period%",
+            "productId": ""
+        },
+        "reasons": [
+            "Divertiti ancora di più",
+            "Ti aspettano livelli davvero candidi",
+            "Gli aggiornamenti più cool"
+        ],
+        "showCloseButton": true,
+        "freeTasksCount": 1,
+        
+    },
+    {
+        
+        "lang": "es",
+        "title": "¡Dale sabor a tu noche!",
+        "buttonTitle": "INICIAR LA PRUEBA GRATUITA",
+        "product": {
+            "title": "%trial_period% GRATIS \nentonces %subscription_price% / %subscription_period%",
+            "productId": ""
+        },
+        "reasons": [
+            "Diviértete aún más",
+            "Te esperan niveles realmente cándidos",
+            "Las actualizaciones más geniales"
+        ],
+        "showCloseButton": true,
+        "freeTasksCount": 1,
+        
+    },
+    {
+        
+        "lang": "fr",
+        "title": "Mettez du piquant dans votre soirée !",
+        "buttonTitle": "LANCER L'ESSAI GRATUIT",
+        "product": {
+            "title": "%trial_period% GRATUIT \npuis %subscription_price% / %subscription_period%",
+            "productId": ""
+        },
+        "reasons": [
+            "Amusez-vous encore plus",
+            "Des niveaux vraiment candides vous attendent",
+            "Les mises à jour les plus cool"
+        ],
+        "showCloseButton": true,
+        "freeTasksCount": 1,
+        
+    }
+
+]

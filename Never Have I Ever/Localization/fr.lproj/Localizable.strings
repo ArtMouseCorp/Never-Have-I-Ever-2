@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Jouer à";
+"home.noLevels"                     = "Aucun niveau sélectionné";
+"button.home.select"                = "Sélectionnez";
+"button.home.deselect"              = "Désélectionner";
+
+// MARK: - Settings
+
+"settings.title"                    = "Paramètres";
+"settings.contact"                  = "Contactez nous";
+"settings.restore"                  = "Restaurer les achats";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Vos tâches";
+"button.customTasks.add"            = "Ajouter";
+"button.customTasks.close"          = "Fermer";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Tâche";
+"customTask.taskPlaceholder"        = "Rédigez votre tâche ici";
+"customTask.selectLevel"            = "Choisissez le niveau";
+"button.customTask.add"             = "Ajouter";
+"button.customTask.save"            = "Enregistrer";
+"button.customTask.cancel"          = "Annuler";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Jamais";
+"game.orangeTitle"                  = "J'ai";
+
+// MARK: - Manual
+
+"manual.title"                      = "Règles";
+"manual.step.first"                 = "1. Prenez vos amis et asseyez-vous en cercle. (Ou debout, ou pas en cercle, tout le monde s'en fiche).";
+"manual.step.second"                = "2. Lisez la phrase à haute voix.";
+"manual.step.third"                 = "3. Tous ceux qui l'ont fait font la punition (faire des pompes, manger des brocolis, ou tout ce que le groupe décide).";
+"manual.step.fourth"                = "Si vous êtes le seul à l'avoir fait, racontez l'histoire de cette expérience. Ne soyez pas un idiot qui ne partage pas!\N- C'est tout.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Fin de la partie";
+"button.gameOver.repeat"            = "Jouez à nouveau";
+"button.gameOver.rate"              = "Notez-nous";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Restaurer les achats";
+"button.subsctiption.terms"         = "Conditions d'utilisation";
+"button.subscription.privacy"       = "Politique de confidentialité";
+"subscription.cancelInfo"           = "Annulez à tout moment. Facturé en un seul paiement.";
+
+"subscription.interval.day.one"     = "jour";
+"subscription.interval.day.two"     = "jours";
+"subscription.interval.day.five"    = "jours";
+"subscription.interval.week.one"    = "semaine";
+"subscription.interval.week.two"    = "semaines";
+"subscription.interval.week.five"   = "semaines";
+"subscription.interval.month.one"   = "mois";
+"subscription.interval.month.two"   = "mois";
+"subscription.interval.month.five"  = "mois";
+"subscription.interval.year.one"    = "année";
+"subscription.interval.year.two"    = "années";
+"subscription.interval.year.five"   = "années";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Annuler";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Oui";
+
+"alert.connection.title"            = "Pas de connexion internet";
+"alert.connection.message"          = "Pas de connexion Internet. Veuillez vous connecter au réseau et réessayer.";
+
+"alert.subscribed.title"            = "Abonnement";
+"alert.subscribed.message"          = "Vous êtes déjà inscrit. Toutes les fonctionnalités sont disponibles pour vous.";
+
+"alert.restored.title"              = "Restauré";
+"alert.restored.message"            = "Vous avez restauré votre abonnement avec succès. Toutes les fonctionnalités sont désormais à votre disposition.";
+
+"alert.notSubscriber.title"         = "Non restaurable";
+"alert.notSubscriber.message"       = "Malheureusement, vous ne pouvez pas restaurer votre achat car vous n'avez pas d'abonnement actif.";
+
+"alert.mail.title"                  = "Les services de courrier ne sont pas disponibles";

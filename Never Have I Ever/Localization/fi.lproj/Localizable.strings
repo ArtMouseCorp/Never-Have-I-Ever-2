@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Pelaa";
+"home.noLevels"                     = "Ei valittuja tasoja";
+"button.home.select"                = "Valitse";
+"button.home.deselect"              = "Poista valinta";
+
+// MARK: - Settings
+
+"settings.title"                    = "Asetukset";
+"settings.contact"                  = "Ota yhteyttä";
+"settings.restore"                  = "Palauta ostokset";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Tehtäväsi";
+"button.customTasks.add"            = "Lisää";
+"button.customTasks.close"          = "Sulje";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Tehtävä";
+"customTask.taskPlaceholder"        = "Kirjoita tehtäväsi tähän";
+"customTask.selectLevel"            = "Valitse taso";
+"button.customTask.add"             = "Lisää";
+"button.customTask.save"            = "Tallenna";
+"button.customTask.cancel"          = "Peruuta";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Ei koskaan";
+"game.orangeTitle"                  = "Olenko minä";
+
+// MARK: - Manual
+
+"manual.title"                      = "Säännöt";
+"manual.step.first"                 = "1. Ota ystäväsi mukaan ja istukaa piiriin. (Tai seisokaa, tai älkää istuko piirissä, kukaan ei välitä).";
+"manual.step.second"                = "2. Lukekaa lause ääneen.";
+"manual.step.third"                 = "3. Jokainen, joka on tehnyt tämän, tekee rangaistuksen (punnerruksia, syö parsakaalin tai mitä tahansa muuta ryhmä päättää).";
+"manual.step.fourth"                = "Jos olet ainoa, joka on tehnyt sen, kerro tarina kokemuksesta. Älä ole hölmö, joka ei jaa!\n\nSe on siinä.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Peli on ohi";
+"button.gameOver.repeat"            = "Pelaa uudelleen";
+"button.gameOver.rate"              = "Arvostele meitä";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Palauta ostokset";
+"button.subsctiption.terms"         = "Käyttöehdot";
+"button.subscription.privacy"       = "Yksityisyyden suoja";
+"subscription.cancelInfo"           = "Peruuta milloin tahansa. Laskutetaan yhdellä maksulla.";
+
+"subscription.interval.day.one"     = "päivä";
+"subscription.interval.day.two"     = "päivää";
+"subscription.interval.day.five"    = "days";
+"subscription.interval.week.one"    = "viikko";
+"subscription.interval.week.two"    = "viikot";
+"subscription.interval.week.five"   = "viikot";
+"subscription.interval.month.one"   = "kuukausi";
+"subscription.interval.month.two"   = "kuukaudet";
+"subscription.interval.month.five"  = "kuukaudet";
+"subscription.interval.year.one"    = "vuosi";
+"subscription.interval.year.two"    = "vuotta";
+"subscription.interval.year.five"   = "vuotta";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Peruuta";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Kyllä";
+
+"alert.connection.title"            = "Ei internet-yhteyttä";
+"alert.connection.message"          = "Ei internet-yhteyttä. Ole hyvä ja muodosta yhteys verkkoon ja yritä uudelleen.";
+
+"alert.subscribed.title"            = "Tilattu";
+"alert.subscribed.message"          = "Olet jo tilattu. Kaikki toiminnot ovat käytettävissäsi.";
+
+"alert.restored.title"              = "Palautettu";
+"alert.restored.message"            = "Olet onnistuneesti palauttanut tilauksesi. Kaikki toiminnot ovat nyt käytettävissäsi.";
+
+"alert.notSubscriber.title"         = "Ei palautettavissa";
+"alert.notSubscriber.message"       = "Valitettavasti et voi palauttaa ostostasi, koska sinulla ei ole aktiivista tilausta.";
+
+"alert.mail.title"                  = "Postipalvelut eivät ole käytettävissä";

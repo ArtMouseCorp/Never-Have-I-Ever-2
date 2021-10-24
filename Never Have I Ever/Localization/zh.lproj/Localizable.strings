@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "播放";
+"home.noLevels"                     = "没有选择级别";
+"button.home.select"                = "选择";
+"button.home.deselect"              = "取消选择";
+
+// MARK: - Settings
+
+"settings.title"                    = "设置";
+"settings.contact"                  = "联系我们";
+"settings.restore"                  = "恢复购买";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "您的任务";
+"button.customTasks.add"            = "添加";
+"button.customTasks.close"          = "关闭";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "任务";
+"customTask.taskPlaceholder"        = "在这里写下你的任务";
+"customTask.selectLevel"            = "选择级别";
+"button.customTask.add"             = "添加";
+"button.customTask.save"            = "保存";
+"button.customTask.cancel"          = "取消";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "从来没有";
+"game.orangeTitle"                  = "我有";
+
+// MARK: - Manual
+
+"manual.title"                      = "规则";
+"manual.step.first"                 = "1. 带上你的朋友，坐成一个圈。(或者站着，或者不围成一圈，没人在乎）。)";
+"manual.step.second"                = "2. 大声读出句子。";
+"manual.step.third"                 = "3. 每个做过的人都做惩罚（俯卧撑，吃西兰花，或其他由小组决定的事情）。";
+"manual.step.fourth"                = "如果你是唯一做过的人，就讲讲这个经历的故事。不要做一个不分享的傻瓜！就这样。";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "游戏结束";
+"button.gameOver.repeat"            = "再玩一次";
+"button.gameOver.rate"              = "给我们评分";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "恢复购买";
+"button.subsctiption.terms"         = "使用条款";
+"button.subscription.privacy"       = "隐私政策";
+"subscription.cancelInfo"           = "随时取消。以一次付款方式结算。";
+
+"subscription.interval.day.one"     = "天";
+"subscription.interval.day.two"     = "天";
+"subscription.interval.day.five"    = "天";
+"subscription.interval.week.one"    = "周数";
+"subscription.interval.week.two"    = "周";
+"subscription.interval.week.five"   = "周";
+"subscription.interval.month.one"   = "月";
+"subscription.interval.month.two"   = "月";
+"subscription.interval.month.five"  = "月";
+"subscription.interval.year.one"    = "年";
+"subscription.interval.year.two"    = "年";
+"subscription.interval.year.five"   = "年";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "取消";
+"alert.action.ok"                   = "好的";
+"alert.action.yes"                  = "是的";
+
+"alert.connection.title"            = "没有互联网连接";
+"alert.connection.message"          = "没有互联网连接。请连接到网络并重试。";
+
+"alert.subscribed.title"            = "已订阅";
+"alert.subscribed.message"          = "你已经订阅了。您可以使用所有的功能。";
+
+"alert.restored.title"              = "已恢复";
+"alert.restored.message"            = "您已经成功恢复了您的订阅。所有功能现在都可以使用。";
+
+"alert.notSubscriber.title"         = "不能恢复";
+"alert.notSubscriber.message"       = "不幸的是，你不能恢复你的购买，因为你没有一个有效的订阅。";
+
+"alert.mail.title"                  = "邮件服务不可用";

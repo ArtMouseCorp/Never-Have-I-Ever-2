@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Jugar";
+"home.noLevels"                     = "No hay niveles seleccionados";
+"button.home.select"                = "Seleccione";
+"button.home.deselect"              = "Deseleccionar";
+
+// MARK: - Settings
+
+"settings.title"                    = "Configuración";
+"settings.contact"                  = "Contactar con nosotros";
+"settings.restore"                  = "Restaurar compras";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Sus tareas";
+"button.customTasks.add"            = "Añadir";
+"button.customTasks.close"          = "Cerrar";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Tarea";
+"customTask.taskPlaceholder"        = "Escriba su tarea aquí";
+"customTask.selectLevel"            = "Elija el nivel";
+"button.customTask.add"             = "Añadir";
+"button.customTask.save"            = "Guardar";
+"button.customTask.cancel"          = "Cancelar";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Nunca";
+"game.orangeTitle"                  = "Tengo";
+
+// MARK: - Manual
+
+"manual.title"                      = "Reglas";
+"manual.step.first"                 = "1. Coge a tus amigos y siéntate en círculo. (O de pie, o no en un círculo, a nadie le importa).";
+"manual.step.second"                = "2. Lee la frase en voz alta.";
+"manual.step.third"                 = "3. Todos los que la hayan hecho cumplen el castigo (flexiones, comer brócoli o cualquier otra cosa que decida el grupo).";
+"manual.step.fourth"                = "Si eres el único que lo ha hecho, cuenta la experiencia. No seas un tonto que no comparte! \N - Eso es todo.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Se acabó el juego";
+"button.gameOver.repeat"            = "Vuelve a jugar";
+"button.gameOver.rate"              = "Califícanos";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Restaurar compras";
+"button.subsctiption.terms"         = "Condiciones de uso";
+"button.subscription.privacy"       = "Política de privacidad";
+"subscription.cancelInfo"           = "Cancela cuando quieras. Se factura en un solo pago.";
+
+"subscription.interval.day.one"     = "día";
+"subscription.interval.day.two"     = "días";
+"subscription.interval.day.five"    = "días";
+"subscription.interval.week.one"    = "semana";
+"subscription.interval.week.two"    = "semanas";
+"subscription.interval.week.five"   = "semanas";
+"subscription.interval.month.one"   = "mes";
+"subscription.interval.month.two"   = "meses";
+"subscription.interval.month.five"  = "meses";
+"subscription.interval.year.one"    = "año";
+"subscription.interval.year.two"    = "años";
+"subscription.interval.year.five"   = "años";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Cancelar";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Sí";
+
+"alert.connection.title"            = "No hay conexión a Internet";
+"alert.connection.message"          = "No hay conexión a Internet. Por favor, conéctese a la red e inténtelo de nuevo.";
+
+"alert.subscribed.title"            = "Suscrito";
+"alert.subscribed.message"          = "Ya está suscrito. Toda la funcionalidad está disponible para usted.";
+
+"alert.restored.title"              = "Restaurado";
+"alert.restored.message"            = "Ha restaurado correctamente su suscripción. Todas las funciones están ahora disponibles para usted.";
+
+"alert.notSubscriber.title"         = "No se puede restaurar";
+"alert.notSubscriber.message"       = "Lamentablemente, no puedes restaurar tu compra porque no tienes una suscripción activa.";
+
+"alert.mail.title"                  = "Los servicios de correo no están disponibles";

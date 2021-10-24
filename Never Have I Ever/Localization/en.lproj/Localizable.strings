@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Play";
+"home.noLevels"                     = "No levels selected";
+"button.home.select"                = "Select";
+"button.home.deselect"              = "Deselect";
+
+// MARK: - Settings
+
+"settings.title"                    = "Settings";
+"settings.contact"                  = "Contact us";
+"settings.restore"                  = "Restore purchases";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Your tasks";
+"button.customTasks.add"            = "Add";
+"button.customTasks.close"          = "Close";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Task";
+"customTask.taskPlaceholder"        = "Write your task here";
+"customTask.selectLevel"            = "Choose level";
+"button.customTask.add"             = "Add";
+"button.customTask.save"            = "Save";
+"button.customTask.cancel"          = "Cancel";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Never";
+"game.orangeTitle"                  = "Have I";
+
+// MARK: - Manual
+
+"manual.title"                      = "Rules";
+"manual.step.first"                 = "1. Take your friends and sit in a circle. (Or stand, or not in a circle, no one cares).";
+"manual.step.second"                = "2. Read the sentence aloud.";
+"manual.step.third"                 = "3. Everyone who has done this does the punishment (push-ups, eating broccoli, or whatever else the group decides).";
+"manual.step.fourth"                = "If you're the only one who's done it, tell the story of the experience. Don't be a fool who doesn't share!\n\nThat's it.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Game over";
+"button.gameOver.repeat"            = "Play again";
+"button.gameOver.rate"              = "Rate us";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Restore purchases";
+"button.subsctiption.terms"         = "Terms of use";
+"button.subscription.privacy"       = "Privacy policy";
+"subscription.cancelInfo"           = "Cancel anytime. Billed in one payment.";
+
+"subscription.interval.day.one"     = "day";
+"subscription.interval.day.two"     = "days";
+"subscription.interval.day.five"    = "days";
+"subscription.interval.week.one"    = "week";
+"subscription.interval.week.two"    = "weeks";
+"subscription.interval.week.five"   = "weeks";
+"subscription.interval.month.one"   = "month";
+"subscription.interval.month.two"   = "months";
+"subscription.interval.month.five"  = "months";
+"subscription.interval.year.one"    = "year";
+"subscription.interval.year.two"    = "years";
+"subscription.interval.year.five"   = "years";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Cancel";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Yes";
+
+"alert.connection.title"            = "No internet connection";
+"alert.connection.message"          = "No internet connection. Please connect to the network and try again.";
+
+"alert.subscribed.title"            = "Subscribed";
+"alert.subscribed.message"          = "You are already subscribed. All functionality is available to you.";
+
+"alert.restored.title"              = "Restored";
+"alert.restored.message"            = "You have successfully restored your subscription. All functionality is now available to you.";
+
+"alert.notSubscriber.title"         = "Not restorable";
+"alert.notSubscriber.message"       = "Unfortunately, you cannot restore your purchase because you do not have an active subscription.";
+
+"alert.mail.title"                  = "Mail services are not available";

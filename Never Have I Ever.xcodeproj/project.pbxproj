@@ -3,45 +3,243 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2822D5CA2721E723003EA8BC /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822D5C92721E723003EA8BC /* NotificationService.swift */; };
+		2822D5CE2721E723003EA8BC /* FirebaseNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2822D5C72721E723003EA8BC /* FirebaseNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2822D5D4272297A8003EA8BC /* subscriptionPage.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5D3272297A8003EA8BC /* subscriptionPage.json */; };
+		2822D5D627229F73003EA8BC /* SubscriptionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822D5D527229F73003EA8BC /* SubscriptionConfig.swift */; };
+		2822D5D82722B2EA003EA8BC /* levels_ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5D72722B2EA003EA8BC /* levels_ru.json */; };
+		2822D5DA2722B2F9003EA8BC /* levels_de.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5D92722B2F9003EA8BC /* levels_de.json */; };
+		2822D5DC2722B306003EA8BC /* levels_es.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5DB2722B306003EA8BC /* levels_es.json */; };
+		2822D5DE2722B313003EA8BC /* levels_it.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5DD2722B313003EA8BC /* levels_it.json */; };
+		2822D5E02722B31D003EA8BC /* levels_fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5DF2722B31D003EA8BC /* levels_fr.json */; };
+		2822D5E22722B32C003EA8BC /* levels_nl.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5E12722B32C003EA8BC /* levels_nl.json */; };
+		2822D5E42722B341003EA8BC /* levels_sv.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5E32722B341003EA8BC /* levels_sv.json */; };
+		2822D5E62722B350003EA8BC /* levels_fi.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5E52722B350003EA8BC /* levels_fi.json */; };
+		2822D5E82722B35B003EA8BC /* levels_zh.json in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5E72722B35B003EA8BC /* levels_zh.json */; };
+		2822D5E92722C2F8003EA8BC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2822D5EB2722C2F8003EA8BC /* Localizable.strings */; };
+		2822D5F62722DFD7003EA8BC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822D5F52722DFD7003EA8BC /* Task.swift */; };
+		2857719D271C3AEC00CBEDB0 /* CustomTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2857719C271C3AEC00CBEDB0 /* CustomTaskTableViewCell.swift */; };
+		285771A0271C560900CBEDB0 /* levels_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 2857719F271C560800CBEDB0 /* levels_en.json */; };
+		285771A2271C566600CBEDB0 /* NHButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285771A1271C566600CBEDB0 /* NHButton.swift */; };
+		285771A4271C680A00CBEDB0 /* LevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285771A3271C680A00CBEDB0 /* LevelTableViewCell.swift */; };
 		28AD806A271A30B500D4999E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8069271A30B500D4999E /* AppDelegate.swift */; };
 		28AD806C271A30B500D4999E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD806B271A30B500D4999E /* SceneDelegate.swift */; };
-		28AD806E271A30B500D4999E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD806D271A30B500D4999E /* ViewController.swift */; };
 		28AD8071271A30B500D4999E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AD806F271A30B500D4999E /* Main.storyboard */; };
 		28AD8073271A30B900D4999E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AD8072271A30B900D4999E /* Assets.xcassets */; };
 		28AD8076271A30B900D4999E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AD8074271A30B900D4999E /* LaunchScreen.storyboard */; };
+		28AD8088271A31DE00D4999E /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8087271A31DE00D4999E /* UIViewController.swift */; };
+		28AD808A271A321700D4999E /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8089271A321700D4999E /* Array.swift */; };
+		28AD808C271A322700D4999E /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD808B271A322700D4999E /* SKProduct.swift */; };
+		28AD808E271A324700D4999E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD808D271A324700D4999E /* UIButton.swift */; };
+		28AD8090271A326E00D4999E /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD808F271A326E00D4999E /* UICollectionView.swift */; };
+		28AD8092271A327C00D4999E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8091271A327C00D4999E /* UIColor.swift */; };
+		28AD8094271A328200D4999E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8093271A328200D4999E /* UIFont.swift */; };
+		28AD8096271A328D00D4999E /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8095271A328D00D4999E /* UIImage.swift */; };
+		28AD8098271A329900D4999E /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8097271A329900D4999E /* UILabel.swift */; };
+		28AD809A271A32BC00D4999E /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD8099271A32BC00D4999E /* UINavigationController.swift */; };
+		28AD809C271A32C800D4999E /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD809B271A32C800D4999E /* UITableView.swift */; };
+		28AD809E271A32F700D4999E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD809D271A32F700D4999E /* UIView.swift */; };
+		28AD80A5271A334D00D4999E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80A4271A334D00D4999E /* BaseViewController.swift */; };
+		28AD80A8271A339F00D4999E /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80A7271A339F00D4999E /* Cells.swift */; };
+		28AD80AA271A33B100D4999E /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80A9271A33B100D4999E /* Storyboards.swift */; };
+		28AD80AC271A33BD00D4999E /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80AB271A33BD00D4999E /* Main.swift */; };
+		28AD80AE271A33D200D4999E /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80AD271A33D200D4999E /* Util.swift */; };
+		28AD80B0271A341400D4999E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80AF271A341400D4999E /* Constants.swift */; };
+		28AD80B2271A343D00D4999E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80B1271A343D00D4999E /* Config.swift */; };
+		28AD80B4271A357600D4999E /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80B3271A357600D4999E /* StoreManager.swift */; };
+		28AD80B6271A359200D4999E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80B5271A359200D4999E /* CoreDataManager.swift */; };
+		28AD80B9271A361F00D4999E /* Never Have I Ever.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80B7271A361F00D4999E /* Never Have I Ever.xcdatamodeld */; };
+		28AD80BB271A363200D4999E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80BA271A363200D4999E /* State.swift */; };
+		28AD80BD271A367200D4999E /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80BC271A367200D4999E /* Level.swift */; };
+		28AD80BF271A39F500D4999E /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80BE271A39F500D4999E /* Popup.swift */; };
+		28AD80C2271A3B0D00D4999E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AD80C1271A3B0D00D4999E /* StoreKit.framework */; };
+		28AD80C5271A3B7100D4999E /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80C4271A3B7100D4999E /* LoadingViewController.swift */; };
+		28AD80C7271A3B7E00D4999E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80C6271A3B7E00D4999E /* HomeViewController.swift */; };
+		28AD80C9271A3B8900D4999E /* SettingsViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80C8271A3B8900D4999E /* SettingsViewConrtoller.swift */; };
+		28AD80CB271A3B9A00D4999E /* ManualViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80CA271A3B9A00D4999E /* ManualViewConrtoller.swift */; };
+		28AD80CD271A3BA300D4999E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80CC271A3BA300D4999E /* GameViewController.swift */; };
+		28AD80CF271A3BB000D4999E /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80CE271A3BB000D4999E /* GameOverViewController.swift */; };
+		28AD80D1271A3BBB00D4999E /* SubscriptionViewConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80D0271A3BBB00D4999E /* SubscriptionViewConrtoller.swift */; };
+		28AD80D3271A3C0300D4999E /* BasePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80D2271A3C0300D4999E /* BasePopupViewController.swift */; };
+		28AD80D5271A3C9000D4999E /* LevelPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80D4271A3C9000D4999E /* LevelPopup.swift */; };
+		28AD80D7271A3C9900D4999E /* CustomTasksPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80D6271A3C9900D4999E /* CustomTasksPopup.swift */; };
+		28AD80D9271A3CA400D4999E /* CustomTaskPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80D8271A3CA400D4999E /* CustomTaskPopup.swift */; };
+		28AD80DB271AEF6900D4999E /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80DA271AEF6900D4999E /* LevelCollectionViewCell.swift */; };
+		28AD80E5271B1DC000D4999E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80E4271B1DC000D4999E /* Language.swift */; };
+		28AD80E7271B204700D4999E /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80E6271B204700D4999E /* LanguageTableViewCell.swift */; };
+		30799344CB9654701636242A /* Pods_FirebaseNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE581F1EEAF0F52583B3E451 /* Pods_FirebaseNotificationServiceExtension.framework */; };
+		94E2F2EF927930CBA5AB09B9 /* Pods_Never_Have_I_Ever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2822D5CC2721E723003EA8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28AD805E271A30B500D4999E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2822D5C62721E723003EA8BC;
+			remoteInfo = FirebaseNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2822D5CF2721E723003EA8BC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2822D5CE2721E723003EA8BC /* FirebaseNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0FE02CDD0982ADBC855417A1 /* Pods-FirebaseNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-FirebaseNotificationServiceExtension/Pods-FirebaseNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		2822D5C72721E723003EA8BC /* FirebaseNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FirebaseNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2822D5C92721E723003EA8BC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		2822D5CB2721E723003EA8BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2822D5D3272297A8003EA8BC /* subscriptionPage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = subscriptionPage.json; sourceTree = "<group>"; };
+		2822D5D527229F73003EA8BC /* SubscriptionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionConfig.swift; sourceTree = "<group>"; };
+		2822D5D72722B2EA003EA8BC /* levels_ru.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_ru.json; sourceTree = "<group>"; };
+		2822D5D92722B2F9003EA8BC /* levels_de.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_de.json; sourceTree = "<group>"; };
+		2822D5DB2722B306003EA8BC /* levels_es.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_es.json; sourceTree = "<group>"; };
+		2822D5DD2722B313003EA8BC /* levels_it.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_it.json; sourceTree = "<group>"; };
+		2822D5DF2722B31D003EA8BC /* levels_fr.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_fr.json; sourceTree = "<group>"; };
+		2822D5E12722B32C003EA8BC /* levels_nl.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_nl.json; sourceTree = "<group>"; };
+		2822D5E32722B341003EA8BC /* levels_sv.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_sv.json; sourceTree = "<group>"; };
+		2822D5E52722B350003EA8BC /* levels_fi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_fi.json; sourceTree = "<group>"; };
+		2822D5E72722B35B003EA8BC /* levels_zh.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_zh.json; sourceTree = "<group>"; };
+		2822D5EA2722C2F8003EA8BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5EC2722C41B003EA8BC /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5ED2722C422003EA8BC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5EE2722C429003EA8BC /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5EF2722C430003EA8BC /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5F02722C43C003EA8BC /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5F12722C44B003EA8BC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5F22722C454003EA8BC /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5F32722C47F003EA8BC /* zh */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh; path = zh.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5F42722C490003EA8BC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2822D5F52722DFD7003EA8BC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		2857719C271C3AEC00CBEDB0 /* CustomTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTaskTableViewCell.swift; sourceTree = "<group>"; };
+		2857719F271C560800CBEDB0 /* levels_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = levels_en.json; sourceTree = "<group>"; };
+		285771A1271C566600CBEDB0 /* NHButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHButton.swift; sourceTree = "<group>"; };
+		285771A3271C680A00CBEDB0 /* LevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTableViewCell.swift; sourceTree = "<group>"; };
 		28AD8066271A30B500D4999E /* Never Have I Ever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Never Have I Ever.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28AD8069271A30B500D4999E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28AD806B271A30B500D4999E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28AD806D271A30B500D4999E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28AD8070271A30B500D4999E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28AD8072271A30B900D4999E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28AD8075271A30B900D4999E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28AD8077271A30B900D4999E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AD8087271A31DE00D4999E /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		28AD8089271A321700D4999E /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		28AD808B271A322700D4999E /* SKProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKProduct.swift; sourceTree = "<group>"; };
+		28AD808D271A324700D4999E /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		28AD808F271A326E00D4999E /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		28AD8091271A327C00D4999E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		28AD8093271A328200D4999E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		28AD8095271A328D00D4999E /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		28AD8097271A329900D4999E /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		28AD8099271A32BC00D4999E /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		28AD809B271A32C800D4999E /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		28AD809D271A32F700D4999E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		28AD80A4271A334D00D4999E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		28AD80A7271A339F00D4999E /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		28AD80A9271A33B100D4999E /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		28AD80AB271A33BD00D4999E /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		28AD80AD271A33D200D4999E /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		28AD80AF271A341400D4999E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		28AD80B1271A343D00D4999E /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		28AD80B3271A357600D4999E /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		28AD80B5271A359200D4999E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		28AD80B8271A361F00D4999E /* never_have_i_ever.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = never_have_i_ever.xcdatamodel; sourceTree = "<group>"; };
+		28AD80BA271A363200D4999E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		28AD80BC271A367200D4999E /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		28AD80BE271A39F500D4999E /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		28AD80C1271A3B0D00D4999E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		28AD80C3271A3B1900D4999E /* Never Have I Ever.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Never Have I Ever.entitlements"; sourceTree = "<group>"; };
+		28AD80C4271A3B7100D4999E /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		28AD80C6271A3B7E00D4999E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		28AD80C8271A3B8900D4999E /* SettingsViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewConrtoller.swift; sourceTree = "<group>"; };
+		28AD80CA271A3B9A00D4999E /* ManualViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualViewConrtoller.swift; sourceTree = "<group>"; };
+		28AD80CC271A3BA300D4999E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		28AD80CE271A3BB000D4999E /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		28AD80D0271A3BBB00D4999E /* SubscriptionViewConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewConrtoller.swift; sourceTree = "<group>"; };
+		28AD80D2271A3C0300D4999E /* BasePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePopupViewController.swift; sourceTree = "<group>"; };
+		28AD80D4271A3C9000D4999E /* LevelPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPopup.swift; sourceTree = "<group>"; };
+		28AD80D6271A3C9900D4999E /* CustomTasksPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTasksPopup.swift; sourceTree = "<group>"; };
+		28AD80D8271A3CA400D4999E /* CustomTaskPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTaskPopup.swift; sourceTree = "<group>"; };
+		28AD80DA271AEF6900D4999E /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		28AD80E4271B1DC000D4999E /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		28AD80E6271B204700D4999E /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		30F5868A00EFBD68C79C41D3 /* Pods-FirebaseNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseNotificationServiceExtension/Pods-FirebaseNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		38EE78F739D8C4E92A54353E /* Pods-Never Have I Ever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.debug.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.debug.xcconfig"; sourceTree = "<group>"; };
+		402BCDC6EE9D4594964B2E6A /* Pods-Never Have I Ever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.release.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.release.xcconfig"; sourceTree = "<group>"; };
+		6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Never_Have_I_Ever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE581F1EEAF0F52583B3E451 /* Pods_FirebaseNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2822D5C42721E723003EA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30799344CB9654701636242A /* Pods_FirebaseNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28AD8063271A30B500D4999E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AD80C2271A3B0D00D4999E /* StoreKit.framework in Frameworks */,
+				94E2F2EF927930CBA5AB09B9 /* Pods_Never_Have_I_Ever.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2822D5C82721E723003EA8BC /* FirebaseNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				2822D5C92721E723003EA8BC /* NotificationService.swift */,
+				2822D5CB2721E723003EA8BC /* Info.plist */,
+			);
+			path = FirebaseNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		2857719E271C55F200CBEDB0 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				2857719F271C560800CBEDB0 /* levels_en.json */,
+				2822D5D72722B2EA003EA8BC /* levels_ru.json */,
+				2822D5D92722B2F9003EA8BC /* levels_de.json */,
+				2822D5DB2722B306003EA8BC /* levels_es.json */,
+				2822D5DD2722B313003EA8BC /* levels_it.json */,
+				2822D5DF2722B31D003EA8BC /* levels_fr.json */,
+				2822D5E12722B32C003EA8BC /* levels_nl.json */,
+				2822D5E32722B341003EA8BC /* levels_sv.json */,
+				2822D5E52722B350003EA8BC /* levels_fi.json */,
+				2822D5E72722B35B003EA8BC /* levels_zh.json */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
 		28AD805D271A30B500D4999E = {
 			isa = PBXGroup;
 			children = (
 				28AD8068271A30B500D4999E /* Never Have I Ever */,
+				2822D5C82721E723003EA8BC /* FirebaseNotificationServiceExtension */,
 				28AD8067271A30B500D4999E /* Products */,
+				28AD80C0271A3B0D00D4999E /* Frameworks */,
+				DF1F1AACB0F7BF79C915F753 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				28AD8066271A30B500D4999E /* Never Have I Ever.app */,
+				2822D5C72721E723003EA8BC /* FirebaseNotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,31 +255,241 @@
 		28AD8068271A30B500D4999E /* Never Have I Ever */ = {
 			isa = PBXGroup;
 			children = (
-				28AD8069271A30B500D4999E /* AppDelegate.swift */,
-				28AD806B271A30B500D4999E /* SceneDelegate.swift */,
-				28AD806D271A30B500D4999E /* ViewController.swift */,
-				28AD806F271A30B500D4999E /* Main.storyboard */,
+				28AD80C3271A3B1900D4999E /* Never Have I Ever.entitlements */,
 				28AD8072271A30B900D4999E /* Assets.xcassets */,
-				28AD8074271A30B900D4999E /* LaunchScreen.storyboard */,
-				28AD8077271A30B900D4999E /* Info.plist */,
+				28AD8086271A316B00D4999E /* Application */,
+				28AD8085271A314E00D4999E /* Extensions */,
+				28AD807E271A30E900D4999E /* Localization */,
+				28AD8081271A30F700D4999E /* Model */,
+				28AD8082271A30FA00D4999E /* Resources */,
+				28AD807D271A30DB00D4999E /* Screens */,
+				28AD807F271A30EF00D4999E /* Utils */,
+				28AD8080271A30F300D4999E /* Views */,
 			);
 			path = "Never Have I Ever";
+			sourceTree = "<group>";
+		};
+		28AD807D271A30DB00D4999E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80A4271A334D00D4999E /* BaseViewController.swift */,
+				28AD80D2271A3C0300D4999E /* BasePopupViewController.swift */,
+				28AD809F271A331200D4999E /* Launch Screen */,
+				28AD80A0271A331D00D4999E /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		28AD807E271A30E900D4999E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				2822D5EB2722C2F8003EA8BC /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		28AD807F271A30EF00D4999E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80A6271A339100D4999E /* Screens */,
+				28AD80AD271A33D200D4999E /* Util.swift */,
+				28AD80AF271A341400D4999E /* Constants.swift */,
+				28AD80B1271A343D00D4999E /* Config.swift */,
+				28AD80B3271A357600D4999E /* StoreManager.swift */,
+				28AD80B5271A359200D4999E /* CoreDataManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		28AD8080271A30F300D4999E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				285771A1271C566600CBEDB0 /* NHButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28AD8081271A30F700D4999E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80B7271A361F00D4999E /* Never Have I Ever.xcdatamodeld */,
+				28AD80BA271A363200D4999E /* State.swift */,
+				28AD80BC271A367200D4999E /* Level.swift */,
+				2822D5F52722DFD7003EA8BC /* Task.swift */,
+				28AD80E4271B1DC000D4999E /* Language.swift */,
+				2822D5D527229F73003EA8BC /* SubscriptionConfig.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28AD8082271A30FA00D4999E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2857719E271C55F200CBEDB0 /* Levels */,
+				28AD8083271A310200D4999E /* Fonts */,
+				2822D5D3272297A8003EA8BC /* subscriptionPage.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		28AD8083271A310200D4999E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		28AD8085271A314E00D4999E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28AD8089271A321700D4999E /* Array.swift */,
+				28AD808B271A322700D4999E /* SKProduct.swift */,
+				28AD808D271A324700D4999E /* UIButton.swift */,
+				28AD808F271A326E00D4999E /* UICollectionView.swift */,
+				28AD8091271A327C00D4999E /* UIColor.swift */,
+				28AD8093271A328200D4999E /* UIFont.swift */,
+				28AD8095271A328D00D4999E /* UIImage.swift */,
+				28AD8097271A329900D4999E /* UILabel.swift */,
+				28AD8099271A32BC00D4999E /* UINavigationController.swift */,
+				28AD809B271A32C800D4999E /* UITableView.swift */,
+				28AD809D271A32F700D4999E /* UIView.swift */,
+				28AD8087271A31DE00D4999E /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		28AD8086271A316B00D4999E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				28AD8077271A30B900D4999E /* Info.plist */,
+				28AD8069271A30B500D4999E /* AppDelegate.swift */,
+				28AD806B271A30B500D4999E /* SceneDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		28AD809F271A331200D4999E /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				28AD8074271A30B900D4999E /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		28AD80A0271A331D00D4999E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80A3271A333000D4999E /* Cells */,
+				28AD80A2271A332C00D4999E /* Popups */,
+				28AD80A1271A332500D4999E /* Controllers */,
+				28AD806F271A30B500D4999E /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		28AD80A1271A332500D4999E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80C4271A3B7100D4999E /* LoadingViewController.swift */,
+				28AD80C6271A3B7E00D4999E /* HomeViewController.swift */,
+				28AD80C8271A3B8900D4999E /* SettingsViewConrtoller.swift */,
+				28AD80CA271A3B9A00D4999E /* ManualViewConrtoller.swift */,
+				28AD80CC271A3BA300D4999E /* GameViewController.swift */,
+				28AD80CE271A3BB000D4999E /* GameOverViewController.swift */,
+				28AD80D0271A3BBB00D4999E /* SubscriptionViewConrtoller.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		28AD80A2271A332C00D4999E /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80D4271A3C9000D4999E /* LevelPopup.swift */,
+				28AD80D6271A3C9900D4999E /* CustomTasksPopup.swift */,
+				28AD80D8271A3CA400D4999E /* CustomTaskPopup.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		28AD80A3271A333000D4999E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80DA271AEF6900D4999E /* LevelCollectionViewCell.swift */,
+				28AD80E6271B204700D4999E /* LanguageTableViewCell.swift */,
+				2857719C271C3AEC00CBEDB0 /* CustomTaskTableViewCell.swift */,
+				285771A3271C680A00CBEDB0 /* LevelTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		28AD80A6271A339100D4999E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80A9271A33B100D4999E /* Storyboards.swift */,
+				28AD80AB271A33BD00D4999E /* Main.swift */,
+				28AD80BE271A39F500D4999E /* Popup.swift */,
+				28AD80A7271A339F00D4999E /* Cells.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		28AD80C0271A3B0D00D4999E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80C1271A3B0D00D4999E /* StoreKit.framework */,
+				6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */,
+				DE581F1EEAF0F52583B3E451 /* Pods_FirebaseNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF1F1AACB0F7BF79C915F753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38EE78F739D8C4E92A54353E /* Pods-Never Have I Ever.debug.xcconfig */,
+				402BCDC6EE9D4594964B2E6A /* Pods-Never Have I Ever.release.xcconfig */,
+				30F5868A00EFBD68C79C41D3 /* Pods-FirebaseNotificationServiceExtension.debug.xcconfig */,
+				0FE02CDD0982ADBC855417A1 /* Pods-FirebaseNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28AD8065271A30B500D4999E /* Never Have I Ever */ = {
+		2822D5C62721E723003EA8BC /* FirebaseNotificationServiceExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28AD807A271A30B900D4999E /* Build configuration list for PBXNativeTarget "Never Have I Ever" */;
+			buildConfigurationList = 2822D5D22721E723003EA8BC /* Build configuration list for PBXNativeTarget "FirebaseNotificationServiceExtension" */;
 			buildPhases = (
-				28AD8062271A30B500D4999E /* Sources */,
-				28AD8063271A30B500D4999E /* Frameworks */,
-				28AD8064271A30B500D4999E /* Resources */,
+				F2B8FA81BE6D88E870419FA8 /* [CP] Check Pods Manifest.lock */,
+				2822D5C32721E723003EA8BC /* Sources */,
+				2822D5C42721E723003EA8BC /* Frameworks */,
+				2822D5C52721E723003EA8BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = FirebaseNotificationServiceExtension;
+			productName = FirebaseNotificationServiceExtension;
+			productReference = 2822D5C72721E723003EA8BC /* FirebaseNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		28AD8065271A30B500D4999E /* Never Have I Ever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AD807A271A30B900D4999E /* Build configuration list for PBXNativeTarget "Never Have I Ever" */;
+			buildPhases = (
+				DCF29B104B5355A9243EED48 /* [CP] Check Pods Manifest.lock */,
+				28AD8062271A30B500D4999E /* Sources */,
+				28AD8063271A30B500D4999E /* Frameworks */,
+				28AD8064271A30B500D4999E /* Resources */,
+				D37EF83F6CD18487557718EB /* [CP] Embed Pods Frameworks */,
+				2822D5CF2721E723003EA8BC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2822D5CD2721E723003EA8BC /* PBXTargetDependency */,
 			);
 			name = "Never Have I Ever";
 			productName = "Never Have I Ever";
@@ -97,18 +506,30 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					2822D5C62721E723003EA8BC = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					28AD8065271A30B500D4999E = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
 			buildConfigurationList = 28AD8061271A30B500D4999E /* Build configuration list for PBXProject "Never Have I Ever" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				nl,
+				fr,
+				fi,
+				it,
+				ru,
+				es,
+				sv,
+				zh,
+				de,
 			);
 			mainGroup = 28AD805D271A30B500D4999E;
 			productRefGroup = 28AD8067271A30B500D4999E /* Products */;
@@ -116,37 +537,197 @@
 			projectRoot = "";
 			targets = (
 				28AD8065271A30B500D4999E /* Never Have I Ever */,
+				2822D5C62721E723003EA8BC /* FirebaseNotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2822D5C52721E723003EA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28AD8064271A30B500D4999E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2822D5D82722B2EA003EA8BC /* levels_ru.json in Resources */,
+				2822D5DC2722B306003EA8BC /* levels_es.json in Resources */,
+				2822D5E02722B31D003EA8BC /* levels_fr.json in Resources */,
+				2822D5E82722B35B003EA8BC /* levels_zh.json in Resources */,
+				2822D5DA2722B2F9003EA8BC /* levels_de.json in Resources */,
+				2822D5E42722B341003EA8BC /* levels_sv.json in Resources */,
+				2822D5DE2722B313003EA8BC /* levels_it.json in Resources */,
+				2822D5E92722C2F8003EA8BC /* Localizable.strings in Resources */,
 				28AD8076271A30B900D4999E /* LaunchScreen.storyboard in Resources */,
 				28AD8073271A30B900D4999E /* Assets.xcassets in Resources */,
+				2822D5D4272297A8003EA8BC /* subscriptionPage.json in Resources */,
 				28AD8071271A30B500D4999E /* Main.storyboard in Resources */,
+				2822D5E22722B32C003EA8BC /* levels_nl.json in Resources */,
+				285771A0271C560900CBEDB0 /* levels_en.json in Resources */,
+				2822D5E62722B350003EA8BC /* levels_fi.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D37EF83F6CD18487557718EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF29B104B5355A9243EED48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Never Have I Ever-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B8FA81BE6D88E870419FA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirebaseNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2822D5C32721E723003EA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2822D5CA2721E723003EA8BC /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28AD8062271A30B500D4999E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD806E271A30B500D4999E /* ViewController.swift in Sources */,
+				28AD80B4271A357600D4999E /* StoreManager.swift in Sources */,
+				28AD8096271A328D00D4999E /* UIImage.swift in Sources */,
+				28AD80BD271A367200D4999E /* Level.swift in Sources */,
+				2857719D271C3AEC00CBEDB0 /* CustomTaskTableViewCell.swift in Sources */,
+				2822D5F62722DFD7003EA8BC /* Task.swift in Sources */,
+				28AD80DB271AEF6900D4999E /* LevelCollectionViewCell.swift in Sources */,
+				28AD808C271A322700D4999E /* SKProduct.swift in Sources */,
+				285771A4271C680A00CBEDB0 /* LevelTableViewCell.swift in Sources */,
+				28AD80D3271A3C0300D4999E /* BasePopupViewController.swift in Sources */,
+				28AD808A271A321700D4999E /* Array.swift in Sources */,
 				28AD806A271A30B500D4999E /* AppDelegate.swift in Sources */,
+				28AD80D5271A3C9000D4999E /* LevelPopup.swift in Sources */,
+				28AD80B6271A359200D4999E /* CoreDataManager.swift in Sources */,
+				28AD80C5271A3B7100D4999E /* LoadingViewController.swift in Sources */,
+				28AD8092271A327C00D4999E /* UIColor.swift in Sources */,
+				28AD80AA271A33B100D4999E /* Storyboards.swift in Sources */,
+				28AD80D1271A3BBB00D4999E /* SubscriptionViewConrtoller.swift in Sources */,
+				28AD80BB271A363200D4999E /* State.swift in Sources */,
+				28AD80AE271A33D200D4999E /* Util.swift in Sources */,
+				28AD80CD271A3BA300D4999E /* GameViewController.swift in Sources */,
+				28AD80C7271A3B7E00D4999E /* HomeViewController.swift in Sources */,
+				28AD80A8271A339F00D4999E /* Cells.swift in Sources */,
+				28AD809A271A32BC00D4999E /* UINavigationController.swift in Sources */,
+				28AD80BF271A39F500D4999E /* Popup.swift in Sources */,
+				28AD80E7271B204700D4999E /* LanguageTableViewCell.swift in Sources */,
+				28AD80E5271B1DC000D4999E /* Language.swift in Sources */,
+				285771A2271C566600CBEDB0 /* NHButton.swift in Sources */,
+				28AD808E271A324700D4999E /* UIButton.swift in Sources */,
+				28AD80B9271A361F00D4999E /* Never Have I Ever.xcdatamodeld in Sources */,
+				28AD80B0271A341400D4999E /* Constants.swift in Sources */,
+				28AD80C9271A3B8900D4999E /* SettingsViewConrtoller.swift in Sources */,
+				28AD8088271A31DE00D4999E /* UIViewController.swift in Sources */,
+				28AD80CB271A3B9A00D4999E /* ManualViewConrtoller.swift in Sources */,
+				28AD8090271A326E00D4999E /* UICollectionView.swift in Sources */,
+				28AD80AC271A33BD00D4999E /* Main.swift in Sources */,
+				2822D5D627229F73003EA8BC /* SubscriptionConfig.swift in Sources */,
+				28AD80D7271A3C9900D4999E /* CustomTasksPopup.swift in Sources */,
+				28AD80B2271A343D00D4999E /* Config.swift in Sources */,
+				28AD80D9271A3CA400D4999E /* CustomTaskPopup.swift in Sources */,
+				28AD809E271A32F700D4999E /* UIView.swift in Sources */,
+				28AD8094271A328200D4999E /* UIFont.swift in Sources */,
+				28AD8098271A329900D4999E /* UILabel.swift in Sources */,
+				28AD80CF271A3BB000D4999E /* GameOverViewController.swift in Sources */,
+				28AD80A5271A334D00D4999E /* BaseViewController.swift in Sources */,
 				28AD806C271A30B500D4999E /* SceneDelegate.swift in Sources */,
+				28AD809C271A32C800D4999E /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2822D5CD2721E723003EA8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2822D5C62721E723003EA8BC /* FirebaseNotificationServiceExtension */;
+			targetProxy = 2822D5CC2721E723003EA8BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		2822D5EB2722C2F8003EA8BC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2822D5EA2722C2F8003EA8BC /* en */,
+				2822D5EC2722C41B003EA8BC /* nl */,
+				2822D5ED2722C422003EA8BC /* fr */,
+				2822D5EE2722C429003EA8BC /* fi */,
+				2822D5EF2722C430003EA8BC /* it */,
+				2822D5F02722C43C003EA8BC /* ru */,
+				2822D5F12722C44B003EA8BC /* es */,
+				2822D5F22722C454003EA8BC /* sv */,
+				2822D5F32722C47F003EA8BC /* zh */,
+				2822D5F42722C490003EA8BC /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		28AD806F271A30B500D4999E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,10 +747,65 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2822D5D02721E723003EA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F5868A00EFBD68C79C41D3 /* Pods-FirebaseNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FirebaseNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artmouse.Never-Have-I-Ever.FirebaseNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2822D5D12721E723003EA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE02CDD0982ADBC855417A1 /* Pods-FirebaseNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FirebaseNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artmouse.Never-Have-I-Ever.FirebaseNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		28AD8078271A30B900D4999E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -217,7 +853,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -231,6 +867,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -272,7 +909,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,19 +921,27 @@
 		};
 		28AD807B271A30B900D4999E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EE78F739D8C4E92A54353E /* Pods-Never Have I Ever.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Never Have I Ever/Never Have I Ever.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95G2CDLKC7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,19 +957,27 @@
 		};
 		28AD807C271A30B900D4999E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402BCDC6EE9D4594964B2E6A /* Pods-Never Have I Ever.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Never Have I Ever/Never Have I Ever.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95G2CDLKC7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +994,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2822D5D22721E723003EA8BC /* Build configuration list for PBXNativeTarget "FirebaseNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2822D5D02721E723003EA8BC /* Debug */,
+				2822D5D12721E723003EA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28AD8061271A30B500D4999E /* Build configuration list for PBXProject "Never Have I Ever" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -360,6 +1022,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28AD80B7271A361F00D4999E /* Never Have I Ever.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28AD80B8271A361F00D4999E /* never_have_i_ever.xcdatamodel */,
+			);
+			currentVersion = 28AD80B8271A361F00D4999E /* never_have_i_ever.xcdatamodel */;
+			path = "Never Have I Ever.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 28AD805E271A30B500D4999E /* Project object */;
 }

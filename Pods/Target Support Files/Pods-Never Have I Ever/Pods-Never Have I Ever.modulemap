@@ -1,0 +1,6 @@
+framework module Pods_Never_Have_I_Ever {
+  umbrella header "Pods-Never Have I Ever-umbrella.h"
+
+  export *
+  module * { export * }
+}

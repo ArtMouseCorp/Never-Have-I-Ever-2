@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Играть";
+"home.noLevels"                     = "Уровни не выбраны";
+"button.home.select"                = "Выбрать";
+"button.home.deselect"              = "Отменить выбор";
+
+// MARK: - Settings
+
+"settings.title"                    = "Настройки";
+"settings.contact"                  = "Связаться с нами";
+"settings.restore"                  = "Восстановить покупки";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Ваши задания";
+"button.customTasks.add"            = "Добавить";
+"button.customTasks.close"          = "Закрыть";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Задание";
+"customTask.taskPlaceholder"        = "Напишите ваше задание здесь";
+"customTask.selectLevel"            = "Выбрать уровень";
+"button.customTask.add"             = "Добавить";
+"button.customTask.save"            = "Сохранить";
+"button.customTask.cancel"          = "Отменить";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Я никогда";
+"game.orangeTitle"                  = "не";
+
+// MARK: - Manual
+
+"manual.title"                      = "Правила";
+"manual.step.first"                 = "1. Возьмите друзей и сядьте в круг. (или станьте, или не в круг, всем наплевать).";
+"manual.step.second"                = "2. Прочтите предложение вслух.";
+"manual.step.third"                 = "3. Каждый, кто это сделал, выполняет наказание (отжиматься, ест брокколи или что-то еще, что решит группа).";
+"manual.step.fourth"                = "Если вы единственный, кто это сделал, расскажите историю этого опыта. Не будь дураком, который не делится!\n\nВот и все.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Игра окончена";
+"button.gameOver.repeat"            = "Еще партейку?";
+"button.gameOver.rate"              = "Оцените нас";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Восстановить покупки";
+"button.subsctiption.terms"         = "Условия использования";
+"button.subscription.privacy"       = "Политика конфиденциальности";
+"subscription.cancelInfo"           = "Отмена в любое время. Счет выставляется одним платежом.";
+
+"subscription.interval.day.one"     = "день";
+"subscription.interval.day.two"     = "дня";
+"subscription.interval.day.five"    = "дней";
+"subscription.interval.week.one"    = "неделя";
+"subscription.interval.week.two"    = "недели";
+"subscription.interval.week.five"   = "недель";
+"subscription.interval.month.one"   = "месяц";
+"subscription.interval.month.two"   = "месяца";
+"subscription.interval.month.five"  = "месяцев";
+"subscription.interval.year.one"    = "год";
+"subscription.interval.year.two"    = "года";
+"subscription.interval.year.five"   = "лет";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Отменить";
+"alert.action.ok"                   = "Ок";
+"alert.action.yes"                  = "Да";
+
+"alert.connection.title"            = "Нет подключения к интернету";
+"alert.connection.message"          = "Нет подключения к интернету.  Пожалуйста, подключитесь к сети и попробуйте еще раз.";
+
+"alert.subscribed.title"            = "Подписка оформлена";
+"alert.subscribed.message"          = "Вы уже подписаны. Вам доступен весь функционал.";
+
+"alert.restored.title"              = "Восстановлен";
+"alert.restored.message"            = "Вы успешно восстановили подписку. Теперь вам доступен весь функционал.";
+
+"alert.notSubscriber.title"         = "Не подлежит восстановлению";
+"alert.notSubscriber.message"       = "К сожалению, вы не можете восстановить свою покупку, потому что у вас нет активной подписки.";
+
+"alert.mail.title"                  = "Почтовые службы не доступны";

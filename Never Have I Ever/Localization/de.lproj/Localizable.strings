@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Spielen";
+"home.noLevels"                     = "Keine Stufen ausgewählt";
+"button.home.select"                = "Wählen Sie";
+"button.home.deselect"              = "Aufheben der Auswahl";
+
+// MARK: - Settings
+
+"settings.title"                    = "Einstellungen";
+"settings.contact"                  = "Kontaktieren Sie uns";
+"settings.restore"                  = "Käufe wiederherstellen";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Ihre Aufgaben";
+"button.customTasks.add"            = "hinzufügen";
+"button.customTasks.close"          = "Schließen";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Aufgabe";
+"customTask.taskPlaceholder"        = "Schreiben Sie hier Ihre Aufgabe";
+"customTask.selectLevel"            = "Stufe wählen";
+"button.customTask.add"             = "hinzufügen";
+"button.customTask.save"            = "Speichern";
+"button.customTask.cancel"          = "Abbrechen";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Niemals";
+"game.orangeTitle"                  = "Habe ich";
+
+// MARK: - Manual
+
+"manual.title"                      = "Regeln";
+"manual.step.first"                 = "1. Nimm deine Freunde und setz dich in einen Kreis. (Oder stehen, oder nicht im Kreis, das ist egal).";
+"manual.step.second"                = "2. Lies den Satz laut vor.";
+"manual.step.third"                 = "3. Jeder, der das getan hat, macht die Strafe (Liegestütze, Brokkoli essen oder was auch immer die Gruppe entscheidet).";
+"manual.step.fourth"                = "Wenn du der Einzige bist, der das gemacht hat, erzähle die Geschichte, die du erlebt hast. Sei kein Dummkopf, der nicht teilt!\n\nDas war's.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Das Spiel ist vorbei";
+"button.gameOver.repeat"            = "Nochmal spielen";
+"button.gameOver.rate"              = "Bewerten Sie uns";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Käufe wiederherstellen";
+"button.subsctiption.terms"         = "Nutzungsbedingungen";
+"button.subscription.privacy"       = "Datenschutz";
+"subscription.cancelInfo"           = "Jederzeit kündbar. Abrechnung in einer Zahlung.";
+
+"subscription.interval.day.one"     = "Tag";
+"subscription.interval.day.two"     = "Tage";
+"subscription.interval.day.five"    = "Tage";
+"subscription.interval.week.one"    = "Woche";
+"subscription.interval.week.two"    = "Wochen";
+"subscription.interval.week.five"   = "Wochen";
+"subscription.interval.month.one"   = "Monat";
+"subscription.interval.month.two"   = "Monate";
+"subscription.interval.month.five"  = "Monate";
+"subscription.interval.year.one"    = "Jahr";
+"subscription.interval.year.two"    = "Jahre";
+"subscription.interval.year.five"   = "Jahre";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Abbrechen";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Ja";
+
+"alert.connection.title"            = "Keine Internetverbindung";
+"alert.connection.message"          = "Keine Internetverbindung. Bitte verbinden Sie sich mit dem Netzwerk und versuchen Sie es erneut.";
+
+"alert.subscribed.title"            = "Abo";
+"alert.subscribed.message"          = "Sie sind bereits angemeldet. Alle Funktionen sind für Sie verfügbar.";
+
+"alert.restored.title"              = "Wiederhergestellt";
+"alert.restored.message"            = "Sie haben Ihr Abonnement erfolgreich wiederhergestellt. Alle Funktionen stehen Ihnen jetzt zur Verfügung.";
+
+"alert.notSubscriber.title"         = "Nicht wiederherstellbar";
+"alert.notSubscriber.message"       = "Leider können Sie Ihren Kauf nicht wiederherstellen, da Sie kein aktives Abonnement haben.";
+
+"alert.mail.title"                  = "Die E-Mail-Dienste sind nicht verfügbar";

@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Spela";
+"home.noLevels"                     = "Inga nivåer har valts";
+"button.home.select"                = "Välj";
+"button.home.deselect"              = "Avmarkera";
+
+// MARK: - Settings
+
+"settings.title"                    = "Inställningar";
+"settings.contact"                  = "Kontakta oss";
+"settings.restore"                  = "Återställa inköp";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Dina uppgifter";
+"button.customTasks.add"            = "Lägg till";
+"button.customTasks.close"          = "Stäng";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Uppgift";
+"customTask.taskPlaceholder"        = "Skriv din uppgift här";
+"customTask.selectLevel"            = "Välj nivå";
+"button.customTask.add"             = "Lägg till";
+"button.customTask.save"            = "Spara";
+"button.customTask.cancel"          = "Avbryt";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Aldrig";
+"game.orangeTitle"                  = "Har jag";
+
+// MARK: - Manual
+
+"manual.title"                      = "Regler";
+"manual.step.first"                 = "1. Ta med dina vänner och sätt dig i en cirkel. (Eller stå, eller inte i en cirkel, ingen bryr sig).";
+"manual.step.second"                = "2. Läs meningen högt.";
+"manual.step.third"                 = "3. Alla som har gjort detta gör straffet (armhävningar, äta broccoli, eller vad gruppen nu bestämmer).";
+"manual.step.fourth"                = "Om du är den enda som har gjort det, berätta om upplevelsen. Var inte en idiot som inte delar med dig!\n\nDet var allt.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Spelet är slut.";
+"button.gameOver.repeat"            = "Spela igen";
+"button.gameOver.rate"              = "Betygsätt oss";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Återställ köp";
+"button.subsctiption.terms"         = "Användarvillkor";
+"button.subscription.privacy"       = "Integritetspolicy";
+"subscription.cancelInfo"           = "Avbryt när som helst. Faktureras i en enda betalning.";
+
+"subscription.interval.day.one"     = "dag";
+"subscription.interval.day.two"     = "dagar";
+"subscription.interval.day.five"    = "dagar";
+"subscription.interval.week.one"    = "vecka";
+"subscription.interval.week.two"    = "veckor";
+"subscription.interval.week.five"   = "veckor";
+"subscription.interval.month.one"   = "månad";
+"subscription.interval.month.two"   = "månader";
+"subscription.interval.month.five"  = "månader";
+"subscription.interval.year.one"    = "år";
+"subscription.interval.year.two"    = "år";
+"subscription.interval.year.five"   = "år";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Avbryt";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Ja";
+
+"alert.connection.title"            = "Ingen internetuppkoppling";
+"alert.connection.message"          = "Ingen internetuppkoppling. Anslut till nätverket och försök igen.";
+
+"alert.subscribed.title"            = "Prenumererar på";
+"alert.subscribed.message"          = "Du är redan prenumerant. Alla funktioner är tillgängliga för dig.";
+
+"alert.restored.title"              = "Återställd";
+"alert.restored.message"            = "Du har återställt din prenumeration. Alla funktioner är nu tillgängliga för dig.";
+
+"alert.notSubscriber.title"         = "Kan inte återställas";
+"alert.notSubscriber.message"       = "Tyvärr kan du inte återställa ditt köp eftersom du inte har någon aktiv prenumeration.";
+
+"alert.mail.title"                  = "Posttjänsterna är inte tillgängliga";

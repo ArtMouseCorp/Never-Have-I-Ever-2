@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Spelen";
+"home.noLevels"                     = "Geen niveaus geselecteerd";
+"button.home.select"                = "Selecteer";
+"button.home.deselect"              = "Deselecteren";
+
+// MARK: - Settings
+
+"settings.title"                    = "Instellingen";
+"settings.contact"                  = "Contact opnemen";
+"settings.restore"                  = "Aankopen herstellen";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "Uw taken";
+"button.customTasks.add"            = "Toevoegen";
+"button.customTasks.close"          = "Sluiten";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Taak";
+"customTask.taskPlaceholder"        = "Schrijf hier je taak";
+"customTask.selectLevel"            = "Kies niveau";
+"button.customTask.add"             = "Toevoegen";
+"button.customTask.save"            = "Opslaan";
+"button.customTask.cancel"          = "Annuleren";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Nooit";
+"game.orangeTitle"                  = "Heb ik";
+
+// MARK: - Manual
+
+"manual.title"                      = "Regels";
+"manual.step.first"                 = "1. Neem je vrienden mee en ga in een kring zitten. (Of sta, of niet in een cirkel, dat maakt niemand uit).";
+"manual.step.second"                = "2. Lees de zin hardop voor.";
+"manual.step.third"                 = "3. Iedereen die dit gedaan heeft, doet de straf (push-ups, broccoli eten, of wat de groep ook beslist).";
+"manual.step.fourth"                = "Als je de enige bent die het heeft gedaan, vertel dan het verhaal van de ervaring. Wees geen dwaas die niet deelt! Dat is het.";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Het spel is uit.";
+"button.gameOver.repeat"            = "Speel opnieuw";
+"button.gameOver.rate"              = "Beoordeel ons";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Herstel aankopen";
+"button.subsctiption.terms"         = "Voorwaarden van gebruik";
+"button.subscription.privacy"       = "Privacybeleid";
+"subscription.cancelInfo"           = "Op elk moment opzeggen. Gefactureerd in één betaling.";
+
+"subscription.interval.day.one"     = "dag";
+"subscription.interval.day.two"     = "dagen";
+"subscription.interval.day.five"    = "dagen";
+"subscription.interval.week.one"    = "week";
+"subscription.interval.week.two"    = "weken";
+"subscription.interval.week.five"   = "weken";
+"subscription.interval.month.one"   = "maand";
+"subscription.interval.month.two"   = "maanden";
+"subscription.interval.month.five"  = "maanden";
+"subscription.interval.year.one"    = "jaar";
+"subscription.interval.year.two"    = "jaren";
+"subscription.interval.year.five"   = "jaren";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Annuleren";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Ja";
+
+"alert.connection.title"            = "Geen internetverbinding";
+"alert.connection.message"          = "Geen internetverbinding. Maak verbinding met het netwerk en probeer het opnieuw.";
+
+"alert.subscribed.title"            = "Ingeschreven";
+"alert.subscribed.message"          = "U bent al ingeschreven. Alle functionaliteit is voor u beschikbaar.";
+
+"alert.restored.title"              = "Hersteld";
+"alert.restored.message"            = "U hebt uw abonnement met succes hersteld. Alle functionaliteit is nu voor u beschikbaar.";
+
+"alert.notSubscriber.title"         = "Niet herstelbaar";
+"alert.notSubscriber.message"       = "U kunt uw aankoop helaas niet herstellen omdat u geen actief abonnement hebt.";
+
+"alert.mail.title"                  = "Mail services zijn niet beschikbaar";

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "sexy.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

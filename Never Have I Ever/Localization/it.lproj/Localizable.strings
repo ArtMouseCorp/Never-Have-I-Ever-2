@@ -1,0 +1,87 @@
+
+// MARK: - Home
+
+"button.home.play"                  = "Gioca";
+"home.noLevels"                     = "Nessun livello selezionato";
+"button.home.select"                = "Seleziona";
+"button.home.deselect"              = "Deseleziona";
+
+// MARK: - Settings
+
+"settings.title"                    = "Impostazioni";
+"settings.contact"                  = "Contattare";
+"settings.restore"                  = "Ripristinare gli acquisti";
+
+// MARK: - Custom Tasks
+
+"customTasks.title"                 = "I tuoi compiti";
+"button.customTasks.add"            = "Aggiungi";
+"button.customTasks.close"          = "Chiudi";
+
+// MARK: - Custom Task
+
+"customTask.title"                  = "Compito";
+"customTask.taskPlaceholder"        = "Scrivi qui il tuo compito";
+"customTask.selectLevel"            = "Scegli il livello";
+"button.customTask.add"             = "Aggiungi";
+"button.customTask.save"            = "Salva";
+"button.customTask.cancel"          = "Annulla";
+
+// MARK: - Game
+
+"game.whiteTitle"                   = "Mai";
+"game.orangeTitle"                  = "Ho";
+
+// MARK: - Manual
+
+"manual.title"                      = "Regole";
+"manual.step.first"                 = "1. Prendi i tuoi amici e siediti in cerchio. (O in piedi, o non in cerchio, non importa a nessuno).";
+"manual.step.second"                = "2. Leggete la frase ad alta voce.";
+"manual.step.third"                 = "3. Tutti quelli che l'hanno fatto fanno la punizione (flessioni, mangiare broccoli, o qualsiasi altra cosa che il gruppo decide).";
+"manual.step.fourth"                = "Se sei l'unico ad averlo fatto, racconta la storia dell'esperienza. Non essere uno stupido che non condivide!";
+
+// MARK: - Game Over
+
+"gameOver.title"                    = "Fine del gioco";
+"button.gameOver.repeat"            = "Gioca di nuovo";
+"button.gameOver.rate"              = "Valutarci";
+
+// MARK: - Subscription
+
+"button.subscription.restore"       = "Ripristina gli acquisti";
+"button.subsctiption.terms"         = "Condizioni d'uso";
+"button.subscription.privacy"       = "Informativa sulla privacy";
+"subscription.cancelInfo"           = "Cancella in qualsiasi momento. Fatturato in un unico pagamento.";
+
+"subscription.interval.day.one"     = "giorno";
+"subscription.interval.day.two"     = "giorni";
+"subscription.interval.day.five"    = "giorni";
+"subscription.interval.week.one"    = "settimana";
+"subscription.interval.week.two"    = "settimane";
+"subscription.interval.week.five"   = "settimane";
+"subscription.interval.month.one"   = "mese";
+"subscription.interval.month.two"   = "mesi";
+"subscription.interval.month.five"  = "mesi";
+"subscription.interval.year.one"    = "anno";
+"subscription.interval.year.two"    = "anni";
+"subscription.interval.year.five"   = "anni";
+
+// MARK: - Alerts
+
+"alert.action.cancel"               = "Cancella";
+"alert.action.ok"                   = "Ok";
+"alert.action.yes"                  = "Sì";
+
+"alert.connection.title"            = "Nessuna connessione internet";
+"alert.connection.message"          = "Nessuna connessione internet. Si prega di connettersi alla rete e riprovare.";
+
+"alert.subscribed.title"            = "Sottoscritto";
+"alert.subscribed.message"          = "Sei già iscritto. Tutte le funzionalità sono disponibili per te.";
+
+"alert.restored.title"              = "Ripristinato";
+"alert.restored.message"            = "Hai ripristinato con successo il tuo abbonamento. Tutte le funzionalità sono ora disponibili per te.";
+
+"alert.notSubscriber.title"         = "Non ripristinabile";
+"alert.notSubscriber.message"       = "Purtroppo non puoi ripristinare il tuo acquisto perché non hai un abbonamento attivo.";
+
+"alert.mail.title"                  = "I servizi di posta non sono disponibili";
