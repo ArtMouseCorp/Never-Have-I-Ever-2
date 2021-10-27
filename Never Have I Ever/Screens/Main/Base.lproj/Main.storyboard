@@ -1408,18 +1408,24 @@
                                     <action selector="rateButtonPressed:" destination="wMR-YN-xQo" eventType="touchUpInside" id="iyF-wh-5RK"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gameOverHightlight" translatesAutoresizingMaskIntoConstraints="NO" id="JJu-zn-Nyv">
+                                <rect key="frame" x="0.0" y="787" width="414" height="109"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RKu-hu-yVg"/>
                         <color key="backgroundColor" name="NH Black"/>
                         <constraints>
+                            <constraint firstItem="JJu-zn-Nyv" firstAttribute="leading" secondItem="c65-Lo-5Xn" secondAttribute="leading" id="3qu-Xn-s6S"/>
                             <constraint firstItem="RKu-hu-yVg" firstAttribute="trailing" secondItem="j2s-E0-1Tk" secondAttribute="trailing" constant="16" id="4jF-8Y-GvB"/>
                             <constraint firstItem="R9E-KN-1DO" firstAttribute="top" secondItem="j2s-E0-1Tk" secondAttribute="bottom" constant="56" id="4u2-Xg-sWD"/>
                             <constraint firstItem="ShT-SN-oga" firstAttribute="top" secondItem="asH-Ng-ucn" secondAttribute="bottom" constant="16" id="5vB-0i-2NM"/>
                             <constraint firstItem="j2s-E0-1Tk" firstAttribute="leading" secondItem="c65-Lo-5Xn" secondAttribute="leading" constant="16" id="OZy-ey-Kqx"/>
                             <constraint firstItem="RKu-hu-yVg" firstAttribute="trailing" secondItem="asH-Ng-ucn" secondAttribute="trailing" constant="35" id="U7f-rW-e3u"/>
+                            <constraint firstAttribute="bottom" secondItem="JJu-zn-Nyv" secondAttribute="bottom" id="cUD-ru-Yx9"/>
                             <constraint firstItem="j2s-E0-1Tk" firstAttribute="top" secondItem="RKu-hu-yVg" secondAttribute="top" constant="24" id="ehR-ws-PoF"/>
                             <constraint firstItem="asH-Ng-ucn" firstAttribute="top" secondItem="R9E-KN-1DO" secondAttribute="bottom" constant="118" id="fo1-76-OnJ"/>
                             <constraint firstItem="R9E-KN-1DO" firstAttribute="centerX" secondItem="c65-Lo-5Xn" secondAttribute="centerX" id="hff-5a-KNq"/>
+                            <constraint firstItem="RKu-hu-yVg" firstAttribute="trailing" secondItem="JJu-zn-Nyv" secondAttribute="trailing" id="kGR-na-0UT"/>
                             <constraint firstItem="RKu-hu-yVg" firstAttribute="trailing" secondItem="ShT-SN-oga" secondAttribute="trailing" constant="35" id="pK8-Al-cF7"/>
                             <constraint firstItem="ShT-SN-oga" firstAttribute="leading" secondItem="RKu-hu-yVg" secondAttribute="leading" constant="35" id="ulu-Rb-mHe"/>
                             <constraint firstItem="asH-Ng-ucn" firstAttribute="leading" secondItem="RKu-hu-yVg" secondAttribute="leading" constant="35" id="wWg-QD-9J4"/>
@@ -1445,6 +1451,9 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subscriptionBackground" translatesAutoresizingMaskIntoConstraints="NO" id="lGh-WU-08Y">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subscriptionHightlight" translatesAutoresizingMaskIntoConstraints="NO" id="xHG-bZ-OnF">
+                                <rect key="frame" x="0.0" y="748" width="414" height="148"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kj-p6-txg">
                                 <rect key="frame" x="164" y="823" width="86" height="24"/>
@@ -1586,6 +1595,7 @@ then 5,99$ / week</string>
                             <constraint firstItem="Bhg-QQ-1Cw" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hRU-tB-d2D" secondAttribute="trailing" constant="16" id="9dx-Bc-Aud"/>
                             <constraint firstItem="Bhg-QQ-1Cw" firstAttribute="trailing" secondItem="Gd7-ig-xHz" secondAttribute="trailing" constant="25" id="Ccc-0t-hiK"/>
                             <constraint firstItem="Hnu-FF-WIp" firstAttribute="top" secondItem="Ebp-b2-dDm" secondAttribute="bottom" constant="25" id="CiA-Vq-VkN"/>
+                            <constraint firstItem="xHG-bZ-OnF" firstAttribute="leading" secondItem="Bhg-QQ-1Cw" secondAttribute="leading" id="Exg-7s-5tp"/>
                             <constraint firstItem="hqW-i8-wmi" firstAttribute="top" secondItem="m3w-md-Voh" secondAttribute="bottom" constant="20" id="GbT-zi-bkS"/>
                             <constraint firstItem="irl-MH-0cN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bhg-QQ-1Cw" secondAttribute="leading" constant="16" id="IuW-pc-ecg"/>
                             <constraint firstItem="hqW-i8-wmi" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bhg-QQ-1Cw" secondAttribute="leading" constant="16" id="JLW-1I-kLw"/>
@@ -1601,9 +1611,11 @@ then 5,99$ / week</string>
                             <constraint firstItem="pYa-Wl-WqB" firstAttribute="top" secondItem="ALB-Hw-i15" secondAttribute="bottom" constant="22" id="Xfb-WW-GUQ"/>
                             <constraint firstItem="ALB-Hw-i15" firstAttribute="centerX" secondItem="xdT-Fo-rtr" secondAttribute="centerX" id="Xlw-uA-uo2"/>
                             <constraint firstItem="hqW-i8-wmi" firstAttribute="centerX" secondItem="xdT-Fo-rtr" secondAttribute="centerX" id="Y7r-TT-wqn"/>
+                            <constraint firstItem="5kj-p6-txg" firstAttribute="top" secondItem="xHG-bZ-OnF" secondAttribute="top" constant="75" id="ZLM-z8-gEb"/>
                             <constraint firstItem="ALB-Hw-i15" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bhg-QQ-1Cw" secondAttribute="leading" constant="16" id="ZRi-Rc-elq"/>
                             <constraint firstItem="Ebp-b2-dDm" firstAttribute="top" secondItem="irl-MH-0cN" secondAttribute="bottom" constant="50" id="amW-9J-yRA"/>
                             <constraint firstItem="lGh-WU-08Y" firstAttribute="top" secondItem="xdT-Fo-rtr" secondAttribute="top" id="aom-aS-ACh"/>
+                            <constraint firstItem="Bhg-QQ-1Cw" firstAttribute="trailing" secondItem="xHG-bZ-OnF" secondAttribute="trailing" id="cCO-OK-MEU"/>
                             <constraint firstItem="H8j-Hc-pFg" firstAttribute="centerY" secondItem="ny7-WQ-1XV" secondAttribute="centerY" id="cWd-Sf-Bsc"/>
                             <constraint firstItem="Bhg-QQ-1Cw" firstAttribute="bottom" secondItem="5kj-p6-txg" secondAttribute="bottom" constant="15" id="daq-kU-gF4"/>
                             <constraint firstItem="Bhg-QQ-1Cw" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Hnu-FF-WIp" secondAttribute="trailing" constant="16" id="dgc-oy-0Ou"/>
@@ -1624,6 +1636,7 @@ then 5,99$ / week</string>
                             <constraint firstItem="m3w-md-Voh" firstAttribute="top" secondItem="Hnu-FF-WIp" secondAttribute="bottom" constant="20" id="vQC-p1-Zn8"/>
                             <constraint firstItem="Gd7-ig-xHz" firstAttribute="top" secondItem="Bhg-QQ-1Cw" secondAttribute="top" constant="25" id="voH-v7-cGa"/>
                             <constraint firstItem="ny7-WQ-1XV" firstAttribute="top" secondItem="hRU-tB-d2D" secondAttribute="bottom" constant="15" id="wuS-ch-yob"/>
+                            <constraint firstAttribute="bottom" secondItem="xHG-bZ-OnF" secondAttribute="bottom" id="yeB-xa-aRa"/>
                             <constraint firstItem="Bhg-QQ-1Cw" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ny7-WQ-1XV" secondAttribute="trailing" constant="16" id="zaS-Sk-lNY"/>
                             <constraint firstAttribute="bottom" secondItem="lGh-WU-08Y" secondAttribute="bottom" id="zfo-eS-nTm"/>
                         </constraints>
@@ -1648,7 +1661,7 @@ then 5,99$ / week</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRm-0v-F0Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5682.608695652174" y="89.732142857142847"/>
+            <point key="canvasLocation" x="5681.1594202898559" y="89.732142857142847"/>
         </scene>
     </scenes>
     <resources>
@@ -1662,6 +1675,7 @@ then 5,99$ / week</string>
         <image name="down" width="32" height="32"/>
         <image name="edit" width="32" height="32"/>
         <image name="gameOver" width="224" height="175"/>
+        <image name="gameOverHightlight" width="336" height="109"/>
         <image name="logo.long" width="163" height="29"/>
         <image name="logo.small" width="143" height="100"/>
         <image name="menu" width="32" height="32"/>
@@ -1669,6 +1683,7 @@ then 5,99$ / week</string>
         <image name="russia" width="180" height="180"/>
         <image name="sexy" width="89" height="113"/>
         <image name="subscriptionBackground" width="379" height="822"/>
+        <image name="subscriptionHightlight" width="379" height="164"/>
         <image name="support" width="32" height="32"/>
         <image name="switch.off" width="44" height="24"/>
         <namedColor name="NH Black">

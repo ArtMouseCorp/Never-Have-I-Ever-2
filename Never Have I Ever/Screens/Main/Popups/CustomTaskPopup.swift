@@ -133,9 +133,7 @@ class CustomTaskPopup: BasePopupViewController {
         } else {
             
             DatabaseManager.shared.saveTask(name: taskName, levelId: selectedLevel.id) { isSuccess in
-                if isSuccess {
-    //                State.createdTasks.append(Task(name: text, level: level.name))
-                }
+                if isSuccess { }
                 self.view.removeFromSuperview()
             }
             
@@ -187,7 +185,7 @@ extension CustomTaskPopup: UITableViewDelegate, UITableViewDataSource {
         let level = Level.all[indexPath.row]
         selectedLevel = level
         levelNameBackgroundViewTapped()
-        
+        tableView.reloadData()
     }
     
 }

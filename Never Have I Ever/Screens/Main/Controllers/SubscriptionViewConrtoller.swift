@@ -122,6 +122,7 @@ class SubscriptionViewConrtoller: BaseViewController {
         self.titleLabel.text = State.shared.subscriptionConfig.title
         
         self.reasonLabels[0].text = State.shared.subscriptionConfig.reasons[0]
+        self.reasonLabels[0].colorText(from: "<h>", to: "</h>", color: .NHOrange)
         self.reasonLabels[1].text = State.shared.subscriptionConfig.reasons[1]
         self.reasonLabels[2].text = State.shared.subscriptionConfig.reasons[2]
         
@@ -150,7 +151,7 @@ class SubscriptionViewConrtoller: BaseViewController {
                 .replacingOccurrences(of: "%subscription_period%", with: product.subscriptionPeriod)
         }
         
-        
+        self.priceLabel.colorText(from: "<h>", to: "</h>", color: .NHOrange)
         self.subscribeButtonLabel.text = State.shared.subscriptionConfig.buttonTitle
         
         self.priceActivityIndicator.stopAnimating()

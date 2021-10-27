@@ -35,11 +35,11 @@
 // MARK: - Manual
 
 "manual.title"                      = "Rules";
-"manual.step.first"                 = "Gather your friends around the app";
-"manual.step.second"                = "Read a statement out loud (\"Never have I ever...\")";
-"manual.step.third"                 = "Everyone who's ever done it performs a team-determined task (like doing 30 squats or showing off the most pumped-up part of your body)";
-"manual.step.fourth"                = "The hotter the level, the hotter the tasks";
-"manual.step.fifth"                 = "If there's a Unicum (the only one who's ever done it) in the company of friends, let him tell the backstory! Don't be lazy!\n\nThat's all :-)";
+"manual.step.first"                 = "<h>1.</h> Gather your friends around the app";
+"manual.step.second"                = "<h>2.</h> Read a statement out loud (\"Never have I ever...\")";
+"manual.step.third"                 = "<h>3.</h> Everyone who's ever done it performs a team-determined task (like doing 30 squats or showing off the most pumped-up part of your body)";
+"manual.step.fourth"                = "<h>4.</h> The hotter the level, the hotter the tasks";
+"manual.step.fifth"                 = "If there's a Unicum (the only one who's ever done it) in the company of friends, let him tell the backstory! Don't be lazy!\n\n<h>That's all :-)</h>";
 
 // MARK: - Game Over
 

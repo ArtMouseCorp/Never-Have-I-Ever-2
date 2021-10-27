@@ -35,11 +35,11 @@
 // MARK: - Manual
 
 "manual.title"                      = "Reglas";
-"manual.step.first"                 = "Junten a todos sus amigos ";
-"manual.step.second"                = "Digan en voz alta la frase (“Yo nunca nunca he...”)";
-"manual.step.third"                 = "Aquellos que hayan hecho eso al menos una vez, debe cumplir el reto, que el equipo defina (por ejemplo, hacer 30 sentadillas o mostrar la parte más fuerte de su cuerpo)";
-"manual.step.fourth"                = "Mientras más caliente sea el nivel, más calientes serán los retos";
-"manual.step.fifth"                 = "Si entre sus amigos hay un Único jugador que haya hecho eso, ¡debe contar la historia antes de hacerlo! ¡No seas perezoso!\n\nBásicamente eso es todo :-)";
+"manual.step.first"                 = "<h>1.</h> Junten a todos sus amigos ";
+"manual.step.second"                = "<h>2.</h> Digan en voz alta la frase (“Yo nunca nunca he...”)";
+"manual.step.third"                 = "<h>3.</h> Aquellos que hayan hecho eso al menos una vez, debe cumplir el reto, que el equipo defina (por ejemplo, hacer 30 sentadillas o mostrar la parte más fuerte de su cuerpo)";
+"manual.step.fourth"                = "<h>4.</h> Mientras más caliente sea el nivel, más calientes serán los retos";
+"manual.step.fifth"                 = "Si entre sus amigos hay un Único jugador que haya hecho eso, ¡debe contar la historia antes de hacerlo! ¡No seas perezoso!\n\n<h>Básicamente eso es todo :-)</h>";
 
 // MARK: - Game Over
 

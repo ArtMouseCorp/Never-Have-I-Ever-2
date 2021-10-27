@@ -35,11 +35,11 @@
 // MARK: - Manual
 
 "manual.title"                      = "Regeln";
-"manual.step.first"                 = "Versammeln Sie alle Ihre Freunde";
-"manual.step.second"                = "Sagen Sie laut den Satz (\"Ich habe noch nie ...\")";
-"manual.step.third"                 = "Wer das mindestens einmal gemacht hat, muss sich der Herausforderung stellen, die das Team definiert (zum Beispiel 30 Kniebeugen machen oder den stärksten Teil seines Körpers zeigen)";
-"manual.step.fourth"                = "Je heißer das Level, desto heißer die Herausforderungen";
-"manual.step.fifth"                 = "Wenn es einen einzelnen Spieler unter seinen Freunden gibt, der das getan hat, muss er die Geschichte vorher erzählen! Seien Sie nicht faul!\n\nIm Grunde ist es das :-)";
+"manual.step.first"                 = "<h>1.</h> Versammeln Sie alle Ihre Freunde";
+"manual.step.second"                = "<h>2.</h> Sagen Sie laut den Satz (\"Ich habe noch nie ...\")";
+"manual.step.third"                 = "<h>3.</h> Wer das mindestens einmal gemacht hat, muss sich der Herausforderung stellen, die das Team definiert (zum Beispiel 30 Kniebeugen machen oder den stärksten Teil seines Körpers zeigen)";
+"manual.step.fourth"                = "<h>4.</h> Je heißer das Level, desto heißer die Herausforderungen";
+"manual.step.fifth"                 = "Wenn es einen einzelnen Spieler unter seinen Freunden gibt, der das getan hat, muss er die Geschichte vorher erzählen! Seien Sie nicht faul!\n\n<h>Im Grunde ist es das :-)</h>";
 
 // MARK: - Game Over
 

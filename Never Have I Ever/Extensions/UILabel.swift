@@ -23,6 +23,35 @@ extension UILabel {
     public func localize(with key: String) {
         self.text = localized(key)
     }
+ 
+    public func colorText(from: String, to: String, color: UIColor) {
+        
+        guard var text = self.text else { return }
+        
+        guard let toColor = text.slice(from: from, to: to) else {
+            self.text = text
+                .replacingOccurrences(of: from, with: "")
+                .replacingOccurrences(of: to, with: "")
+            return
+        }
+        
+        text = text
+            .replacingOccurrences(of: from, with: "")
+            .replacingOccurrences(of: to, with: "")
+        
+        let attributedText = NSMutableAttributedString(string: text)
+        
+        let range = NSRange(text.range(of: toColor)!, in: text)
+        
+        let attributes: [NSAttributedString.Key: Any] = [
+            .foregroundColor: color
+        ]
+        
+        attributedText.setAttributes(attributes, range: range)
+
+        self.attributedText = attributedText
+        
+    }
     
 }
 

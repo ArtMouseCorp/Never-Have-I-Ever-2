@@ -130,8 +130,6 @@ class GameViewController: BaseViewController {
         }
         
         if counter == State.shared.subscriptionConfig.freeTasksCount && !State.shared.isSubscribed {
-//        if counter == 50 && !State.shared.isSubscribed {
-            
             let paywall = SubscriptionViewConrtoller.load(from: Main.subscription)
             paywall.modalPresentationStyle = .fullScreen
             self.present(paywall, animated: true)

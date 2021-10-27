@@ -45,6 +45,13 @@ class ManualViewConrtoller: BaseViewController {
         super.configureUI()
         
         self.manualStepViews.forEach { $0.roundCorners(radius: 20) }
+        for i in 0 ..< manualStepLabels.count {
+            if i == manualStepLabels.count - 1 {
+                manualStepLabels[i].colorText(from: "<h>", to: "</h>", color: .NHBlue)
+            } else {
+                manualStepLabels[i].colorText(from: "<h>", to: "</h>", color: .NHOrange)
+            }
+        }
     }
     
     // MARK: - @IBActions

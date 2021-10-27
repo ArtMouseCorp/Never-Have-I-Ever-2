@@ -35,11 +35,11 @@
 // MARK: - Manual
 
 "manual.title"                      = "Regole";
-"manual.step.first"                 = "Raduna tutti i tuoi amici";
-"manual.step.second"                = "Pronuncia ad alta voce la frase (\"Non ho mai mai...\")";
-"manual.step.third"                 = "Chi lo ha fatto almeno una volta, deve affrontare la sfida, che la squadra definisce (ad esempio, fare 30 squat o mostrare la parte più forte del proprio corpo)";
-"manual.step.fourth"                = "Più caldo è il livello, più calde sono le sfide";
-"manual.step.fifth"                 = "Se c'è un solo giocatore tra i suoi amici che l'ha fatto, deve raccontare la storia prima di farlo! Non essere pigro!\n\nFondamentalmente è così :-)";
+"manual.step.first"                 = "<h>1.</h> Raduna tutti i tuoi amici";
+"manual.step.second"                = "<h>2.</h> Pronuncia ad alta voce la frase (\"Non ho mai mai...\")";
+"manual.step.third"                 = "<h>3.</h> Chi lo ha fatto almeno una volta, deve affrontare la sfida, che la squadra definisce (ad esempio, fare 30 squat o mostrare la parte più forte del proprio corpo)";
+"manual.step.fourth"                = "<h>4.</h> Più caldo è il livello, più calde sono le sfide";
+"manual.step.fifth"                 = "Se c'è un solo giocatore tra i suoi amici che l'ha fatto, deve raccontare la storia prima di farlo! Non essere pigro!\n\n<h>Fondamentalmente è così :-)</h>";
 
 // MARK: - Game Over
 

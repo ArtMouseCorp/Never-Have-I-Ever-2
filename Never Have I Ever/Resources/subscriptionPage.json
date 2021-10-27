@@ -6,11 +6,11 @@
         "title": "Spice up your night!",
         "buttonTitle": "START FREE TRIAL",
         "product": {
-            "title": "%trial_period% FREE \nthen %subscription_price% / %subscription_period%",
+            "title": "<h>%trial_period% FREE</h>\nthen %subscription_price% / %subscription_period%",
             "productId": "com.haverhavei.week"
         },
         "reasons": [
-            "Have even more fun",
+            "Have even more <h>fun</h>",
             "Truly candid levels await you",
             "The coolest updates"
         ],
@@ -24,11 +24,11 @@
         "title": "Украсьте свой вечер!",
         "buttonTitle": "НАЧАТЬ ПРОБНЫЙ ПЕРИОД",
         "product": {
-            "title": "%trial_period% БЕСПЛАТНО \nзатем %subscription_price% / %subscription_period%",
+            "title": "<h>%trial_period% БЕСПЛАТНО</h>\nзатем %subscription_price% / %subscription_period%",
             "productId": "com.haverhavei.week"
         },
         "reasons": [
-            "Получайте еще больше удовольствия",
+            "Получайте еще больше <h>удовольствия</h>",
             "Вас ждут поистине откровенные уровни",
             "Самые классные обновления"
         ],
@@ -42,11 +42,11 @@
         "title": "Peppen Sie Ihren Abend auf!",
         "buttonTitle": "KOSTENLOSE TESTVERSION STARTEN",
         "product": {
-            "title": "%trial_period% GRATIS \ndann %subscription_price% / %subscription_period%",
+            "title": "<h>%trial_period% GRATIS</h>\ndann %subscription_price% / %subscription_period%",
             "productId": "com.haverhavei.week"
         },
         "reasons": [
-            "Noch mehr Spaß haben",
+            "Noch mehr <h>Spaß</h> haben",
             "Wirklich offene Levels warten auf Sie",
             "Die coolsten Updates"
         ],
@@ -60,11 +60,11 @@
         "title": "Date un po' di pepe alla vostra serata!",
         "buttonTitle": "INIZIA LA PROVA GRATUITA",
         "product": {
-            "title": "%trial_period% GRATIS \npoi %subscription_price% / %subscription_period%",
+            "title": "<h>%trial_period% GRATIS</h>\npoi %subscription_price% / %subscription_period%",
             "productId": "com.haverhavei.week"
         },
         "reasons": [
-            "Divertiti ancora di più",
+            "<h>Divertiti</h> ancora di più",
             "Ti aspettano livelli davvero candidi",
             "Gli aggiornamenti più cool"
         ],
@@ -78,11 +78,11 @@
         "title": "¡Dale sabor a tu noche!",
         "buttonTitle": "INICIAR LA PRUEBA GRATUITA",
         "product": {
-            "title": "%trial_period% GRATIS \nentonces %subscription_price% / %subscription_period%",
+            "title": "<h>%trial_period% GRATIS</h>\nentonces %subscription_price% / %subscription_period%",
             "productId": "com.haverhavei.week"
         },
         "reasons": [
-            "Diviértete aún más",
+            "<h>Diviértete</h> aún más",
             "Te esperan niveles realmente cándidos",
             "Las actualizaciones más geniales"
         ],
@@ -96,11 +96,11 @@
         "title": "Mettez du piquant dans votre soirée !",
         "buttonTitle": "LANCER L'ESSAI GRATUIT",
         "product": {
-            "title": "%trial_period% GRATUIT \npuis %subscription_price% / %subscription_period%",
+            "title": "<h>%trial_period% GRATUIT</h>\npuis %subscription_price% / %subscription_period%",
             "productId": "com.haverhavei.week"
         },
         "reasons": [
-            "Amusez-vous encore plus",
+            "<h>Amusez-vous</h> encore plus",
             "Des niveaux vraiment candides vous attendent",
             "Les mises à jour les plus cool"
         ],
