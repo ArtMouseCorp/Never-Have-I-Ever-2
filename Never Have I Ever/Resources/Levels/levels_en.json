@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Friends",
             "image": "friends",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Friends have no secrets! Do you agree?",
             "tasks": [
                 "eaten food from the garbage.",
                 "received a traffic violation.",
@@ -62,7 +62,7 @@
             "id": 2,
             "name": "Hardcore",
             "image": "hardcore",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Are you ready for awesome hot challenges?",
             "tasks": [
                 "kissed more than three people in one day.",
                 "kissed someone of the same sex.",
@@ -120,7 +120,7 @@
             "id": 3,
             "name": "Couple",
             "image": "couple",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Challenges for loving couples",
             "tasks": [
                 "been gifted jewelry.",
                 "made a marriage proposal",
@@ -178,7 +178,7 @@
             "id": 4,
             "name": "Sexy",
             "image": "sexy",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "The most enthusiastic opinions about the beauty of your body!",
             "tasks": [
                 "accidentally called my boyfriend, girlfriend using my former’s name",
                 "gone to a party or night club to hook up",
@@ -235,7 +235,7 @@
             "id": 5,
             "name": "Dirty",
             "image": "dirty",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Challenges for dirty animals, rrr ...",
             "tasks": [
                 "licked food off someone.",
                 "tricked an animal into licking my private.",
@@ -293,7 +293,7 @@
             "id": 6,
             "name": "Wild",
             "image": "wild",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "A savage that is impossible to stop!",
             "tasks": [
                 "had nude photos posted online.",
                 "had sex without a condom",

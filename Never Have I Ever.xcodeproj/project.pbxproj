@@ -71,6 +71,7 @@
 		28AD80DB271AEF6900D4999E /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80DA271AEF6900D4999E /* LevelCollectionViewCell.swift */; };
 		28AD80E5271B1DC000D4999E /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80E4271B1DC000D4999E /* Language.swift */; };
 		28AD80E7271B204700D4999E /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80E6271B204700D4999E /* LanguageTableViewCell.swift */; };
+		28B27DD127282F6F00776234 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B27DD027282F6F00776234 /* GoogleService-Info.plist */; };
 		30799344CB9654701636242A /* Pods_FirebaseNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE581F1EEAF0F52583B3E451 /* Pods_FirebaseNotificationServiceExtension.framework */; };
 		94E2F2EF927930CBA5AB09B9 /* Pods_Never_Have_I_Ever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */; };
 /* End PBXBuildFile section */
@@ -178,6 +179,7 @@
 		28AD80DA271AEF6900D4999E /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
 		28AD80E4271B1DC000D4999E /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		28AD80E6271B204700D4999E /* LanguageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTableViewCell.swift; sourceTree = "<group>"; };
+		28B27DD027282F6F00776234 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		30F5868A00EFBD68C79C41D3 /* Pods-FirebaseNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseNotificationServiceExtension/Pods-FirebaseNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		38EE78F739D8C4E92A54353E /* Pods-Never Have I Ever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.debug.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.debug.xcconfig"; sourceTree = "<group>"; };
 		402BCDC6EE9D4594964B2E6A /* Pods-Never Have I Ever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.release.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.release.xcconfig"; sourceTree = "<group>"; };
@@ -362,6 +364,7 @@
 			isa = PBXGroup;
 			children = (
 				28AD8077271A30B900D4999E /* Info.plist */,
+				28B27DD027282F6F00776234 /* GoogleService-Info.plist */,
 				28AD8069271A30B500D4999E /* AppDelegate.swift */,
 				28AD806B271A30B500D4999E /* SceneDelegate.swift */,
 			);
@@ -485,6 +488,7 @@
 				28AD8064271A30B500D4999E /* Resources */,
 				D37EF83F6CD18487557718EB /* [CP] Embed Pods Frameworks */,
 				2822D5CF2721E723003EA8BC /* Embed App Extensions */,
+				28B27DD2272831B500776234 /* Firebase Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -569,12 +573,33 @@
 				2822D5E22722B32C003EA8BC /* levels_nl.json in Resources */,
 				285771A0271C560900CBEDB0 /* levels_en.json in Resources */,
 				2822D5E62722B350003EA8BC /* levels_fi.json in Resources */,
+				28B27DD127282F6F00776234 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		28B27DD2272831B500776234 /* Firebase Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Firebase Crashlytics";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
 		D37EF83F6CD18487557718EB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -753,7 +778,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				DEVELOPMENT_TEAM = ND5JNA6NP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirebaseNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FirebaseNotificationServiceExtension;
@@ -765,7 +790,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artmouse.Never-Have-I-Ever.FirebaseNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever.FirebaseNotificationServiceExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -780,7 +805,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				DEVELOPMENT_TEAM = ND5JNA6NP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirebaseNotificationServiceExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = FirebaseNotificationServiceExtension;
@@ -792,7 +817,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artmouse.Never-Have-I-Ever.FirebaseNotificationServiceExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever.FirebaseNotificationServiceExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -929,7 +954,8 @@
 				CODE_SIGN_ENTITLEMENTS = "Never Have I Ever/Never Have I Ever.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ND5JNA6NP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -947,7 +973,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artmouse.Never-Have-I-Ever";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -965,7 +991,8 @@
 				CODE_SIGN_ENTITLEMENTS = "Never Have I Ever/Never Have I Ever.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ND5JNA6NP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -983,7 +1010,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.artmouse.Never-Have-I-Ever";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

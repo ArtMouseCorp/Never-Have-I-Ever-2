@@ -2,9 +2,9 @@
     "levels": [
         {
             "id": 1,
-            "name": "Друзья",
+            "name": "Friends",
             "image": "friends",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "У друзей нет никаких секретов! Согласен?",
             "tasks": [
                 "ел еду из мусора.",
                 "нарушал ПДД.",
@@ -62,7 +62,7 @@
             "id": 2,
             "name": "Hardcore",
             "image": "hardcore",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Готов к горячим импозантным заданиям?",
             "tasks": [
                 "целовал более трех человек за один день.",
                 "целовал кого-то того же пола.",
@@ -120,7 +120,7 @@
             "id": 3,
             "name": "Couple",
             "image": "couple",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Задания для сладких парочек",
             "tasks": [
                 "получал в подарок украшения.",
                 "делал предложение руки и сердца.",
@@ -178,7 +178,7 @@
             "id": 4,
             "name": "Sexy",
             "image": "sexy",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Самые восторженные отзывы о красоте твоего тела!",
             "tasks": [
                 "звонил случайно моей бывшей девушке.",
                 "ходил на вечеринку или в ночной клуб, чтобы пообщаться",
@@ -236,7 +236,7 @@
             "id": 5,
             "name": "Dirty",
             "image": "dirty",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Грязные животные задания, ррр...",
             "tasks": [
                 "слизал с кого-то еду.",
                 "обманом заставил животное лизать мою личную.",
@@ -294,7 +294,7 @@
             "id": 6,
             "name": "Wild",
             "image": "wild",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Дикость, которую невозможно остановить!",
             "tasks": [
                 "размещал в сети обнаженные фото.",
                 "занимался сексом без презерватива",

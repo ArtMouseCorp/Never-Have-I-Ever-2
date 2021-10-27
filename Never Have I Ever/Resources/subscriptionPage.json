@@ -7,7 +7,7 @@
         "buttonTitle": "START FREE TRIAL",
         "product": {
             "title": "%trial_period% FREE \nthen %subscription_price% / %subscription_period%",
-            "productId": ""
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Have even more fun",
@@ -25,7 +25,7 @@
         "buttonTitle": "НАЧАТЬ ПРОБНЫЙ ПЕРИОД",
         "product": {
             "title": "%trial_period% БЕСПЛАТНО \nзатем %subscription_price% / %subscription_period%",
-            "productId": ""
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Получайте еще больше удовольствия",
@@ -43,7 +43,7 @@
         "buttonTitle": "KOSTENLOSE TESTVERSION STARTEN",
         "product": {
             "title": "%trial_period% GRATIS \ndann %subscription_price% / %subscription_period%",
-            "productId": ""
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Noch mehr Spaß haben",
@@ -61,7 +61,7 @@
         "buttonTitle": "INIZIA LA PROVA GRATUITA",
         "product": {
             "title": "%trial_period% GRATIS \npoi %subscription_price% / %subscription_period%",
-            "productId": ""
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Divertiti ancora di più",
@@ -79,7 +79,7 @@
         "buttonTitle": "INICIAR LA PRUEBA GRATUITA",
         "product": {
             "title": "%trial_period% GRATIS \nentonces %subscription_price% / %subscription_period%",
-            "productId": ""
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Diviértete aún más",
@@ -97,7 +97,7 @@
         "buttonTitle": "LANCER L'ESSAI GRATUIT",
         "product": {
             "title": "%trial_period% GRATUIT \npuis %subscription_price% / %subscription_period%",
-            "productId": ""
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Amusez-vous encore plus",

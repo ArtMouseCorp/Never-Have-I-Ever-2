@@ -2,9 +2,9 @@
     "levels": [
         {
             "id": 1,
-            "name": "Amici",
+            "name": "Gli amici",
             "image": "friends",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Gli amici non hanno segreti! Sei d'accordo?",
             "tasks": [
                 "mangiato cibo spazzatura.",
                 "ricevuto una violazione del codice stradale.",
@@ -62,7 +62,7 @@
             "id": 2,
             "name": "Hardcore",
             "image": "hardcore",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Sei pronto per fantastiche sfide bollenti?",
             "tasks": [
                 "baciato più di tre persone in un giorno.",
                 "baciato qualcuno dello stesso sesso.",
@@ -120,7 +120,7 @@
             "id": 3,
             "name": "Coppie",
             "image": "couple",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Sfide per le coppie innamorate",
             "tasks": [
                 "mi hanno regalato dei gioielli.",
                 "fatto una proposta di matrimonio",
@@ -178,7 +178,7 @@
             "id": 4,
             "name": "Sexy",
             "image": "sexy",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Le opinioni più entusiaste sulla bellezza del tuo corpo!",
             "tasks": [
                 "ho chiamato per sbaglio il mio ragazzo, la mia ragazza usando il nome del mio ex",
                 "andato a una festa o in discoteca per flirtare",
@@ -236,7 +236,7 @@
             "id": 5,
             "name": "Sporco",
             "image": "dirty",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Sfide per animali sporchi, rrr...",
             "tasks": [
                 "leccato il cibo di qualcuno.",
                 "ingannato un animale a leccare il mio privato.",
@@ -294,7 +294,7 @@
             "id": 6,
             "name": "Selvaggio",
             "image": "wild",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Un selvaggio impossibile da fermare!",
             "tasks": [
                 "ha pubblicato foto di nudo online.",
                 "fatto sesso senza preservativo",

@@ -30,15 +30,16 @@
 // MARK: - Game
 
 "game.whiteTitle"                   = "Nunca";
-"game.orangeTitle"                  = "Tengo";
+"game.orangeTitle"                  = "he";
 
 // MARK: - Manual
 
 "manual.title"                      = "Reglas";
-"manual.step.first"                 = "1. Coge a tus amigos y siéntate en círculo. (O de pie, o no en un círculo, a nadie le importa).";
-"manual.step.second"                = "2. Lee la frase en voz alta.";
-"manual.step.third"                 = "3. Todos los que la hayan hecho cumplen el castigo (flexiones, comer brócoli o cualquier otra cosa que decida el grupo).";
-"manual.step.fourth"                = "Si eres el único que lo ha hecho, cuenta la experiencia. No seas un tonto que no comparte! \N - Eso es todo.";
+"manual.step.first"                 = "Junten a todos sus amigos ";
+"manual.step.second"                = "Digan en voz alta la frase (“Yo nunca nunca he...”)";
+"manual.step.third"                 = "Aquellos que hayan hecho eso al menos una vez, debe cumplir el reto, que el equipo defina (por ejemplo, hacer 30 sentadillas o mostrar la parte más fuerte de su cuerpo)";
+"manual.step.fourth"                = "Mientras más caliente sea el nivel, más calientes serán los retos";
+"manual.step.fifth"                 = "Si entre sus amigos hay un Único jugador que haya hecho eso, ¡debe contar la historia antes de hacerlo! ¡No seas perezoso!\n\nBásicamente eso es todo :-)";
 
 // MARK: - Game Over
 

@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Amis",
             "image": "friends",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Les amis n'ont pas de secrets ! Tu es d'accord?",
             "tasks": [
                 "mangé de la nourriture des ordures.",
                 "reçu une infraction au code de la route.",
@@ -62,7 +62,7 @@
             "id": 2,
             "name": "Hardcore",
             "image": "hardcore",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Êtes-vous prêt pour des défis passionnants et impressionnants ?",
             "tasks": [
                 "embrassé plus de trois personnes en une journée.",
                 "embrassé quelqu'un du même sexe.",
@@ -118,9 +118,9 @@
         },
         {
             "id": 3,
-            "name": "Parejas",
+            "name": "Des couples",
             "image": "couple",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Défis pour les couples amoureux",
             "tasks": [
                 "ils m'ont donné des bijoux.",
                 "fait une demande en mariage",
@@ -178,7 +178,7 @@
             "id": 4,
             "name": "Sexy",
             "image": "sexy",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Les avis les plus enthousiastes sur la beauté de votre corps !",
             "tasks": [
                 "accidentellement appelé mon petit ami, petite amie en utilisant le nom de mon ex",
                 "allé à une fête ou une boîte de nuit pour flirter",
@@ -236,7 +236,7 @@
             "id": 5,
             "name": "Sale",
             "image": "dirty",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Défis pour animaux sales, rrr...",
             "tasks": [
                 "léché la nourriture de quelqu'un.",
                 "trompé un animal pour qu'il lèche mon intimité.",
@@ -294,7 +294,7 @@
             "id": 6,
             "name": "Sauvage",
             "image": "wild",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Un sauvage impossible à arrêter !",
             "tasks": [
                 "posté des photos nues en ligne.",
                 "eu des relations sexuelles sans préservatif",

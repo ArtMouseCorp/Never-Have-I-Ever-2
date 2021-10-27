@@ -4,7 +4,7 @@
             "id": 1,
             "name": "Amigos",
             "image": "friends",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "¡Los amigos no tienen ningún secreto! ¿Estas de acuerdo?",
             "tasks": [
                 "comido comida de la basura.",
                 "recibido una infracción de tráfico.",
@@ -62,7 +62,7 @@
             "id": 2,
             "name": "Hardcore",
             "image": "hardcore",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "¿Estás listo para los retos calientes imponentes?",
             "tasks": [
                 "besado a más de tres personas en un día.",
                 "besado a alguien del mismo sexo.",
@@ -120,7 +120,7 @@
             "id": 3,
             "name": "Parejas",
             "image": "couple",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Retos para parejas amorosas",
             "tasks": [
                 "me han regalado joyas.",
                 "hecho una propuesta de matrimonio",
@@ -178,7 +178,7 @@
             "id": 4,
             "name": "Sexy",
             "image": "sexy",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "¡Las opiniones más entusiastas sobre la belleza de tu cuerpo!",
             "tasks": [
                 "accidentalmente llamado a mi novio, novia usando el nombre de mi ex",
                 "ido a una fiesta o club nocturno para ligar",
@@ -236,7 +236,7 @@
             "id": 5,
             "name": "Sucio",
             "image": "dirty",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "Retos para animales sucios, rrr...",
             "tasks": [
                 "lamido la comida de alguien.",
                 "engañado a un animal para que lamiera mi privado.",
@@ -294,7 +294,7 @@
             "id": 6,
             "name": "Salvaje",
             "image": "wild",
-            "description": "Questions for your annoying friends. Guaranteed fun! Enjoy!",
+            "description": "¡Una salvajada que es imposible detener!",
             "tasks": [
                 "publicado fotos de desnudos en línea.",
                 "tenido relaciones sexuales sin condón",

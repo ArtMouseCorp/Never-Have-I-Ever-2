@@ -25,7 +25,7 @@ class GameViewController: BaseViewController {
     var customTasks: [TaskDB] = []
     var tasks: [Task] = []
     
-    var counter: Int = -1
+    var counter: Int = 0
     
     // MARK: - Awake functions
     
@@ -36,14 +36,14 @@ class GameViewController: BaseViewController {
         StoreManager.updateStatus()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        lockOrientation([.portrait, .landscape])
+    override func viewDidAppear(_ animated: Bool) {
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+        lockOrientation([.portrait, .landscape])
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        lockOrientation(.portrait, andRotateTo: .portrait)
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
+        lockOrientation(.portrait, andRotateTo: .portrait)
     }
     
     // MARK: - Custom functions
@@ -120,8 +120,6 @@ class GameViewController: BaseViewController {
     
     private func loadNextTask() {
         
-        counter += 1
-        
         guard counter < self.tasks.count else {
             let gameOver = GameOverViewController.load(from: Main.gameover)
             gameOver.modalPresentationStyle = .fullScreen
@@ -146,6 +144,8 @@ class GameViewController: BaseViewController {
         if (counter == 1 || counter == 5) && State.shared.isSubscribed {
             SKStoreReviewController.requestReview()
         }
+        
+        counter += 1
         
     }
     

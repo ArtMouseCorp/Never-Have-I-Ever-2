@@ -29,16 +29,17 @@
 
 // MARK: - Game
 
-"game.whiteTitle"                   = "Mai";
-"game.orangeTitle"                  = "Ho";
+"game.whiteTitle"                   = "Non ho";
+"game.orangeTitle"                  = "mai";
 
 // MARK: - Manual
 
 "manual.title"                      = "Regole";
-"manual.step.first"                 = "1. Prendi i tuoi amici e siediti in cerchio. (O in piedi, o non in cerchio, non importa a nessuno).";
-"manual.step.second"                = "2. Leggete la frase ad alta voce.";
-"manual.step.third"                 = "3. Tutti quelli che l'hanno fatto fanno la punizione (flessioni, mangiare broccoli, o qualsiasi altra cosa che il gruppo decide).";
-"manual.step.fourth"                = "Se sei l'unico ad averlo fatto, racconta la storia dell'esperienza. Non essere uno stupido che non condivide!";
+"manual.step.first"                 = "Raduna tutti i tuoi amici";
+"manual.step.second"                = "Pronuncia ad alta voce la frase (\"Non ho mai mai...\")";
+"manual.step.third"                 = "Chi lo ha fatto almeno una volta, deve affrontare la sfida, che la squadra definisce (ad esempio, fare 30 squat o mostrare la parte più forte del proprio corpo)";
+"manual.step.fourth"                = "Più caldo è il livello, più calde sono le sfide";
+"manual.step.fifth"                 = "Se c'è un solo giocatore tra i suoi amici che l'ha fatto, deve raccontare la storia prima di farlo! Non essere pigro!\n\nFondamentalmente è così :-)";
 
 // MARK: - Game Over
 

@@ -29,16 +29,17 @@
 
 // MARK: - Game
 
-"game.whiteTitle"                   = "Jamais";
-"game.orangeTitle"                  = "J'ai";
+"game.whiteTitle"                   = "Je n'ai";
+"game.orangeTitle"                  = "jamais";
 
 // MARK: - Manual
 
 "manual.title"                      = "Règles";
-"manual.step.first"                 = "1. Prenez vos amis et asseyez-vous en cercle. (Ou debout, ou pas en cercle, tout le monde s'en fiche).";
-"manual.step.second"                = "2. Lisez la phrase à haute voix.";
-"manual.step.third"                 = "3. Tous ceux qui l'ont fait font la punition (faire des pompes, manger des brocolis, ou tout ce que le groupe décide).";
-"manual.step.fourth"                = "Si vous êtes le seul à l'avoir fait, racontez l'histoire de cette expérience. Ne soyez pas un idiot qui ne partage pas!\N- C'est tout.";
+"manual.step.first"                 = "Rassembles tous vos amis";
+"manual.step.second"                = "Dites à voix haute la phrase (\"Je n'ai jamais jamais...\")";
+"manual.step.third"                 = "Ceux qui l'ont fait au moins une fois doivent relever le défi que l'équipe définit (par exemple, faire 30 squats ou montrer la partie la plus forte de leur corps)";
+"manual.step.fourth"                = "Plus le niveau est chaud, plus les défis sont chauds";
+"manual.step.fifth"                 = "S'il y a un seul joueur parmi ses amis qui a fait ça, il doit raconter l'histoire avant de le faire ! Ne soyez pas paresseux !\n\nEn gros c'est ça :-)";
 
 // MARK: - Game Over
 

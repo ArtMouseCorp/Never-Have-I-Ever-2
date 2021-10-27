@@ -118,7 +118,14 @@ class SettingsViewConrtoller: BaseViewController {
     
     @objc private func restoreViewTapped() {
         
-        // TODO: - Restore susbcription
+        guard isConnectedToNetwork() else {
+            self.showNetworkConnectionAlert()
+            return
+        }
+        
+        StoreManager.restore {
+            self.dismiss(animated: true)
+        }
         
     }
     

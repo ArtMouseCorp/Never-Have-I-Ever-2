@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Services integration functions
     
     private func integrateFirebase() {
-//        FirebaseApp.configure()
+        FirebaseApp.configure()
     }
     
     private func integrateAmplitude() {

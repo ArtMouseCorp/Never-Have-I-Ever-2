@@ -35,10 +35,11 @@
 // MARK: - Manual
 
 "manual.title"                      = "Rules";
-"manual.step.first"                 = "1. Take your friends and sit in a circle. (Or stand, or not in a circle, no one cares).";
-"manual.step.second"                = "2. Read the sentence aloud.";
-"manual.step.third"                 = "3. Everyone who has done this does the punishment (push-ups, eating broccoli, or whatever else the group decides).";
-"manual.step.fourth"                = "If you're the only one who's done it, tell the story of the experience. Don't be a fool who doesn't share!\n\nThat's it.";
+"manual.step.first"                 = "Gather your friends around the app";
+"manual.step.second"                = "Read a statement out loud (\"Never have I ever...\")";
+"manual.step.third"                 = "Everyone who's ever done it performs a team-determined task (like doing 30 squats or showing off the most pumped-up part of your body)";
+"manual.step.fourth"                = "The hotter the level, the hotter the tasks";
+"manual.step.fifth"                 = "If there's a Unicum (the only one who's ever done it) in the company of friends, let him tell the backstory! Don't be lazy!\n\nThat's all :-)";
 
 // MARK: - Game Over
 

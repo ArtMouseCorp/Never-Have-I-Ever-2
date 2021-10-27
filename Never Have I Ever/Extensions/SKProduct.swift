@@ -34,27 +34,27 @@ extension SKProduct {
         switch perdiod!.unit {
 
         case .day:
-            let oneDay = localized("subscription.intervar.day.one")
-            let twoDays = localized("subscription.intervar.day.two")
-            let fiveDays = localized("subscription.intervar.day.five")
+            let oneDay = localized("subscription.interval.day.one")
+            let twoDays = localized("subscription.interval.day.two")
+            let fiveDays = localized("subscription.interval.day.five")
 
             unit = getNoun(number: numberOfUnits, one: oneDay, two: twoDays, five: fiveDays)
         case .week:
-            let oneWeek = localized("subscription.intervar.week.one")
-            let twoWeeks = localized("subscription.intervar.week.two")
-            let fiveWeeks = localized("subscription.intervar.week.five")
+            let oneWeek = localized("subscription.interval.week.one")
+            let twoWeeks = localized("subscription.interval.week.two")
+            let fiveWeeks = localized("subscription.interval.week.five")
 
             unit = getNoun(number: numberOfUnits, one: oneWeek, two: twoWeeks, five: fiveWeeks)
         case .month:
-            let oneMonth = localized("subscription.intervar.month.one")
-            let twoMonths = localized("subscription.intervar.month.two")
-            let fiveMonths = localized("subscription.intervar.month.five")
+            let oneMonth = localized("subscription.interval.month.one")
+            let twoMonths = localized("subscription.interval.month.two")
+            let fiveMonths = localized("subscription.interval.month.five")
 
             unit = getNoun(number: numberOfUnits, one: oneMonth, two: twoMonths, five: fiveMonths)
         case .year:
-            let oneYear = localized("subscription.intervar.year.one")
-            let twoYears = localized("subscription.intervar.year.two")
-            let fiveYears = localized("subscription.intervar.year.five")
+            let oneYear = localized("subscription.interval.year.one")
+            let twoYears = localized("subscription.interval.year.two")
+            let fiveYears = localized("subscription.interval.year.five")
 
             unit = getNoun(number: numberOfUnits, one: oneYear, two: twoYears, five: fiveYears)
         @unknown default:
@@ -78,27 +78,27 @@ extension SKProduct {
         switch perdiod?.unit {
 
         case .day:
-            let oneDay = localized("subscription.intervar.day.one")
-            let twoDays = localized("subscription.intervar.day.two")
-            let fiveDays = localized("subscription.intervar.day.five")
+            let oneDay = localized("subscription.interval.day.one")
+            let twoDays = localized("subscription.interval.day.two")
+            let fiveDays = localized("subscription.interval.day.five")
 
             unit = getNoun(number: numberOfUnits, one: oneDay, two: twoDays, five: fiveDays)
         case .week:
-            let oneWeek = localized("subscription.intervar.week.one")
-            let twoWeeks = localized("subscription.intervar.week.two")
-            let fiveWeeks = localized("subscription.intervar.week.five")
+            let oneWeek = localized("subscription.interval.week.one")
+            let twoWeeks = localized("subscription.interval.week.two")
+            let fiveWeeks = localized("subscription.interval.week.five")
 
             unit = getNoun(number: numberOfUnits, one: oneWeek, two: twoWeeks, five: fiveWeeks)
         case .month:
-            let oneMonth = localized("subscription.intervar.month.one")
-            let twoMonths = localized("subscription.intervar.month.two")
-            let fiveMonths = localized("subscription.intervar.month.five")
+            let oneMonth = localized("subscription.interval.month.one")
+            let twoMonths = localized("subscription.interval.month.two")
+            let fiveMonths = localized("subscription.interval.month.five")
 
             unit = getNoun(number: numberOfUnits, one: oneMonth, two: twoMonths, five: fiveMonths)
         case .year:
-            let oneYear = localized("subscription.intervar.year.one")
-            let twoYears = localized("subscription.intervar.year.two")
-            let fiveYears = localized("subscription.intervar.year.five")
+            let oneYear = localized("subscription.interval.year.one")
+            let twoYears = localized("subscription.interval.year.two")
+            let fiveYears = localized("subscription.interval.year.five")
 
             unit = getNoun(number: numberOfUnits, one: oneYear, two: twoYears, five: fiveYears)
         case .none:
@@ -107,7 +107,7 @@ extension SKProduct {
             unit = "N/A"
         }
 
-        return "\(numberOfUnits) \(unit)"
+        return "\(numberOfUnits) \(unit.uppercased())"
     }
     
 }
