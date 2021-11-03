@@ -2,7 +2,7 @@
     "levels": [
         {
             "id": 1,
-            "name": "Gli amici",
+            "name": "Amici",
             "image": "friends",
             "description": "Gli amici non hanno segreti! Sei d'accordo?",
             "tasks": [
