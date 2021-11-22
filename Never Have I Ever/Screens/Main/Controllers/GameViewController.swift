@@ -1,5 +1,6 @@
 import UIKit
 import StoreKit
+import Amplitude
 
 class GameViewController: BaseViewController {
 
@@ -126,6 +127,9 @@ class GameViewController: BaseViewController {
             self.present(gameOver, animated: true) {
                 self.navigationController?.popViewController(animated: false)
             }
+            
+            Amplitude.instance().logEvent("Game over", withEventProperties: ["onTaskNumber": tasks.count])
+            
             return
         }
         
@@ -153,6 +157,7 @@ class GameViewController: BaseViewController {
     
     @IBAction func backButtonPressed(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
+        Amplitude.instance().logEvent("Game quited", withEventProperties: ["onTaskNumber": self.counter + 1])
     }
     
     @IBAction func manualButtonPressed(_ sender: Any) {

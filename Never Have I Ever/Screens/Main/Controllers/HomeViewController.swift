@@ -98,6 +98,12 @@ class HomeViewController: BaseViewController {
         
         let gameVC = GameViewController.load(from: Main.game)
         self.navigationController?.pushViewController(gameVC, animated: true)
+        let properties = State.shared.selectedLevels.reduce([Int: String]()) { (dict, level) -> [Int: String] in
+            var dict = dict
+            dict[State.shared.selectedLevels.firstIndex(of: level) ?? 0] = level.name
+            return dict
+        }
+        Amplitude.instance().logEvent("Play button pressed, selected levels:", withEventProperties: properties)
         
     }
     

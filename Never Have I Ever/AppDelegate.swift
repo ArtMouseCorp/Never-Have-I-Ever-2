@@ -163,6 +163,10 @@ extension AppDelegate: MessagingDelegate {
             object: nil,
             userInfo: tokenDict
         )
+        
+        Messaging.messaging().subscribe(toTopic: "all") { error in
+            print("Subscribed to 'all' notification topic")
+        }
     }
 }
 
