@@ -3,7 +3,7 @@ import Foundation
 enum Config {
     
     public static let CONTACT_EMAIL: String             = "neverhaveadult@gmail.com"
-    public static let SUBSCRIPTION_CONFIG_URL: String   = "https://app.finanse.space/app/neverHaveIever2APP2"
+    public static let SUBSCRIPTION_CONFIG_URL: String   = "https://facecare.space/NeverHaveIEverAdult/"
     public static let PRIVACY_URL: String               = "https://never-have-ever-adul.flycricket.io/privacy.html"
     public static let TERMS_URL: String                 = "https://never-have-ever-adul.flycricket.io/terms.html"
     

@@ -1,7 +1,7 @@
 [
 
     {
-        
+
         "lang": "en",
         "title": "Spice up your night!",
         "buttonTitle": "START FREE TRIAL",
@@ -15,11 +15,11 @@
             "The coolest updates"
         ],
         "showCloseButton": true,
-        "freeTasksCount": 1,
-        
+        "freeTasksCount": 1
+
     },
     {
-        
+
         "lang": "ru",
         "title": "Украсьте свой вечер!",
         "buttonTitle": "НАЧАТЬ ПРОБНЫЙ ПЕРИОД",
@@ -33,11 +33,11 @@
             "Самые классные обновления"
         ],
         "showCloseButton": true,
-        "freeTasksCount": 1,
-        
+        "freeTasksCount": 1
+
     },
     {
-        
+
         "lang": "de",
         "title": "Peppen Sie Ihren Abend auf!",
         "buttonTitle": "KOSTENLOSE TESTVERSION STARTEN",
@@ -51,11 +51,11 @@
             "Die coolsten Updates"
         ],
         "showCloseButton": true,
-        "freeTasksCount": 1,
-        
+        "freeTasksCount": 1
+
     },
     {
-        
+
         "lang": "it",
         "title": "Date un po' di pepe alla vostra serata!",
         "buttonTitle": "INIZIA LA PROVA GRATUITA",
@@ -69,11 +69,11 @@
             "Gli aggiornamenti più cool"
         ],
         "showCloseButton": true,
-        "freeTasksCount": 1,
-        
+        "freeTasksCount": 1
+
     },
     {
-        
+
         "lang": "es",
         "title": "¡Dale sabor a tu noche!",
         "buttonTitle": "INICIAR LA PRUEBA GRATUITA",
@@ -87,11 +87,11 @@
             "Las actualizaciones más geniales"
         ],
         "showCloseButton": true,
-        "freeTasksCount": 1,
-        
+        "freeTasksCount": 1
+
     },
     {
-        
+
         "lang": "fr",
         "title": "Mettez du piquant dans votre soirée !",
         "buttonTitle": "LANCER L'ESSAI GRATUIT",
@@ -105,8 +105,8 @@
             "Les mises à jour les plus cool"
         ],
         "showCloseButton": true,
-        "freeTasksCount": 1,
-        
+        "freeTasksCount": 1
+
     }
 
 ]
