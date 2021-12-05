@@ -85,3 +85,5 @@
 "alert.notSubscriber.message"       = "U kunt uw aankoop helaas niet herstellen omdat u geen actief abonnement hebt.";
 
 "alert.mail.title"                  = "Mail services zijn niet beschikbaar";
+
+"alert.loading.message"             = "Wacht alstublieft...";

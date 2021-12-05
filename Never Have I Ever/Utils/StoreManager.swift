@@ -21,14 +21,9 @@ struct StoreManager {
 
     public static func getProducts(for productIds: [String], completion: @escaping (([Product]) -> ())) {
 
-        print("Get products")
-
         var foundProducts: [StoreManager.Product] = []
 
         Apphud.paywallsDidLoadCallback { paywalls in
-
-
-            print("retrieve current paywall with identifier")
 
             // retrieve current paywall with identifier
 
@@ -44,9 +39,6 @@ struct StoreManager {
 
                 for apphudProduct in products {
 
-                    print(apphudProduct.productId)
-
-                    //                guard productIds.contains(apphudProduct.productId) else { continue }
                     guard apphudProduct.productId == productId else { continue }
 
                     guard let skProduct = apphudProduct.skProduct else {
@@ -67,7 +59,6 @@ struct StoreManager {
 
             }
 
-            print(foundProducts)
             completion(foundProducts)
 
         }
@@ -76,8 +67,12 @@ struct StoreManager {
 
     public static func purchase(_ product: Product, completion: (() -> ())? = nil) {
 
+        topController().showLoader()
+        
         Apphud.purchase(product.apphudProduct) { purchaseResult in
 
+            topController().hideLoader()
+            
             if let subscription = purchaseResult.subscription, subscription.isActive() {
 
                 Amplitude.instance().logEvent("Subscription purchased",
@@ -98,6 +93,8 @@ struct StoreManager {
 
     public static func restore(completion: (() -> ())? = nil) {
 
+        topController().showLoader()
+        
         self.updateStatus()
 
         guard !State.shared.isSubscribed else {
@@ -107,18 +104,22 @@ struct StoreManager {
 
         Apphud.restorePurchases{ subscriptions, purchases, error in
 
-            if Apphud.hasActiveSubscription() {
-
-                State.shared.isSubscribed = true
-                topController().showRestoredAlert() {
-                    completion?() ?? ()
+            topController().hideLoader {
+                
+                if Apphud.hasActiveSubscription() {
+                    
+                    State.shared.isSubscribed = true
+                    topController().showRestoredAlert() {
+                        completion?() ?? ()
+                    }
+                    
+                } else {
+                    
+                    // no active subscription found, check non-renewing purchases or error
+                    topController().showNotSubscriberAlert()
+                    
                 }
-
-            } else {
-
-                // no active subscription found, check non-renewing purchases or error
-                topController().showNotSubscriberAlert()
-
+                
             }
         }
 

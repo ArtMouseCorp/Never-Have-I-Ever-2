@@ -9,7 +9,7 @@ public enum Main: String, StoryboardScreen {
     case manual         = "ManualViewConrtoller"
     case game           = "GameViewController"
     case gameover       = "GameOverViewController"
-    case subscription   = "SubscriptionViewConrtoller"
+    case subscription   = "SubscriptionViewController"
     
 }
 

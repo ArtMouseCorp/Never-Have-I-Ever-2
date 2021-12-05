@@ -86,3 +86,5 @@
 "alert.notSubscriber.message"       = "Malheureusement, vous ne pouvez pas restaurer votre achat car vous n'avez pas d'abonnement actif.";
 
 "alert.mail.title"                  = "Les services de courrier ne sont pas disponibles";
+
+"alert.loading.message"             = "Veuillez patienter...";

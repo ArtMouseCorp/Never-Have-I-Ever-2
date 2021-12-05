@@ -86,3 +86,5 @@
 "alert.notSubscriber.message"       = "Purtroppo non puoi ripristinare il tuo acquisto perché non hai un abbonamento attivo.";
 
 "alert.mail.title"                  = "I servizi di posta non sono disponibili";
+
+"alert.loading.message"             = "Si prega di attendere...";

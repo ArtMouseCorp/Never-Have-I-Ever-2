@@ -107,7 +107,7 @@ extension SKProduct {
             unit = "N/A"
         }
 
-        return "\(numberOfUnits) \(unit.uppercased())"
+        return "\(numberOfUnits) \(unit)"
     }
     
 }

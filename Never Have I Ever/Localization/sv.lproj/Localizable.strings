@@ -85,3 +85,5 @@
 "alert.notSubscriber.message"       = "Tyvärr kan du inte återställa ditt köp eftersom du inte har någon aktiv prenumeration.";
 
 "alert.mail.title"                  = "Posttjänsterna är inte tillgängliga";
+
+"alert.loading.message"             = "Vänligen vänta...";

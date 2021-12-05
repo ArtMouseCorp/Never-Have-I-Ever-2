@@ -4,14 +4,20 @@
 
         "lang": "en",
         "title": "Spice up your night!",
+        "trialPeriodTitle": "<h>%trial_period% FREE</h>",
         "buttonTitle": "START FREE TRIAL",
-        "product": {
-            "title": "<h>%trial_period% FREE</h>\nthen %subscription_price% / %subscription_period%",
-            "productId": "com.haverhavei.week"
+        "trialProduct": {
+            "title": "<h>%trial_period% free</h>,\nthen %subscription_price% / %subscription_period%",
+            "productId": "3m3d2",
+            "saveLabel": "SAVE 68$"
+        },
+        "notTrialProduct": {
+            "title": "%subscription_period%\n%subscription_price%",
+            "productId": "1w_799_notrial"
         },
         "reasons": [
             "Have even more <h>fun</h>",
-            "Truly candid levels await you",
+            "Truly <h>candid levels</h> await you",
             "The coolest updates"
         ],
         "showCloseButton": true,
@@ -22,14 +28,20 @@
 
         "lang": "ru",
         "title": "Украсьте свой вечер!",
+        "trialPeriodTitle": "<h>%trial_period% БЕСПЛАТНО</h>",
         "buttonTitle": "НАЧАТЬ ПРОБНЫЙ ПЕРИОД",
-        "product": {
-            "title": "<h>%trial_period% БЕСПЛАТНО</h>\nзатем %subscription_price% / %subscription_period%",
-            "productId": "com.haverhavei.week"
+        "trialProduct": {
+            "title": "<h>%trial_period% бесплатно</h>,\nзатем %subscription_price% / %subscription_period%",
+            "productId": "3m3d2",
+            "saveLabel": "ЭКОНОМИЯ $68"
+        },
+        "notTrialProduct": {
+            "title": "%subscription_period%\n%subscription_price%",
+            "productId": "1w_799_notrial"
         },
         "reasons": [
             "Получайте еще больше <h>удовольствия</h>",
-            "Вас ждут поистине откровенные уровни",
+            "Вас ждут поистине <h>откровенные уровни</h>",
             "Самые классные обновления"
         ],
         "showCloseButton": true,
@@ -40,14 +52,20 @@
 
         "lang": "de",
         "title": "Peppen Sie Ihren Abend auf!",
+        "trialPeriodTitle": "<h>%trial_period% GRATIS</h>",
         "buttonTitle": "KOSTENLOSE TESTVERSION STARTEN",
-        "product": {
-            "title": "<h>%trial_period% GRATIS</h>\ndann %subscription_price% / %subscription_period%",
-            "productId": "com.haverhavei.week"
+        "trialProduct": {
+            "title": "<h>%trial_period% gratis</h>,\ndann %subscription_price% / %subscription_period%",
+            "productId": "3m3d2",
+            "saveLabel": "68$ SPAREN"
+        },
+        "notTrialProduct": {
+            "title": "%subscription_period%\n%subscription_price%",
+            "productId": "1w_799_notrial"
         },
         "reasons": [
             "Noch mehr <h>Spaß</h> haben",
-            "Wirklich offene Levels warten auf Sie",
+            "Wirklich <h>offene Levels</h> warten auf Sie",
             "Die coolsten Updates"
         ],
         "showCloseButton": true,
@@ -58,14 +76,20 @@
 
         "lang": "it",
         "title": "Date un po' di pepe alla vostra serata!",
+        "trialPeriodTitle": "<h>%trial_period% GRATIS</h>",
         "buttonTitle": "INIZIA LA PROVA GRATUITA",
-        "product": {
-            "title": "<h>%trial_period% GRATIS</h>\npoi %subscription_price% / %subscription_period%",
-            "productId": "com.haverhavei.week"
+        "trialProduct": {
+            "title": "<h>%trial_period% gratis</h>,\npoi %subscription_price% / %subscription_period%",
+            "productId": "3m3d2",
+            "saveLabel": "SALVA 68$"
+        },
+        "notTrialProduct": {
+            "title": "%subscription_period%\n%subscription_price%",
+            "productId": "1w_799_notrial"
         },
         "reasons": [
             "<h>Divertiti</h> ancora di più",
-            "Ti aspettano livelli davvero candidi",
+            "Ti aspettano <h>livelli davvero candidi</h>",
             "Gli aggiornamenti più cool"
         ],
         "showCloseButton": true,
@@ -76,14 +100,20 @@
 
         "lang": "es",
         "title": "¡Dale sabor a tu noche!",
+        "trialPeriodTitle": "<h>%trial_period% GRATIS</h>",
         "buttonTitle": "INICIAR LA PRUEBA GRATUITA",
-        "product": {
-            "title": "<h>%trial_period% GRATIS</h>\nentonces %subscription_price% / %subscription_period%",
-            "productId": "com.haverhavei.week"
+        "trialProduct": {
+            "title": "<h>%trial_period% gratis</h>,\nentonces %subscription_price% / %subscription_period%",
+            "productId": "3m3d2",
+            "saveLabel": "AHORRA $68"
+        },
+        "notTrialProduct": {
+            "title": "%subscription_period%\n%subscription_price%",
+            "productId": "1w_799_notrial"
         },
         "reasons": [
             "<h>Diviértete</h> aún más",
-            "Te esperan niveles realmente cándidos",
+            "Te esperan <h>niveles realmente cándidos</h>",
             "Las actualizaciones más geniales"
         ],
         "showCloseButton": true,
@@ -94,14 +124,20 @@
 
         "lang": "fr",
         "title": "Mettez du piquant dans votre soirée !",
+        "trialPeriodTitle": "<h>%trial_period% GRATUIT</h>",
         "buttonTitle": "LANCER L'ESSAI GRATUIT",
-        "product": {
-            "title": "<h>%trial_period% GRATUIT</h>\npuis %subscription_price% / %subscription_period%",
-            "productId": "com.haverhavei.week"
+        "trialProduct": {
+            "title": "<h>%trial_period% gratuit</h>,\npuis %subscription_price% / %subscription_period%",
+            "productId": "3m3d2",
+            "saveLabel": "ECONOMISEZ 68$"
+        },
+        "notTrialProduct": {
+            "title": "%subscription_period%\n%subscription_price%",
+            "productId": "1w_799_notrial"
         },
         "reasons": [
             "<h>Amusez-vous</h> encore plus",
-            "Des niveaux vraiment candides vous attendent",
+            "Des <h>niveaux vraiment candides</h> vous attendent",
             "Les mises à jour les plus cool"
         ],
         "showCloseButton": true,

@@ -86,3 +86,5 @@
 "alert.notSubscriber.message"       = "Leider können Sie Ihren Kauf nicht wiederherstellen, da Sie kein aktives Abonnement haben.";
 
 "alert.mail.title"                  = "Die E-Mail-Dienste sind nicht verfügbar";
+
+"alert.loading.message"             = "Bitte warten...";

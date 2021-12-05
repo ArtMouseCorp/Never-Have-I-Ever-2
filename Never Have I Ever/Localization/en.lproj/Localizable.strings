@@ -86,3 +86,5 @@
 "alert.notSubscriber.message"       = "Unfortunately, you cannot restore your purchase because you do not have an active subscription.";
 
 "alert.mail.title"                  = "Mail services are not available";
+
+"alert.loading.message"             = "Please, wait...";

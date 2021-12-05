@@ -85,3 +85,5 @@
 "alert.notSubscriber.message"       = "不幸的是，你不能恢复你的购买，因为你没有一个有效的订阅。";
 
 "alert.mail.title"                  = "邮件服务不可用";
+
+"alert.loading.message"             = "请等待...";

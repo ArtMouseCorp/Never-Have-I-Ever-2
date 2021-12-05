@@ -3,7 +3,7 @@ import StoreKit
 import Amplitude
 
 class GameViewController: BaseViewController {
-
+    
     // MARK: - @IBOutlets
     
     // Views
@@ -20,13 +20,20 @@ class GameViewController: BaseViewController {
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var manualButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var dislikeButton: UIButton!
     
+    // StackViews
+    @IBOutlet weak var rateButtonStackView: UIStackView!
     // MARK: - Variables
     
     var customTasks: [TaskDB] = []
     var tasks: [Task] = []
     
     var counter: Int = 0
+    
+    var isLiked: Bool = false
+    var isDisliked: Bool = false
     
     // MARK: - Awake functions
     
@@ -35,6 +42,8 @@ class GameViewController: BaseViewController {
         
         loadTasks()
         StoreManager.updateStatus()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(GameViewController.configureRateButtons), name: UIDevice.orientationDidChangeNotification, object: nil)
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -45,6 +54,10 @@ class GameViewController: BaseViewController {
     override func viewWillDisappear(_ animated: Bool) {
         self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
         lockOrientation(.portrait, andRotateTo: .portrait)
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: UIDevice.orientationDidChangeNotification, object: nil)
     }
     
     // MARK: - Custom functions
@@ -58,6 +71,10 @@ class GameViewController: BaseViewController {
         super.configureUI()
         
         orangeTitleView.roundCorners(radius: 8)
+        likeButton.capsuleCorners()
+        dislikeButton.capsuleCorners()
+        
+        configureRateButtons()
     }
     
     override func setupGestures() {
@@ -128,17 +145,23 @@ class GameViewController: BaseViewController {
                 self.navigationController?.popViewController(animated: false)
             }
             
-            Amplitude.instance().logEvent("Game over", withEventProperties: ["onTaskNumber": tasks.count])
+            Amplitude.instance().logEvent("Game over", withEventProperties: ["tasksCompleted": tasks.count])
             
             return
         }
         
         if counter == State.shared.subscriptionConfig.freeTasksCount && !State.shared.isSubscribed {
-            let paywall = SubscriptionViewConrtoller.load(from: Main.subscription)
+            
+            let paywall = SubscriptionViewController.load(from: Main.subscription)
             paywall.modalPresentationStyle = .fullScreen
             self.present(paywall, animated: true)
             return
         }
+        
+        self.isLiked = false
+        self.isDisliked = false
+        
+        self.configureRateButtons()
         
         self.taskNameLabel.text = self.tasks[counter].name
         self.levelNameLabel.text = self.tasks[counter].level.name
@@ -151,18 +174,53 @@ class GameViewController: BaseViewController {
         
     }
     
+    @objc private func configureRateButtons() {
+        rateButtonStackView.spacing = UIScreen.main.bounds.width / 3
+        rateButtonStackView.translatesAutoresizingMaskIntoConstraints = false
+        rateButtonStackView.layoutIfNeeded()
+        
+        likeButton.backgroundColor = isLiked ? UIColor(red: 0.961, green: 0.592, blue: 0.196, alpha: 1) : .clear
+        dislikeButton.backgroundColor = isDisliked ? UIColor(red: 0.847, green: 0.129, blue: 0.129, alpha: 1) : .clear
+    }
+    
     // MARK: - Gesture actions
     
     // MARK: - @IBActions
     
     @IBAction func backButtonPressed(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
-        Amplitude.instance().logEvent("Game quited", withEventProperties: ["onTaskNumber": self.counter + 1])
+        Amplitude.instance().logEvent("Game quited", withEventProperties: ["tasksCompleted": self.counter])
     }
     
     @IBAction func manualButtonPressed(_ sender: Any) {
         let manualVC = ManualViewConrtoller.load(from: Main.manual)
         self.navigationController?.pushViewController(manualVC, animated: true)
+    }
+    
+    @IBAction func likeButtonPressed(_ sender: Any) {
+        
+        self.isLiked = !self.isLiked
+        self.isDisliked = false
+        
+        configureRateButtons()
+        
+        Amplitude.instance().logEvent("Like \(self.isLiked ? "pressed" : "unpressed")", withEventProperties: [
+            "Category": self.tasks[counter - 1].level.name,
+            "Task": self.tasks[counter - 1].name
+        ])
+    }
+    
+    @IBAction func dislikeButtonPressed(_ sender: Any) {
+        
+        self.isDisliked = !self.isDisliked
+        self.isLiked = false
+        
+        configureRateButtons()
+        
+        Amplitude.instance().logEvent("Dislike \(self.isDisliked ? "pressed" : "unpressed")", withEventProperties: [
+            "Category": self.tasks[counter - 1].level.name,
+            "Task": self.tasks[counter - 1].name
+        ])
     }
     
     @IBAction func nextButtonPressed(_ sender: Any) {

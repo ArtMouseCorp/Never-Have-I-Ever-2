@@ -85,3 +85,5 @@
 "alert.notSubscriber.message"       = "Valitettavasti et voi palauttaa ostostasi, koska sinulla ei ole aktiivista tilausta.";
 
 "alert.mail.title"                  = "Postipalvelut eivät ole käytettävissä";
+
+"alert.loading.message"             = "Odota...";

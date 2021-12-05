@@ -53,6 +53,14 @@ extension UILabel {
         
     }
     
+    public func uppercase() {
+        self.text = self.text?.uppercased()
+    }
+    
+    public func lowercase() {
+        self.text = self.text?.lowercased()
+    }
+    
 }
 
 /*
