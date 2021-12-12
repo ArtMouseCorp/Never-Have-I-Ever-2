@@ -5,14 +5,8 @@ target 'Never Have I Ever' do
 
   pod 'Firebase/Crashlytics'
   pod 'Firebase/Messaging'
+  pod 'Firebase/Analytics'
   pod 'Amplitude'
   pod 'ApphudSDK'
 
-end
-
-target 'FirebaseNotificationServiceExtension' do
-  use_frameworks!
-  
-  pod 'Firebase/Messaging'
-  
 end

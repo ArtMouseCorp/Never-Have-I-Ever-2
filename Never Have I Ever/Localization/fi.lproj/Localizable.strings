@@ -27,6 +27,13 @@
 "button.customTask.save"            = "Tallenna";
 "button.customTask.cancel"          = "Peruuta";
 
+// MARK: - Quit
+
+"quit.title"                        = "Oletko varma, että haluat lähteä?";
+"quit.subtitle"                     = "Tämän istunnon edistyminen menetetään";
+"button.quit.quit"                  = "Quit";
+"button.quit.cancel"                = "Peruuta";
+
 // MARK: - Game
 
 "game.whiteTitle"                   = "Ei koskaan";

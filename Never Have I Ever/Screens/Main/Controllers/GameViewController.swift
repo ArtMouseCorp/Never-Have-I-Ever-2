@@ -25,6 +25,7 @@ class GameViewController: BaseViewController {
     
     // StackViews
     @IBOutlet weak var rateButtonStackView: UIStackView!
+    
     // MARK: - Variables
     
     var customTasks: [TaskDB] = []
@@ -188,8 +189,16 @@ class GameViewController: BaseViewController {
     // MARK: - @IBActions
     
     @IBAction func backButtonPressed(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
-        Amplitude.instance().logEvent("Game quited", withEventProperties: ["tasksCompleted": self.counter])
+        
+        let quitPopup = QuitPopup.load(from: Popup.quit)
+        
+        quitPopup.onQuitButtonPress = {
+            self.navigationController?.popViewController(animated: true)
+            Amplitude.instance().logEvent("Game quited", withEventProperties: ["tasksCompleted": self.counter])
+        }
+        
+        self.showPopup(quitPopup)
+        
     }
     
     @IBAction func manualButtonPressed(_ sender: Any) {

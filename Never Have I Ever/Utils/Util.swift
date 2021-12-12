@@ -1,5 +1,6 @@
 import UIKit
 import SystemConfiguration
+import FirebaseMessaging
 
 public func readLocalJSONFile(forName name: String) -> Data? {
     do {
@@ -91,6 +92,18 @@ public func lockOrientation(_ orientation: UIInterfaceOrientationMask, andRotate
     lockOrientation(orientation)
     UIDevice.current.setValue(rotateOrientation.rawValue, forKey: "orientation")
 }
+
+public func subscribeToNotificationsTopic(_ topic: String) {
+    Messaging.messaging().subscribe(toTopic: topic) { error in
+        
+        if let error = error {
+            print("ERROR | Subscription to '\(topic)' notifications topic has failed - \(error.localizedDescription)")
+        }
+        
+        print("SUCCESS | Successfully subscribed to '\(topic)' notifications topic")
+    }
+}
+
 
 /*
  //           _._

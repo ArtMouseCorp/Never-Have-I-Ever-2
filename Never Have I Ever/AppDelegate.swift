@@ -2,13 +2,14 @@ import UIKit
 import CoreData
 import Firebase
 import FirebaseMessaging
+import FirebaseAnalytics
 import Amplitude
 import ApphudSDK
 import StoreKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var orientationLock: UIInterfaceOrientationMask = .portrait
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -23,11 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         return true
     }
-
+    
     // MARK: - Services integration functions
     
     private func integrateFirebase() {
         FirebaseApp.configure()
+        FirebaseConfiguration.shared.setLoggerLevel(.min)
     }
     
     private func integrateAmplitude() {
@@ -38,17 +40,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Log an event
         Amplitude.instance().logEvent("App started")
     }
-
+    
     private func integrateApphud() {
         Apphud.enableDebugLogs()
         Apphud.start(apiKey: Config.APPHUD_API_KEY)
     }
     
     private func integrateNotifications(for application: UIApplication) {
+        // 1
         UNUserNotificationCenter.current().delegate = self
-        
+        // 2
         let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-        UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { _, _ in }
+        UNUserNotificationCenter.current().requestAuthorization(
+            options: authOptions) { _, _ in }
+        // 3
         application.registerForRemoteNotifications()
         
         Messaging.messaging().delegate = self
@@ -59,14 +64,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
         return orientationLock
     }
-
+    
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
-
+    
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-
+        
     }
     
     // MARK: - Core Data stack
@@ -113,16 +118,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+    
 }
 
 // MARK: - UNUserNotificationCenterDelegate
 
 extension AppDelegate: UNUserNotificationCenterDelegate {
-    func userNotificationCenter(_ center: UNUserNotificationCenter,
-                                willPresent notification: UNNotification,
-                                withCompletionHandler completionHandler:
-                                @escaping (UNNotificationPresentationOptions) -> Void) {
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
         process(notification)
         if #available(iOS 14.0, *) {
             completionHandler([[.banner, .sound]])
@@ -132,21 +136,25 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         
     }
     
-    func userNotificationCenter(_ center: UNUserNotificationCenter,
-                                didReceive response: UNNotificationResponse,
-                                withCompletionHandler completionHandler: @escaping () -> Void) {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
         process(response.notification)
         completionHandler()
+        
     }
     
-    func application(_ application: UIApplication,
-                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         Messaging.messaging().apnsToken = deviceToken
+    }
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("NOTIFICATIONS ERROR - \(error)")
     }
     
     private func process(_ notification: UNNotification) {
         let userInfo = notification.request.content.userInfo
         Messaging.messaging().appDidReceiveMessage(userInfo)
+        Analytics.logEvent("NOTIFICATION_PROCESSED", parameters: nil)
     }
     
 }
@@ -154,22 +162,33 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
 // MARK: - MessagingDelegate
 
 extension AppDelegate: MessagingDelegate {
-    func messaging(_ messaging: Messaging,
-                   didReceiveRegistrationToken fcmToken: String?) {
+    
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
         let tokenDict = ["token": fcmToken ?? ""]
-        print("FCMToken:", fcmToken ?? "")
         NotificationCenter.default.post(
             name: Notification.Name("FCMToken"),
             object: nil,
-            userInfo: tokenDict
-        )
+            userInfo: tokenDict)
         
-        Messaging.messaging().subscribe(toTopic: "all") { error in
-            print("Subscribed to 'all' notification topic")
+        subscribeToNotificationsTopic("NeverHaveIEver2All")
+        
+        if let regionCode = Locale.current.regionCode {
+            
+            switch regionCode {
+                
+            case "US", "AU", "CA", "NZ":    subscribeToNotificationsTopic("US_AU_CA_NZ")
+            case "GB":                      subscribeToNotificationsTopic("GB")
+            case "RU":                      subscribeToNotificationsTopic("RU")
+            case "DE":                      subscribeToNotificationsTopic("DE")
+            default:                        break
+            }
+            
+            Analytics.setUserProperty(regionCode, forName: "regionCode")
         }
+        
     }
+    
 }
-
 
 /*
  //           _._

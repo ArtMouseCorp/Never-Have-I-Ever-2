@@ -27,6 +27,13 @@
 "button.customTask.save"            = "Spara";
 "button.customTask.cancel"          = "Avbryt";
 
+// MARK: - Quit
+
+"quit.title"                        = "Är du säker på att du vill åka?";
+"quit.subtitle"                     = "Det här sammanträdet kommer att gå förlorat.";
+"button.quit.quit"                  = "Avsluta";
+"button.quit.cancel"                = "Avbryt";
+
 // MARK: - Game
 
 "game.whiteTitle"                   = "Aldrig";

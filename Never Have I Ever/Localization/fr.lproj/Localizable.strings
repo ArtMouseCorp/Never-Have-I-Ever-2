@@ -27,6 +27,13 @@
 "button.customTask.save"            = "Enregistrer";
 "button.customTask.cancel"          = "Annuler";
 
+// MARK: - Quit
+
+"quit.title"                        = "Vous êtes sûr de vouloir partir ?";
+"quit.subtitle"                     = "L'avancement de cette session sera perdu";
+"button.quit.quit"                  = "Quitter";
+"button.quit.cancel"                = "Annuler";
+
 // MARK: - Game
 
 "game.whiteTitle"                   = "Je n'ai";

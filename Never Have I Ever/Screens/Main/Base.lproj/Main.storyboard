@@ -1875,6 +1875,7 @@ then 5,99$ / week</string>
                                             <constraint firstItem="qdu-Sw-ZJ5" firstAttribute="top" secondItem="hUe-1M-MIr" secondAttribute="top" constant="10" id="57a-Uh-e2p"/>
                                             <constraint firstAttribute="bottom" secondItem="qdu-Sw-ZJ5" secondAttribute="bottom" constant="10" id="BYR-e9-ant"/>
                                             <constraint firstAttribute="trailing" secondItem="GQI-v8-dkq" secondAttribute="trailing" constant="16" id="PMy-OY-Thm"/>
+                                            <constraint firstItem="GQI-v8-dkq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qdu-Sw-ZJ5" secondAttribute="trailing" constant="15" id="eVG-sH-4wf"/>
                                             <constraint firstItem="iD4-eg-Ifm" firstAttribute="centerY" secondItem="hUe-1M-MIr" secondAttribute="centerY" id="g0b-Tf-jm8"/>
                                             <constraint firstItem="GQI-v8-dkq" firstAttribute="top" secondItem="hUe-1M-MIr" secondAttribute="top" constant="18" id="h1Q-2n-ZIU"/>
                                             <constraint firstAttribute="bottom" secondItem="GQI-v8-dkq" secondAttribute="bottom" constant="18" id="kqW-bR-dN4"/>
@@ -1918,6 +1919,7 @@ then 5,99$ / week</string>
                                             <constraint firstAttribute="bottom" secondItem="SYP-0y-ZVv" secondAttribute="bottom" constant="18" id="5qx-AW-fK4"/>
                                             <constraint firstItem="j91-lv-BhW" firstAttribute="leading" secondItem="EvO-bg-2GC" secondAttribute="leading" constant="16" id="GOr-Pk-z7B"/>
                                             <constraint firstItem="ozg-Hl-n56" firstAttribute="centerX" secondItem="EvO-bg-2GC" secondAttribute="centerX" id="I3X-fC-gim"/>
+                                            <constraint firstItem="SYP-0y-ZVv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="j91-lv-BhW" secondAttribute="trailing" constant="15" id="QpE-zg-sSh"/>
                                             <constraint firstAttribute="trailing" secondItem="SYP-0y-ZVv" secondAttribute="trailing" constant="16" id="frt-OU-qT0"/>
                                             <constraint firstAttribute="bottom" secondItem="j91-lv-BhW" secondAttribute="bottom" constant="10" id="iFQ-6E-hgt"/>
                                             <constraint firstAttribute="height" constant="60" id="mb6-GC-PvH"/>
@@ -2043,6 +2045,96 @@ then 5,99$ / week</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L5j-MI-fkM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6373.913043478261" y="89.732142857142847"/>
+        </scene>
+        <!--Quit Popup-->
+        <scene sceneID="7ch-Hh-thQ">
+            <objects>
+                <viewController storyboardIdentifier="QuitPopup" id="mc0-RE-7r3" customClass="QuitPopup" customModule="Never_Have_I_Ever" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z01-Cv-rEn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVS-Ap-UKe">
+                                <rect key="frame" x="30" y="274" width="354" height="348.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вы точно хотите выйти?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="VyG-0y-Uby">
+                                        <rect key="frame" x="16" y="25" width="322" height="71.5"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="32"/>
+                                        <color key="textColor" name="NH White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Прогресс этой сессии бдует потерян" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eHD-Dl-D3b">
+                                        <rect key="frame" x="50" y="121.5" width="254" height="36"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
+                                        <color key="textColor" name="NH White"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCA-El-oi0" customClass="NHButton" customModule="Never_Have_I_Ever" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="197.5" width="322" height="58"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="58" id="LIb-cb-UEW"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="NH White"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="quitButtonPressed:" destination="mc0-RE-7r3" eventType="touchUpInside" id="QP9-xc-mia"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUR-GH-0jI" customClass="NHButton" customModule="Never_Have_I_Ever" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="265.5" width="322" height="58"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="58" id="BPx-PR-v41"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" name="NH White"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="cancelButtonPressed:" destination="mc0-RE-7r3" eventType="touchUpInside" id="Aih-Jj-VzN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="NH Black"/>
+                                <constraints>
+                                    <constraint firstItem="VyG-0y-Uby" firstAttribute="top" secondItem="AVS-Ap-UKe" secondAttribute="top" constant="25" id="0XU-f5-CiP"/>
+                                    <constraint firstAttribute="trailing" secondItem="eHD-Dl-D3b" secondAttribute="trailing" constant="50" id="3dG-sH-1Lo"/>
+                                    <constraint firstItem="eHD-Dl-D3b" firstAttribute="top" secondItem="VyG-0y-Uby" secondAttribute="bottom" constant="25" id="BAP-gQ-3KJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="VyG-0y-Uby" secondAttribute="trailing" constant="16" id="BSV-Hp-Aoy"/>
+                                    <constraint firstAttribute="trailing" secondItem="UCA-El-oi0" secondAttribute="trailing" constant="16" id="CfJ-dJ-Cjq"/>
+                                    <constraint firstItem="eHD-Dl-D3b" firstAttribute="leading" secondItem="AVS-Ap-UKe" secondAttribute="leading" constant="50" id="Hpy-Fd-HrU"/>
+                                    <constraint firstItem="EUR-GH-0jI" firstAttribute="leading" secondItem="AVS-Ap-UKe" secondAttribute="leading" constant="16" id="MLk-EC-Y0J"/>
+                                    <constraint firstItem="EUR-GH-0jI" firstAttribute="top" secondItem="UCA-El-oi0" secondAttribute="bottom" constant="10" id="Vlc-un-wpp"/>
+                                    <constraint firstAttribute="trailing" secondItem="EUR-GH-0jI" secondAttribute="trailing" constant="16" id="WAX-sx-Fha"/>
+                                    <constraint firstItem="VyG-0y-Uby" firstAttribute="leading" secondItem="AVS-Ap-UKe" secondAttribute="leading" constant="16" id="Xl3-Gt-m9F"/>
+                                    <constraint firstItem="UCA-El-oi0" firstAttribute="leading" secondItem="AVS-Ap-UKe" secondAttribute="leading" constant="16" id="YLU-SL-MEb"/>
+                                    <constraint firstItem="UCA-El-oi0" firstAttribute="top" secondItem="eHD-Dl-D3b" secondAttribute="bottom" constant="40" id="d2x-dE-Ngf"/>
+                                    <constraint firstItem="VyG-0y-Uby" firstAttribute="centerX" secondItem="AVS-Ap-UKe" secondAttribute="centerX" id="dQz-FB-LNV"/>
+                                    <constraint firstAttribute="bottom" secondItem="EUR-GH-0jI" secondAttribute="bottom" constant="25" id="fPe-0w-8qm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="i5a-dQ-gkY"/>
+                        <color key="backgroundColor" name="NH Black"/>
+                        <constraints>
+                            <constraint firstItem="AVS-Ap-UKe" firstAttribute="centerX" secondItem="Z01-Cv-rEn" secondAttribute="centerX" id="Dob-ev-Q1Q"/>
+                            <constraint firstItem="AVS-Ap-UKe" firstAttribute="leading" secondItem="i5a-dQ-gkY" secondAttribute="leading" constant="30" id="X7U-6W-Isc"/>
+                            <constraint firstItem="AVS-Ap-UKe" firstAttribute="centerY" secondItem="Z01-Cv-rEn" secondAttribute="centerY" id="kQU-aG-gwY"/>
+                            <constraint firstItem="i5a-dQ-gkY" firstAttribute="trailing" secondItem="AVS-Ap-UKe" secondAttribute="trailing" constant="30" id="m7I-u2-kXh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="AVS-Ap-UKe" id="6u7-dA-4Jh"/>
+                        <outlet property="cancelButton" destination="EUR-GH-0jI" id="CWg-5x-cry"/>
+                        <outlet property="quitButton" destination="UCA-El-oi0" id="545-QP-35h"/>
+                        <outlet property="subtitleLabel" destination="eHD-Dl-D3b" id="bDI-7x-GVx"/>
+                        <outlet property="titleLabel" destination="VyG-0y-Uby" id="Ogt-kP-iTS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uoE-re-iPN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4160.8695652173919" y="770.75892857142856"/>
         </scene>
     </scenes>
     <resources>

@@ -27,6 +27,13 @@
 "button.customTask.save"            = "保存";
 "button.customTask.cancel"          = "取消";
 
+// MARK: - Quit
+
+"quit.title"                        = "你确定你要离开吗？";
+"quit.subtitle"                     = "这节课的进度将被取消";
+"button.quit.quit"                  = "退出";
+"button.quit.cancel"                = "取消";
+
 // MARK: - Game
 
 "game.whiteTitle"                   = "从来没有";

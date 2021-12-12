@@ -27,6 +27,13 @@
 "button.customTask.save"            = "Opslaan";
 "button.customTask.cancel"          = "Annuleren";
 
+// MARK: - Quit
+
+"quit.title"                        = "Weet je zeker dat je wilt vertrekken?";
+"quit.subtitle"                     = "De voortgang van deze sessie zal verloren gaan";
+"button.quit.quit"                  = "Afsluiten";
+"button.quit.cancel"                = "Annuleren";
+
 // MARK: - Game
 
 "game.whiteTitle"                   = "Nooit";

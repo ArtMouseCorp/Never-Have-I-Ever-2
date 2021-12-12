@@ -27,6 +27,13 @@
 "button.customTask.save"            = "Сохранить";
 "button.customTask.cancel"          = "Отменить";
 
+// MARK: - Quit
+
+"quit.title"                        = "Вы точно хотите выйти?";
+"quit.subtitle"                     = "Прогресс этой сессии будет потерян";
+"button.quit.quit"                  = "Выйти";
+"button.quit.cancel"                = "Отмена";
+
 // MARK: - Game
 
 "game.whiteTitle"                   = "Я никогда";
