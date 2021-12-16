@@ -6,14 +6,15 @@ struct SubscriptionConfig: Codable {
     let title: String
     let trialPeriodTitle: String
     let buttonTitle: String
-    let trialProduct: Product
-    let notTrialProduct: Product
+    let firstProduct: Product
+    let secondProduct: Product
     let reasons: [String]
     let showCloseButton: Bool
     let freeTasksCount: Int
     
     internal struct Product: Codable {
         let title: String
+        let subtitle: String
         let productId: String
         let saveLabel: String?
     }
@@ -23,14 +24,16 @@ struct SubscriptionConfig: Codable {
         title: "Spice up your night!",
         trialPeriodTitle: "%trial_period% FREE",
         buttonTitle: "START FREE TRIAL",
-        trialProduct: Product(
-            title: "<h>%trial_period% free</h>,\nthen %subscription_price% / %subscription_period%",
+        firstProduct: Product(
+            title: "Трехмесячная",
+            subtitle: "%trial_perion% free",
             productId: "3m3d2",
             saveLabel: "SAVE 68$"
         ),
-        notTrialProduct: Product(
-            title: "%subscription_price%\n%subscription_period%",
-            productId: "1w_799_notrial",
+        secondProduct: Product(
+            title: "Недельная",
+            subtitle: "%trial_perion% free",
+            productId: "com.haverhavei.week",
             saveLabel: nil
         ),
         reasons: [

@@ -5,13 +5,13 @@ class SubscriptionViewController: BaseViewController {
     // MARK: - @IBOutlets
     
     // Views
-    @IBOutlet weak var trialSubscribtionView: UIView!
-    @IBOutlet weak var trialSubscribtionOuterCircleView: UIView!
-    @IBOutlet weak var trialSubscribtionInnerCircleView: UIView!
+    @IBOutlet weak var firstProductView: UIView!
+    @IBOutlet weak var firstProductOuterCircleView: UIView!
+    @IBOutlet weak var firstProductInnerCircleView: UIView!
     
-    @IBOutlet weak var notTrialSubscribtionView: UIView!
-    @IBOutlet weak var notTrialSubscribtionOuterCircleView: UIView!
-    @IBOutlet weak var notTrialSubscribtionInnerCircleView: UIView!
+    @IBOutlet weak var secondProductView: UIView!
+    @IBOutlet weak var secondProductOuterCircleView: UIView!
+    @IBOutlet weak var secondProductInnerCircleView: UIView!
     
     @IBOutlet weak var saveAmountView: UIView!
     @IBOutlet weak var subscribeButtonView: UIView!
@@ -20,8 +20,15 @@ class SubscriptionViewController: BaseViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var trialPeriodLabel: UILabel!
     @IBOutlet var reasonLabels: [UILabel]!
-    @IBOutlet weak var trialSubscribtionLabel: UILabel!
-    @IBOutlet weak var notTrialSubscribtionLabel: UILabel!
+    
+    @IBOutlet weak var firstProductTitleLabel: UILabel!
+    @IBOutlet weak var firstProductTrialLabel: UILabel!
+    @IBOutlet weak var firstProductPriceLabel: UILabel!
+    
+    @IBOutlet weak var secondProductTitleLabel: UILabel!
+    @IBOutlet weak var secondProductTrialLabel: UILabel!
+    @IBOutlet weak var secondProductPriceLabel: UILabel!
+    
     @IBOutlet weak var saveAmountLabel: UILabel!
     @IBOutlet weak var subscribeButtonLabel: UILabel!
     
@@ -32,18 +39,23 @@ class SubscriptionViewController: BaseViewController {
     @IBOutlet weak var termsButton: UIButton!
     @IBOutlet weak var privacyButton: UIButton!
     
+    // Stack Views
+    @IBOutlet weak var firstProductInfoStackView: UIStackView!
+    @IBOutlet weak var secondProductInfoStackView: UIStackView!
+    
+    
     // Activity Indicators
     @IBOutlet weak var trialActivityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var reasonsActivityIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var trialSubscriptionActivityIndicator: UIActivityIndicatorView!
-    @IBOutlet weak var notTrialSubscriptionActivityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var firstProductActivityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var secondProductActivityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var subscribeActivityIndicator: UIActivityIndicatorView!
     
     
     // MARK: - Variables
     
-    var trialProduct: StoreManager.Product?
-    var notTrialProduct: StoreManager.Product?
+    var firstProduct: StoreManager.Product?
+    var secondProduct: StoreManager.Product?
     
     var selectedProduct: StoreManager.Product?
     
@@ -73,21 +85,21 @@ class SubscriptionViewController: BaseViewController {
         
         configureButton()
         
-        trialSubscribtionView.roundCorners(radius: 15)
+        firstProductView.roundCorners(radius: 15)
         
-        notTrialSubscribtionView.roundCorners(radius: 15)
+        secondProductView.roundCorners(radius: 15)
         
-        trialSubscribtionOuterCircleView.capsuleCorners()
-        trialSubscribtionOuterCircleView.setBorder(width: 1, color: .NHWhite)
-        trialSubscribtionOuterCircleView.backgroundColor = .clear
+        firstProductOuterCircleView.capsuleCorners()
+        firstProductOuterCircleView.setBorder(width: 1, color: .NHWhite)
+        firstProductOuterCircleView.backgroundColor = .clear
         
-        trialSubscribtionInnerCircleView.capsuleCorners()
+        firstProductInnerCircleView.capsuleCorners()
         
-        notTrialSubscribtionOuterCircleView.capsuleCorners()
-        notTrialSubscribtionOuterCircleView.setBorder(width: 1, color: .NHWhite)
-        notTrialSubscribtionOuterCircleView.backgroundColor = .clear
+        secondProductOuterCircleView.capsuleCorners()
+        secondProductOuterCircleView.setBorder(width: 1, color: .NHWhite)
+        secondProductOuterCircleView.backgroundColor = .clear
         
-        notTrialSubscribtionInnerCircleView.capsuleCorners()
+        secondProductInnerCircleView.capsuleCorners()
         
         closeButton.hide(!State.shared.subscriptionConfig.showCloseButton)
         
@@ -99,13 +111,16 @@ class SubscriptionViewController: BaseViewController {
         
         saveAmountView.hide()
         
-        trialSubscribtionOuterCircleView.hide()
-        trialSubscribtionInnerCircleView.hide()
-        notTrialSubscribtionOuterCircleView.hide()
-        notTrialSubscribtionInnerCircleView.hide()
+        firstProductOuterCircleView.hide()
+        firstProductInnerCircleView.hide()
+        secondProductOuterCircleView.hide()
+        secondProductInnerCircleView.hide()
         
-        trialSubscribtionLabel.hide()
-        notTrialSubscribtionLabel.hide()
+        firstProductInfoStackView.hide()
+        secondProductInfoStackView.hide()
+        
+        firstProductPriceLabel.hide()
+        secondProductPriceLabel.hide()
         
         subscribeButtonLabel.hide()
         restoreButton.isEnabled = false
@@ -144,8 +159,8 @@ class SubscriptionViewController: BaseViewController {
         
         
         let productIds = [
-            State.shared.subscriptionConfig.trialProduct.productId,
-            State.shared.subscriptionConfig.notTrialProduct.productId
+            State.shared.subscriptionConfig.firstProduct.productId,
+            State.shared.subscriptionConfig.secondProduct.productId
         ]
         
         
@@ -156,9 +171,9 @@ class SubscriptionViewController: BaseViewController {
                 return
             }
             
-            self.trialProduct = products[0]
-            self.notTrialProduct = products[1]
-            self.selectedProduct = self.trialProduct
+            self.firstProduct = products[0]
+            self.secondProduct = products[1]
+            self.selectedProduct = self.firstProduct
             
             DispatchQueue.main.async {
                 self.loadSubscriptionPrice()
@@ -189,47 +204,57 @@ class SubscriptionViewController: BaseViewController {
     private func loadSubscriptionPrice() {
         
         guard
-            let trialProduct = trialProduct,
-            let notTrialProduct = notTrialProduct
+            let firstProduct = firstProduct,
+            let secondProduct = secondProduct
         else {
             return
         }
         
-        if let trialPeriod = trialProduct.trialPeriod {
+        if let trialPeriod = firstProduct.trialPeriod {
             
             self.trialPeriodLabel.text = State.shared.subscriptionConfig.trialPeriodTitle
                 .replacingOccurrences(of: "%trial_period%", with: trialPeriod)
             
-            self.trialSubscribtionLabel.text = State.shared.subscriptionConfig.trialProduct.title
+            self.firstProductTitleLabel.text = State.shared.subscriptionConfig.firstProduct.title
+            
+            self.firstProductTrialLabel.show()
+            self.firstProductTrialLabel.text = State.shared.subscriptionConfig.firstProduct.subtitle
                 .replacingOccurrences(of: "%trial_period%", with: trialPeriod)
-                .replacingOccurrences(of: "%subscription_price%", with: trialProduct.price)
-                .replacingOccurrences(of: "%subscription_period%", with: trialProduct.subscriptionPeriod)
+            
+            self.firstProductPriceLabel.text = "\(firstProduct.price)/\(firstProduct.subscriptionPeriod)"
             
         } else {
             
             self.trialPeriodLabel.text = ""
             
-            self.trialSubscribtionLabel.text = State.shared.subscriptionConfig.trialProduct.title
-                .replacingOccurrences(of: "%subscription_price%", with: trialProduct.price)
-                .replacingOccurrences(of: "%subscription_period%", with: trialProduct.subscriptionPeriod)
+            self.firstProductTitleLabel.text = State.shared.subscriptionConfig.firstProduct.title
+            
+            self.firstProductTrialLabel.hide()
+            
+            self.firstProductPriceLabel.text = "\(firstProduct.price)/\(firstProduct.subscriptionPeriod)"
         }
         
-        if let trialPeriod = notTrialProduct.trialPeriod {
+        if let trialPeriod = secondProduct.trialPeriod {
             
-            self.notTrialSubscribtionLabel.text = State.shared.subscriptionConfig.notTrialProduct.title
+            self.secondProductTitleLabel.text = State.shared.subscriptionConfig.secondProduct.title
+            
+            self.secondProductTrialLabel.show()
+            self.secondProductTrialLabel.text = State.shared.subscriptionConfig.secondProduct.subtitle
                 .replacingOccurrences(of: "%trial_period%", with: trialPeriod)
-                .replacingOccurrences(of: "%subscription_price%", with: notTrialProduct.price)
-                .replacingOccurrences(of: "%subscription_period%", with: notTrialProduct.subscriptionPeriod)
+            
+            self.secondProductPriceLabel.text = "\(secondProduct.price)/\(secondProduct.subscriptionPeriod)"
             
         } else {
             
-            self.notTrialSubscribtionLabel.text = State.shared.subscriptionConfig.notTrialProduct.title
-                .replacingOccurrences(of: "%subscription_price%", with: notTrialProduct.price)
-                .replacingOccurrences(of: "%subscription_period%", with: notTrialProduct.subscriptionPeriod)
+            self.secondProductTitleLabel.text = State.shared.subscriptionConfig.secondProduct.title
+            
+            self.secondProductTrialLabel.hide()
+            
+            self.secondProductPriceLabel.text = "\(secondProduct.price)/\(secondProduct.subscriptionPeriod)"
             
         }
         
-        if let saveLabel = State.shared.subscriptionConfig.trialProduct.saveLabel {
+        if let saveLabel = State.shared.subscriptionConfig.firstProduct.saveLabel {
             self.saveAmountLabel.text = saveLabel
             self.saveAmountView.show()
         }
@@ -237,21 +262,21 @@ class SubscriptionViewController: BaseViewController {
         self.subscribeButtonLabel.text = State.shared.subscriptionConfig.buttonTitle
         
         self.trialActivityIndicator.stopAnimating()
-        self.trialSubscriptionActivityIndicator.stopAnimating()
-        self.notTrialSubscriptionActivityIndicator.stopAnimating()
+        self.firstProductActivityIndicator.stopAnimating()
+        self.secondProductActivityIndicator.stopAnimating()
         self.subscribeActivityIndicator.stopAnimating()
         
-        self.trialSubscribtionView.setBorder(width: 1, color: .NHOrange)
+        self.firstProductView.setBorder(width: 1, color: .NHOrange)
         
-        self.trialSubscribtionOuterCircleView.show()
-        self.trialSubscribtionInnerCircleView.show()
-        self.notTrialSubscribtionOuterCircleView.show()
+        self.firstProductOuterCircleView.show()
+        self.firstProductInnerCircleView.show()
+        self.secondProductOuterCircleView.show()
         
-        self.trialSubscribtionLabel.colorText(from: "<h>", to: "</h>", color: .NHOrange)
-        self.trialSubscribtionLabel.show()
+        self.firstProductInfoStackView.show()
+        self.secondProductInfoStackView.show()
         
-        self.notTrialSubscribtionLabel.colorText(from: "<h>", to: "</h>", color: .NHOrange)
-        self.notTrialSubscribtionLabel.show()
+        self.firstProductPriceLabel.show()
+        self.secondProductPriceLabel.show()
         
         self.trialPeriodLabel.colorText(from: "<h>", to: "</h>", color: .NHOrange)
         self.trialPeriodLabel.uppercase()
@@ -260,8 +285,8 @@ class SubscriptionViewController: BaseViewController {
         self.restoreButton.isEnabled = true
         
         self.subscribeButtonView.addTapGesture(target: self, action: #selector(subscribeButtonViewTapped))
-        self.trialSubscribtionView.addTapGesture(target: self, action: #selector(subscriptionViewTapped))
-        self.notTrialSubscribtionView.addTapGesture(target: self, action: #selector(subscriptionViewTapped))
+        self.firstProductView.addTapGesture(target: self, action: #selector(subscriptionViewTapped))
+        self.secondProductView.addTapGesture(target: self, action: #selector(subscriptionViewTapped))
         
     }
     
@@ -269,26 +294,26 @@ class SubscriptionViewController: BaseViewController {
     
     @objc private func subscriptionViewTapped(_ sender: UITapGestureRecognizer) {
         
-        if sender.view == trialSubscribtionView {
+        if sender.view == firstProductView {
             
-            selectedProduct = trialProduct
+            selectedProduct = firstProduct
             
-            self.trialSubscribtionView.setBorder(width: 1, color: .NHOrange)
-            self.notTrialSubscribtionView.setBorder(width: 0, color: .NHOrange)
-            self.trialSubscribtionInnerCircleView.show()
-            self.notTrialSubscribtionInnerCircleView.hide()
+            self.firstProductView.setBorder(width: 1, color: .NHOrange)
+            self.secondProductView.setBorder(width: 0, color: .NHOrange)
+            self.firstProductInnerCircleView.show()
+            self.secondProductInnerCircleView.hide()
             
             return
         }
         
-        if sender.view == notTrialSubscribtionView {
+        if sender.view == secondProductView {
             
-            selectedProduct = notTrialProduct
+            selectedProduct = secondProduct
             
-            self.trialSubscribtionView.setBorder(width: 0, color: .NHOrange)
-            self.notTrialSubscribtionView.setBorder(width: 1, color: .NHOrange)
-            self.trialSubscribtionInnerCircleView.hide()
-            self.notTrialSubscribtionInnerCircleView.show()
+            self.firstProductView.setBorder(width: 0, color: .NHOrange)
+            self.secondProductView.setBorder(width: 1, color: .NHOrange)
+            self.firstProductInnerCircleView.hide()
+            self.secondProductInnerCircleView.show()
             return
         }
         

@@ -1,97 +1,110 @@
 
 // MARK: - Home
 
-"button.home.play"                  = "Play";
-"home.noLevels"                     = "No levels selected";
-"button.home.select"                = "Select";
-"button.home.deselect"              = "Deselect";
+"button.home.play"                          = "Play";
+"home.noLevels"                             = "No levels selected";
+"button.home.select"                        = "Select";
+"button.home.deselect"                      = "Deselect";
 
 // MARK: - Settings
 
-"settings.title"                    = "Settings";
-"settings.contact"                  = "Contact us";
-"settings.restore"                  = "Restore purchases";
+"settings.title"                            = "Settings";
+"settings.contact"                          = "Contact us";
+"settings.restore"                          = "Restore purchases";
 
 // MARK: - Custom Tasks
 
-"customTasks.title"                 = "Your tasks";
-"button.customTasks.add"            = "Add";
-"button.customTasks.close"          = "Close";
+"customTasks.title"                         = "Your tasks";
+"button.customTasks.add"                    = "Add";
+"button.customTasks.close"                  = "Close";
 
 // MARK: - Custom Task
 
-"customTask.title"                  = "Task";
-"customTask.taskPlaceholder"        = "Write your task here";
-"customTask.selectLevel"            = "Choose level";
-"button.customTask.add"             = "Add";
-"button.customTask.save"            = "Save";
-"button.customTask.cancel"          = "Cancel";
+"customTask.title"                          = "Task";
+"customTask.taskPlaceholder"                = "Write your task here";
+"customTask.selectLevel"                    = "Choose level";
+"button.customTask.add"                     = "Add";
+"button.customTask.save"                    = "Save";
+"button.customTask.cancel"                  = "Cancel";
 
 // MARK: - Quit
 
-"quit.title"                        = "Are you sure you want to leave?";
-"quit.subtitle"                     = "The progress of this session will be lost";
-"button.quit.quit"                  = "Quit";
-"button.quit.cancel"                = "Cancel";
+"quit.title"                                = "Are you sure you want to leave?";
+"quit.subtitle"                             = "The progress of this session will be lost";
+"button.quit.quit"                          = "Quit";
+"button.quit.cancel"                        = "Cancel";
 
 // MARK: - Game
 
-"game.whiteTitle"                   = "Never";
-"game.orangeTitle"                  = "Have I";
+"game.whiteTitle"                           = "Never";
+"game.orangeTitle"                          = "Have I";
 
 // MARK: - Manual
 
-"manual.title"                      = "Rules";
-"manual.step.first"                 = "<h>1.</h> Gather your friends around the app";
-"manual.step.second"                = "<h>2.</h> Read a statement out loud (\"Never have I ever...\")";
-"manual.step.third"                 = "<h>3.</h> Everyone who's ever done it performs a team-determined task (like doing 30 squats or showing off the most pumped-up part of your body)";
-"manual.step.fourth"                = "<h>4.</h> The hotter the level, the hotter the tasks";
-"manual.step.fifth"                 = "If there's a Unicum (the only one who's ever done it) in the company of friends, let him tell the backstory! Don't be lazy!\n\n<h>That's all :-)</h>";
+"manual.title"                              = "Rules";
+"manual.step.first"                         = "<h>1.</h> Gather your friends around the app";
+"manual.step.second"                        = "<h>2.</h> Read a statement out loud (\"Never have I ever...\")";
+"manual.step.third"                         = "<h>3.</h> Everyone who's ever done it performs a team-determined task (like doing 30 squats or showing off the most pumped-up part of your body)";
+"manual.step.fourth"                        = "<h>4.</h> The hotter the level, the hotter the tasks";
+"manual.step.fifth"                         = "If there's a Unicum (the only one who's ever done it) in the company of friends, let him tell the backstory! Don't be lazy!\n\n<h>That's all :-)</h>";
 
 // MARK: - Game Over
 
-"gameOver.title"                    = "Game over";
-"button.gameOver.repeat"            = "Play again";
-"button.gameOver.rate"              = "Rate us";
+"gameOver.title"                            = "Game over";
+"button.gameOver.repeat"                    = "Play again";
+"button.gameOver.rate"                      = "Rate us";
 
 // MARK: - Subscription
 
-"button.subscription.restore"       = "Restore purchases";
-"button.subsctiption.terms"         = "Terms of use";
-"button.subscription.privacy"       = "Privacy policy";
-"subscription.cancelInfo"           = "Cancel anytime. Billed in one payment.";
+"button.subscription.restore"               = "Restore purchases";
+"button.subsctiption.terms"                 = "Terms of use";
+"button.subscription.privacy"               = "Privacy policy";
+"subscription.cancelInfo"                   = "Cancel anytime. Billed in one payment.";
 
-"subscription.interval.day.one"     = "day";
-"subscription.interval.day.two"     = "days";
-"subscription.interval.day.five"    = "days";
-"subscription.interval.week.one"    = "week";
-"subscription.interval.week.two"    = "weeks";
-"subscription.interval.week.five"   = "weeks";
-"subscription.interval.month.one"   = "month";
-"subscription.interval.month.two"   = "months";
-"subscription.interval.month.five"  = "months";
-"subscription.interval.year.one"    = "year";
-"subscription.interval.year.two"    = "years";
-"subscription.interval.year.five"   = "years";
+"subscription.interval.day.one"             = "day";
+"subscription.interval.day.two"             = "days";
+"subscription.interval.day.five"            = "days";
+"subscription.interval.week.one"            = "week";
+"subscription.interval.week.two"            = "weeks";
+"subscription.interval.week.five"           = "weeks";
+"subscription.interval.month.one"           = "month";
+"subscription.interval.month.two"           = "months";
+"subscription.interval.month.five"          = "months";
+"subscription.interval.year.one"            = "year";
+"subscription.interval.year.two"            = "years";
+"subscription.interval.year.five"           = "years";
+
+"subscription.interval.short.day.one"       = "day";
+"subscription.interval.short.day.two"       = "days";
+"subscription.interval.short.day.five"      = "days";
+"subscription.interval.short.week.one"      = "wk.";
+"subscription.interval.short.week.two"      = "wks";
+"subscription.interval.short.week.five"     = "wks.";
+"subscription.interval.short.month.one"     = "mo.";
+"subscription.interval.short.month.two"     = "mth.";
+"subscription.interval.short.month.five"    = "mth.";
+"subscription.interval.short.year.one"      = "yr.";
+"subscription.interval.short.year.two"      = "yrs.";
+"subscription.interval.short.year.five"     = "yrs.";
 
 // MARK: - Alerts
 
-"alert.action.cancel"               = "Cancel";
-"alert.action.ok"                   = "Ok";
-"alert.action.yes"                  = "Yes";
+"alert.action.cancel"                       = "Cancel";
+"alert.action.ok"                           = "Ok";
+"alert.action.yes"                          = "Yes";
 
-"alert.connection.title"            = "No internet connection";
-"alert.connection.message"          = "No internet connection. Please connect to the network and try again.";
+"alert.connection.title"                    = "No internet connection";
+"alert.connection.message"                  = "No internet connection. Please connect to the network and try again.";
 
-"alert.subscribed.title"            = "Subscribed";
-"alert.subscribed.message"          = "You are already subscribed. All functionality is available to you.";
+"alert.subscribed.title"                    = "Subscribed";
+"alert.subscribed.message"                  = "You are already subscribed. All functionality is available to you.";
 
-"alert.restored.title"              = "Restored";
-"alert.restored.message"            = "You have successfully restored your subscription. All functionality is now available to you.";
+"alert.restored.title"                      = "Restored";
+"alert.restored.message"                    = "You have successfully restored your subscription. All functionality is now available to you.";
 
-"alert.notSubscriber.title"         = "Not restorable";
-"alert.notSubscriber.message"       = "Unfortunately, you cannot restore your purchase because you do not have an active subscription.";
+"alert.notSubscriber.title"                 = "Not restorable";
+"alert.notSubscriber.message"               = "Unfortunately, you cannot restore your purchase because you do not have an active subscription.";
 
-"alert.mail.title"                  = "Mail services are not available";
+"alert.mail.title"                          = "Mail services are not available";
 
-"alert.loading.message"             = "Please, wait...";
+"alert.loading.message"                     = "Please, wait...";

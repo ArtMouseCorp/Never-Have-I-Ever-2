@@ -6,14 +6,16 @@
         "title": "Spice up your night!",
         "trialPeriodTitle": "<h>%trial_period% FREE</h>",
         "buttonTitle": "START FREE TRIAL",
-        "trialProduct": {
-            "title": "<h>%trial_period% free</h>,\nthen %subscription_price% / %subscription_period%",
+        "firstProduct": {
+            "title": "Three-month",
+            "subtitle": "%trial_period% free",
             "productId": "3m3d2",
             "saveLabel": "SAVE 68$"
         },
-        "notTrialProduct": {
-            "title": "%subscription_period%\n%subscription_price%",
-            "productId": "1w_799_notrial"
+        "secondProduct": {
+            "title": "Weekly",
+            "subtitle": "%trial_period% free",
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Have even more <h>fun</h>",
@@ -30,14 +32,16 @@
         "title": "Украсьте свой вечер!",
         "trialPeriodTitle": "<h>%trial_period% БЕСПЛАТНО</h>",
         "buttonTitle": "НАЧАТЬ ПРОБНЫЙ ПЕРИОД",
-        "trialProduct": {
-            "title": "<h>%trial_period% бесплатно</h>,\nзатем %subscription_price% / %subscription_period%",
+        "firstProduct": {
+            "title": "Трехмесячная",
+            "subtitle": "%trial_period% бесплатно",
             "productId": "3m3d2",
             "saveLabel": "ЭКОНОМИЯ $68"
         },
-        "notTrialProduct": {
-            "title": "%subscription_period%\n%subscription_price%",
-            "productId": "1w_799_notrial"
+        "secondProduct": {
+            "title": "Недельная",
+            "subtitle": "%trial_period% бесплатно",
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Получайте еще больше <h>удовольствия</h>",
@@ -54,14 +58,16 @@
         "title": "Peppen Sie Ihren Abend auf!",
         "trialPeriodTitle": "<h>%trial_period% GRATIS</h>",
         "buttonTitle": "KOSTENLOSE TESTVERSION STARTEN",
-        "trialProduct": {
-            "title": "<h>%trial_period% gratis</h>,\ndann %subscription_price% / %subscription_period%",
+        "firstProduct": {
+            "title": "Dreimonatige",
+            "subtitle": "%trial_period% gratis",
             "productId": "3m3d2",
             "saveLabel": "68$ SPAREN"
         },
-        "notTrialProduct": {
-            "title": "%subscription_period%\n%subscription_price%",
-            "productId": "1w_799_notrial"
+        "secondProduct": {
+            "title": "Wöchentlich",
+            "subtitle": "%trial_period% gratis",
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "Noch mehr <h>Spaß</h> haben",
@@ -78,14 +84,16 @@
         "title": "Date un po' di pepe alla vostra serata!",
         "trialPeriodTitle": "<h>%trial_period% GRATIS</h>",
         "buttonTitle": "INIZIA LA PROVA GRATUITA",
-        "trialProduct": {
-            "title": "<h>%trial_period% gratis</h>,\npoi %subscription_price% / %subscription_period%",
+        "firstProduct": {
+            "title": "Tre mesi",
+            "subtitle": "%trial_period% gratis",
             "productId": "3m3d2",
             "saveLabel": "SALVA 68$"
         },
-        "notTrialProduct": {
-            "title": "%subscription_period%\n%subscription_price%",
-            "productId": "1w_799_notrial"
+        "secondProduct": {
+            "title": "Settimanale",
+            "subtitle": "%trial_period% gratis",
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "<h>Divertiti</h> ancora di più",
@@ -102,14 +110,16 @@
         "title": "¡Dale sabor a tu noche!",
         "trialPeriodTitle": "<h>%trial_period% GRATIS</h>",
         "buttonTitle": "INICIAR LA PRUEBA GRATUITA",
-        "trialProduct": {
-            "title": "<h>%trial_period% gratis</h>,\nentonces %subscription_price% / %subscription_period%",
+        "firstProduct": {
+            "title": "Tres meses",
+            "subtitle": "%trial_period% gratis",
             "productId": "3m3d2",
             "saveLabel": "AHORRA $68"
         },
-        "notTrialProduct": {
-            "title": "%subscription_period%\n%subscription_price%",
-            "productId": "1w_799_notrial"
+        "secondProduct": {
+            "title": "Semanal",
+            "subtitle": "%trial_period% gratis",
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "<h>Diviértete</h> aún más",
@@ -126,14 +136,16 @@
         "title": "Mettez du piquant dans votre soirée !",
         "trialPeriodTitle": "<h>%trial_period% GRATUIT</h>",
         "buttonTitle": "LANCER L'ESSAI GRATUIT",
-        "trialProduct": {
-            "title": "<h>%trial_period% gratuit</h>,\npuis %subscription_price% / %subscription_period%",
+        "firstProduct": {
+            "title": "Trois mois",
+            "subtitle": "%trial_period% gratuit",
             "productId": "3m3d2",
             "saveLabel": "ECONOMISEZ 68$"
         },
-        "notTrialProduct": {
-            "title": "%subscription_period%\n%subscription_price%",
-            "productId": "1w_799_notrial"
+        "secondProduct": {
+            "title": "Hebdomadaire",
+            "subtitle": "%trial_period% gratuit",
+            "productId": "com.haverhavei.week"
         },
         "reasons": [
             "<h>Amusez-vous</h> encore plus",
