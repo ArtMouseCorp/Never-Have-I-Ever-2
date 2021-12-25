@@ -73,6 +73,7 @@
 		28AD80E7271B204700D4999E /* LanguageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AD80E6271B204700D4999E /* LanguageTableViewCell.swift */; };
 		28B27DD127282F6F00776234 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B27DD027282F6F00776234 /* GoogleService-Info.plist */; };
 		28B34121275D306300FA0A3F /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B34120275D306300FA0A3F /* SubscriptionViewController.swift */; };
+		4A1B6E14277760D10044B85A /* ChristmasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B6E13277760D10044B85A /* ChristmasViewController.swift */; };
 		94E2F2EF927930CBA5AB09B9 /* Pods_Never_Have_I_Ever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */; };
 /* End PBXBuildFile section */
 
@@ -172,6 +173,7 @@
 		30F5868A00EFBD68C79C41D3 /* Pods-FirebaseNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseNotificationServiceExtension/Pods-FirebaseNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		38EE78F739D8C4E92A54353E /* Pods-Never Have I Ever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.debug.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.debug.xcconfig"; sourceTree = "<group>"; };
 		402BCDC6EE9D4594964B2E6A /* Pods-Never Have I Ever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.release.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.release.xcconfig"; sourceTree = "<group>"; };
+		4A1B6E13277760D10044B85A /* ChristmasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasViewController.swift; sourceTree = "<group>"; };
 		6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Never_Have_I_Ever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE581F1EEAF0F52583B3E451 /* Pods_FirebaseNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -372,6 +374,7 @@
 				28AD80CE271A3BB000D4999E /* GameOverViewController.swift */,
 				28AD80D0271A3BBB00D4999E /* SubscriptionViewConrtollerOld.swift */,
 				28B34120275D306300FA0A3F /* SubscriptionViewController.swift */,
+				4A1B6E13277760D10044B85A /* ChristmasViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -624,6 +627,7 @@
 				28AD80C9271A3B8900D4999E /* SettingsViewConrtoller.swift in Sources */,
 				28AD8088271A31DE00D4999E /* UIViewController.swift in Sources */,
 				28AD80CB271A3B9A00D4999E /* ManualViewConrtoller.swift in Sources */,
+				4A1B6E14277760D10044B85A /* ChristmasViewController.swift in Sources */,
 				28AD8090271A326E00D4999E /* UICollectionView.swift in Sources */,
 				28AD80AC271A33BD00D4999E /* Main.swift in Sources */,
 				2822D5D627229F73003EA8BC /* SubscriptionConfig.swift in Sources */,
@@ -808,7 +812,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ND5JNA6NP7;
+				DEVELOPMENT_TEAM = 95G2CDLKC7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -826,7 +830,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -844,7 +848,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ND5JNA6NP7;
+				DEVELOPMENT_TEAM = 95G2CDLKC7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -862,7 +866,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
