@@ -139,6 +139,20 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
         process(response.notification)
+        
+        let notificationId = response.notification.request.identifier
+        
+        if notificationId == "ChristmasNotificationID" {
+            State.openChristmasSceen = true
+            
+            let loadNC = UINavigationController.load(from: Main.homeNav)
+            loadNC.modalPresentationStyle = .fullScreen
+            topController().present(loadNC, animated: false)
+            
+        } else {
+            State.openChristmasSceen = false
+        }
+        
         completionHandler()
         
     }

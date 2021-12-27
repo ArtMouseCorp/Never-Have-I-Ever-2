@@ -23,9 +23,6 @@ class GameViewController: BaseViewController {
     @IBOutlet weak var likeButton: UIButton!
     @IBOutlet weak var dislikeButton: UIButton!
     
-    // StackViews
-    @IBOutlet weak var rateButtonStackView: UIStackView!
-    
     // MARK: - Variables
     
     var customTasks: [TaskDB] = []
@@ -155,6 +152,22 @@ class GameViewController: BaseViewController {
             
             let paywall = SubscriptionViewController.load(from: Main.subscription)
             paywall.modalPresentationStyle = .fullScreen
+            paywall.showNotification = {
+                let content = UNMutableNotificationContent()
+                content.title = "🎁 A special gift for you!"
+                content.body = "Open the app and receive it"
+                
+                content.sound = UNNotificationSound.default
+                
+                // show this notification five seconds from now
+                let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+                
+                // choose a random identifier
+                let request = UNNotificationRequest(identifier: "ChristmasNotificationID", content: content, trigger: trigger)
+                
+                // add our notification request
+                UNUserNotificationCenter.current().add(request)
+            }
             self.present(paywall, animated: true)
             return
         }
@@ -176,10 +189,6 @@ class GameViewController: BaseViewController {
     }
     
     @objc private func configureRateButtons() {
-        rateButtonStackView.spacing = UIScreen.main.bounds.width / 3
-        rateButtonStackView.translatesAutoresizingMaskIntoConstraints = false
-        rateButtonStackView.layoutIfNeeded()
-        
         likeButton.backgroundColor = isLiked ? UIColor(red: 0.961, green: 0.592, blue: 0.196, alpha: 1) : .clear
         dislikeButton.backgroundColor = isDisliked ? UIColor(red: 0.847, green: 0.129, blue: 0.129, alpha: 1) : .clear
     }

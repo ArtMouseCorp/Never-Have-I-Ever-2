@@ -7,6 +7,7 @@ class State {
     // Shared variable
     
     public static var shared: State = State()
+    public static var openChristmasSceen: Bool = false
     
     // State properties
     

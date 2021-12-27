@@ -98,6 +98,7 @@ class ChristmasViewController: UIViewController {
     // MARK: - Gesture actions
     
     @objc func subscribeButtonTapped() {
+        self.subscribeButtonView.flash()
         print("Subscribe button tapped")
     }
     

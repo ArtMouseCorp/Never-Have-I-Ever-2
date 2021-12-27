@@ -1315,9 +1315,21 @@
                                     <action selector="nextButtonPressed:" destination="vpe-fp-D8G" eventType="touchUpInside" id="shb-80-TUH"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="138" translatesAutoresizingMaskIntoConstraints="NO" id="bRC-c9-QPm">
-                                <rect key="frame" x="97" y="775" width="220" height="41"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3s-vc-WLr">
+                                <rect key="frame" x="92" y="775" width="230" height="41"/>
                                 <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqW-7Z-3x6">
+                                        <rect key="frame" x="189" y="0.0" width="41" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="41" id="CE7-DU-Kh0"/>
+                                            <constraint firstAttribute="width" constant="41" id="QNB-mn-bWB"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="dislike"/>
+                                        <connections>
+                                            <action selector="dislikeButtonPressed:" destination="vpe-fp-D8G" eventType="touchUpInside" id="cIT-Br-3yO"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GvB-HE-ahi">
                                         <rect key="frame" x="0.0" y="0.0" width="41" height="41"/>
                                         <constraints>
@@ -1330,44 +1342,40 @@
                                             <action selector="likeButtonPressed:" destination="vpe-fp-D8G" eventType="touchUpInside" id="SKC-oe-tZC"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqW-7Z-3x6">
-                                        <rect key="frame" x="179" y="0.0" width="41" height="41"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="41" id="CE7-DU-Kh0"/>
-                                            <constraint firstAttribute="width" constant="41" id="QNB-mn-bWB"/>
-                                        </constraints>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="dislike"/>
-                                        <connections>
-                                            <action selector="dislikeButtonPressed:" destination="vpe-fp-D8G" eventType="touchUpInside" id="cIT-Br-3yO"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
-                            </stackView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="DqW-7Z-3x6" firstAttribute="top" secondItem="b3s-vc-WLr" secondAttribute="top" id="6aT-Hb-uEU"/>
+                                    <constraint firstAttribute="bottom" secondItem="GvB-HE-ahi" secondAttribute="bottom" id="85c-Z4-NoB"/>
+                                    <constraint firstAttribute="bottom" secondItem="DqW-7Z-3x6" secondAttribute="bottom" id="OOG-Zb-T9a"/>
+                                    <constraint firstAttribute="trailing" secondItem="DqW-7Z-3x6" secondAttribute="trailing" id="bPz-ys-jNK"/>
+                                    <constraint firstItem="GvB-HE-ahi" firstAttribute="leading" secondItem="b3s-vc-WLr" secondAttribute="leading" id="j4l-f2-2v0"/>
+                                    <constraint firstItem="GvB-HE-ahi" firstAttribute="top" secondItem="b3s-vc-WLr" secondAttribute="top" id="x1g-YC-G1e"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5hl-QM-fe0"/>
                         <color key="backgroundColor" name="NH Black"/>
                         <constraints>
-                            <constraint firstItem="5hl-QM-fe0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bRC-c9-QPm" secondAttribute="trailing" constant="75" id="1QL-em-oSi"/>
                             <constraint firstItem="w2L-pH-fH6" firstAttribute="centerY" secondItem="rOb-iz-obb" secondAttribute="centerY" id="3c6-5F-MYt"/>
                             <constraint firstItem="w2L-pH-fH6" firstAttribute="centerX" secondItem="rOb-iz-obb" secondAttribute="centerX" id="61f-dB-tns"/>
                             <constraint firstItem="5hl-QM-fe0" firstAttribute="bottom" secondItem="mFp-3b-l7Z" secondAttribute="bottom" constant="10" id="8Zz-my-INL"/>
                             <constraint firstItem="G5P-qc-rc0" firstAttribute="leading" secondItem="rOb-iz-obb" secondAttribute="leading" id="Cl9-1D-HyJ"/>
                             <constraint firstItem="iPZ-aP-ojd" firstAttribute="top" secondItem="5hl-QM-fe0" secondAttribute="top" constant="24" id="Hm1-ii-7pv"/>
                             <constraint firstItem="mFp-3b-l7Z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5hl-QM-fe0" secondAttribute="leading" constant="16" id="KCF-zl-5XC"/>
-                            <constraint firstItem="bRC-c9-QPm" firstAttribute="centerX" secondItem="rOb-iz-obb" secondAttribute="centerX" id="LMd-0i-gRh"/>
                             <constraint firstItem="5hl-QM-fe0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="w2L-pH-fH6" secondAttribute="trailing" constant="24" id="MEj-IS-nXS"/>
                             <constraint firstItem="G5P-qc-rc0" firstAttribute="top" secondItem="rOb-iz-obb" secondAttribute="top" id="PXh-Pz-BNT"/>
+                            <constraint firstItem="I7g-mS-bHd" firstAttribute="leading" secondItem="b3s-vc-WLr" secondAttribute="trailing" constant="8" id="Sdm-16-5xi"/>
                             <constraint firstItem="5hl-QM-fe0" firstAttribute="bottom" secondItem="I7g-mS-bHd" secondAttribute="bottom" constant="10" id="Vs5-N8-0wS"/>
                             <constraint firstAttribute="trailing" secondItem="iPZ-aP-ojd" secondAttribute="trailing" constant="16" id="ebX-y3-94k"/>
+                            <constraint firstItem="b3s-vc-WLr" firstAttribute="centerX" secondItem="rOb-iz-obb" secondAttribute="centerX" id="fEy-ee-6UX"/>
                             <constraint firstItem="w2L-pH-fH6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5hl-QM-fe0" secondAttribute="leading" constant="24" id="fnp-sq-zml"/>
                             <constraint firstItem="5hl-QM-fe0" firstAttribute="trailing" secondItem="I7g-mS-bHd" secondAttribute="trailing" constant="16" id="gOl-ea-qxh"/>
                             <constraint firstItem="5hl-QM-fe0" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mFp-3b-l7Z" secondAttribute="trailing" constant="16" id="gbh-KA-RNo"/>
                             <constraint firstItem="mFp-3b-l7Z" firstAttribute="centerX" secondItem="rOb-iz-obb" secondAttribute="centerX" id="kMt-ok-htG"/>
                             <constraint firstItem="iPZ-aP-ojd" firstAttribute="leading" secondItem="5hl-QM-fe0" secondAttribute="leading" constant="16" id="m7R-FY-bJi"/>
-                            <constraint firstItem="bRC-c9-QPm" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5hl-QM-fe0" secondAttribute="leading" constant="75" id="mCa-1r-kRA"/>
                             <constraint firstAttribute="bottom" secondItem="G5P-qc-rc0" secondAttribute="bottom" id="nvU-2Z-p20"/>
-                            <constraint firstItem="mFp-3b-l7Z" firstAttribute="top" secondItem="bRC-c9-QPm" secondAttribute="bottom" constant="20" id="tgc-oX-kDc"/>
+                            <constraint firstItem="mFp-3b-l7Z" firstAttribute="top" secondItem="b3s-vc-WLr" secondAttribute="bottom" constant="20" id="sjP-DW-sYv"/>
                             <constraint firstAttribute="trailing" secondItem="G5P-qc-rc0" secondAttribute="trailing" id="upg-so-73k"/>
                         </constraints>
                     </view>
@@ -1380,7 +1388,6 @@
                         <outlet property="nextButton" destination="I7g-mS-bHd" id="DLj-22-Uau"/>
                         <outlet property="orangeTitleLabel" destination="xbp-WJ-odx" id="yqy-6N-Ita"/>
                         <outlet property="orangeTitleView" destination="hOC-cx-z51" id="1XN-pa-JWg"/>
-                        <outlet property="rateButtonStackView" destination="bRC-c9-QPm" id="iRW-Q9-NB8"/>
                         <outlet property="taskNameLabel" destination="w2L-pH-fH6" id="s7H-rt-jYJ"/>
                         <outlet property="whiteTitleLabel" destination="w0L-9t-dJP" id="v9B-ak-RZd"/>
                     </connections>

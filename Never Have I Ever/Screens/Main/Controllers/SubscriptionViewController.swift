@@ -56,8 +56,8 @@ class SubscriptionViewController: BaseViewController {
     
     var firstProduct: StoreManager.Product?
     var secondProduct: StoreManager.Product?
-    
     var selectedProduct: StoreManager.Product?
+    var showNotification: (()->()) = {}
     
     // MARK: - Awake functions
     
@@ -320,7 +320,7 @@ class SubscriptionViewController: BaseViewController {
     }
     
     @objc private func subscribeButtonViewTapped(_ sender: Any) {
-        
+         
         self.subscribeButtonView.flash()
         
         guard let product = selectedProduct else {
@@ -343,6 +343,7 @@ class SubscriptionViewController: BaseViewController {
     
     @IBAction func closeButtonPressed(_ sender: Any) {
         self.dismiss(animated: true)
+        showNotification()
     }
     
     @IBAction func restoreButtonPressed(_ sender: Any) {

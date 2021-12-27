@@ -27,7 +27,7 @@ class HomeViewController: BaseViewController {
         super.viewDidLoad()
         
         super.configure(collectionView)
-        
+        showGiftScreen()
         Amplitude.instance().logEvent("Levels screen opened")
     }
     
@@ -47,6 +47,15 @@ class HomeViewController: BaseViewController {
         
         DispatchQueue.main.async {
             self.configureCollectionView()            
+        }
+    }
+    
+    private func showGiftScreen() {
+        if State.openChristmasSceen {
+            State.openChristmasSceen = false
+            let christmasVC = ChristmasViewController.load(from: Main.christmas)
+            christmasVC.modalPresentationStyle = .fullScreen
+            self.present(christmasVC, animated: true)
         }
     }
     

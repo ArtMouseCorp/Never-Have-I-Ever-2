@@ -10,7 +10,7 @@ public enum Main: String, StoryboardScreen {
     case game           = "GameViewController"
     case gameover       = "GameOverViewController"
     case subscription   = "SubscriptionViewController"
-    
+    case christmas      = "ChristmasViewController"
 }
 
 extension Main {
