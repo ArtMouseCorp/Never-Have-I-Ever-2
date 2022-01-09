@@ -1,7 +1,7 @@
 import UIKit
 
 class SubscriptionViewController: BaseViewController {
-
+    
     // MARK: - @IBOutlets
     
     // Views
@@ -320,7 +320,7 @@ class SubscriptionViewController: BaseViewController {
     }
     
     @objc private func subscribeButtonViewTapped(_ sender: Any) {
-         
+        
         self.subscribeButtonView.flash()
         
         guard let product = selectedProduct else {
@@ -343,7 +343,28 @@ class SubscriptionViewController: BaseViewController {
     
     @IBAction func closeButtonPressed(_ sender: Any) {
         self.dismiss(animated: true)
-        showNotification()
+        
+//        let calendar = Calendar.current
+//
+//        var dateComponents = DateComponents()
+//        dateComponents.month = 1
+//        dateComponents.year = 2022
+//        dateComponents.day = 15
+//
+//        let dateLimit = calendar.date(from: dateComponents) ?? Date()
+//
+//        guard Date() < dateLimit else { return }
+//
+//        if let regionCode = Locale.current.regionCode {
+//
+//            switch regionCode {
+//            case "US", "AU", "CA", "GB", "RU":  showNotification()
+//            default:                            break
+//            }
+//
+//        }
+//        showNotification() // DEBUG
+//        #warning("TODO - Remove this")
     }
     
     @IBAction func restoreButtonPressed(_ sender: Any) {

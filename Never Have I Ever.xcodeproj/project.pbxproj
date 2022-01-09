@@ -812,7 +812,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				DEVELOPMENT_TEAM = ND5JNA6NP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -830,7 +830,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever3";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -848,7 +848,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 95G2CDLKC7;
+				DEVELOPMENT_TEAM = ND5JNA6NP7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -866,7 +866,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever3";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

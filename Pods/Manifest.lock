@@ -1,5 +1,5 @@
 PODS:
-  - Amplitude (8.6.0)
+  - Amplitude (8.7.1)
   - ApphudSDK (2.4.4)
   - Firebase/Analytics (8.10.0):
     - Firebase/Core
@@ -137,7 +137,7 @@ SPEC REPOS:
     - PromisesObjC
 
 SPEC CHECKSUMS:
-  Amplitude: 9258ad588738ca98f26c9263e60497b3bd44cb98
+  Amplitude: 834c7332dfb9640a751e21c13efb22a07c0c12d4
   ApphudSDK: 6633d84ca17c0a61d00f9ac7c280179ac258cd8f
   Firebase: 44213362f1dcc52555b935dc925ed35ac55f1b20
   FirebaseAnalytics: 319c9b3b1bdd400d60e2f415dff0c5f6959e6760
