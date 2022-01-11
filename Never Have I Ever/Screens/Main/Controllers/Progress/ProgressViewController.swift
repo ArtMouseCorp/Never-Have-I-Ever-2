@@ -1,7 +1,7 @@
 import UIKit
 
 class ProgressViewController: BaseViewController {
-
+    
     // MARK: - @IBOutlets
     
     // Views
@@ -30,6 +30,8 @@ class ProgressViewController: BaseViewController {
     // MARK: - Variables
     
     var collectionViewData: [ProgressImage]?
+    
+    var isDeleteMode: Bool = false
     
     // MARK: - Awake functions
     
@@ -130,11 +132,62 @@ extension ProgressViewController: UICollectionViewDelegate, UICollectionViewData
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Cell.progressImages.id, for: indexPath) as! ProgressCollectionViewCell
+        
         if indexPath.row == 0 {
-            let imageName = "add.photo.\(State().getLanguageCode())"
+            let imageName = "add.photo.\(State.shared.getLanguageCode())"
             cell.mainImageView.image = UIImage(named: imageName)
+            cell.showDeleteButton(false)
+            
         } else {
-            cell.mainImageView.image = UIImage(data: (self.collectionViewData?[indexPath.row - 1].image)!) 
+            
+            cell.onLongPress = {
+                
+                guard !self.isDeleteMode else { return }
+                
+                let impactFeedbackGenerator = UIImpactFeedbackGenerator()
+                impactFeedbackGenerator.impactOccurred()
+                self.isDeleteMode = true
+                self.collectionView.reloadData()
+            }
+            
+            cell.onDeleteButtonPress = {
+                
+                let selectionFeedbackGenerator = UISelectionFeedbackGenerator()
+                selectionFeedbackGenerator.selectionChanged()
+                
+                let alert = UIAlertController(title: localized("alert.delete.title"), message: localized("alert.delete.message"), preferredStyle: .alert)
+                
+                let cancelAction = UIAlertAction(title: localized("alert.action.cancel"), style: .cancel)
+                let deleteAction = UIAlertAction(title: localized("alert.action.delete"), style: .destructive) { _ in
+                    
+                    let selectedData = self.collectionViewData?[indexPath.row - 1]
+                    
+                    self.context.delete(selectedData!)
+                    self.collectionViewData?.remove(at: indexPath.row - 1)
+                    
+                    do {
+                        try self.context.save()
+                    } catch {
+                        print(error.localizedDescription)
+                    }
+                    
+                    collectionView.deleteItems(at: [indexPath])
+                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                        self.collectionView.reloadData()
+                    }
+                    
+                }
+                
+                alert.addAction(cancelAction)
+                alert.addAction(deleteAction)
+                
+                self.present(alert, animated: true)
+                
+            }
+            
+            cell.mainImageView.image = UIImage(data: (self.collectionViewData?[indexPath.row - 1].image)!)
+            cell.showDeleteButton(self.isDeleteMode)
         }
         return cell
     }
@@ -158,8 +211,21 @@ extension ProgressViewController: UICollectionViewDelegate, UICollectionViewData
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         if indexPath.row == 0 {
+            
+            if isDeleteMode {
+                isDeleteMode = false
+                self.collectionView.reloadData()
+            }
+            
             super.takePhoto()
         } else {
+            
+            guard !isDeleteMode else {
+                isDeleteMode = false
+                self.collectionView.reloadData()
+                return
+            }
+            
             self.tabBarController?.tabBar.isHidden = true
             let cell = collectionView.cellForItem(at: indexPath) as! ProgressCollectionViewCell
             
@@ -173,6 +239,7 @@ extension ProgressViewController: UICollectionViewDelegate, UICollectionViewData
             UIView.transition(with: self.view, duration: 0.25, options: [.transitionCrossDissolve], animations: {
                 self.view.addSubview(popup.view)
             }, completion: nil)
+            
         }
     }
     
@@ -187,4 +254,4 @@ extension ProgressViewController: UICollectionViewDelegate, UICollectionViewData
  //     \{o o}/
  //      =\o/=
  //       ^ ^
-*/
+ */

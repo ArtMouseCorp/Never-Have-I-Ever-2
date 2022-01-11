@@ -82,6 +82,7 @@
 // MARK: - Alerts
 
 "alert.action.cancel"               = "Peruuta";
+"alert.action.delete"               = "Poista";
 "alert.action.ok"                   = "Ok";
 "alert.action.yes"                  = "Kyllä";
 
@@ -100,3 +101,6 @@
 "alert.mail.title"                  = "Postipalvelut eivät ole käytettävissä";
 
 "alert.loading.message"             = "Odota...";
+
+"alert.delete.title"                = "Haluatko varmasti poistaa tämän?";
+"alert.delete.message"              = "Tätä ei voi peruuttaa";

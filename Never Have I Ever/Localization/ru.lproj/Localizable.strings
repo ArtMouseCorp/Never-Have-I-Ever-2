@@ -92,6 +92,7 @@
 // MARK: - Alerts
 
 "alert.action.cancel"               = "Отменить";
+"alert.action.delete"               = "Удалить";
 "alert.action.ok"                   = "Ок";
 "alert.action.yes"                  = "Да";
 
@@ -110,3 +111,6 @@
 "alert.mail.title"                  = "Почтовые службы не доступны";
 
 "alert.loading.message"             = "Минуточку...";
+
+"alert.delete.title"                = "Вы уверены, что хотите удалить это?";
+"alert.delete.message"              = "Это не может быть отменено";

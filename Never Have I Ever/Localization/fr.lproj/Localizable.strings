@@ -92,6 +92,7 @@
 // MARK: - Alerts
 
 "alert.action.cancel"               = "Annuler";
+"alert.action.delete"               = "Supprimer";
 "alert.action.ok"                   = "Ok";
 "alert.action.yes"                  = "Oui";
 
@@ -110,3 +111,6 @@
 "alert.mail.title"                  = "Les services de courrier ne sont pas disponibles";
 
 "alert.loading.message"             = "Veuillez patienter...";
+
+"alert.delete.title"                = "Êtes-vous sûr de vouloir supprimer cet élément ?";
+"alert.delete.message"              = "Ceci ne peut pas être annulé";

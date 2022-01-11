@@ -82,6 +82,7 @@
 // MARK: - Alerts
 
 "alert.action.cancel"               = "Avbryt";
+"alert.action.delete"               = "Ta bort";
 "alert.action.ok"                   = "Ok";
 "alert.action.yes"                  = "Ja";
 
@@ -100,3 +101,6 @@
 "alert.mail.title"                  = "Posttjänsterna är inte tillgängliga";
 
 "alert.loading.message"             = "Vänligen vänta...";
+
+"alert.delete.title"                = "Är du säker på att du vill radera detta?";
+"alert.delete.message"              = "Detta kan inte ångras";

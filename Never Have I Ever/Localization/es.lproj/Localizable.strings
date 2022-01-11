@@ -92,6 +92,7 @@
 // MARK: - Alerts
 
 "alert.action.cancel"               = "Cancelar";
+"alert.action.delete"               = "Borrar";
 "alert.action.ok"                   = "Ok";
 "alert.action.yes"                  = "Sí";
 
@@ -110,3 +111,6 @@
 "alert.mail.title"                  = "Los servicios de correo no están disponibles";
 
 "alert.loading.message"             = "Por favor, espere...";
+
+"alert.delete.title"                = "¿Estás seguro de que quieres borrar esto?";
+"alert.delete.message"              = "Esto no se puede deshacer";

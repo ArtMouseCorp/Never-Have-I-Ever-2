@@ -82,6 +82,7 @@
 // MARK: - Alerts
 
 "alert.action.cancel"               = "Annuleren";
+"alert.action.delete"               = "Verwijderen";
 "alert.action.ok"                   = "Ok";
 "alert.action.yes"                  = "Ja";
 
@@ -100,3 +101,6 @@
 "alert.mail.title"                  = "Mail services zijn niet beschikbaar";
 
 "alert.loading.message"             = "Wacht alstublieft...";
+
+"alert.delete.title"                = "Weet u zeker dat u dit wilt verwijderen?";
+"alert.delete.message"              = "Dit kan niet ongedaan gemaakt worden";

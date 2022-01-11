@@ -82,6 +82,7 @@
 // MARK: - Alerts
 
 "alert.action.cancel"               = "取消";
+"alert.action.delete"               = "删除";
 "alert.action.ok"                   = "好的";
 "alert.action.yes"                  = "是的";
 
@@ -100,3 +101,6 @@
 "alert.mail.title"                  = "邮件服务不可用";
 
 "alert.loading.message"             = "请等待...";
+
+"alert.delete.title"                = "你确定你要删除这个吗？";
+"alert.delete.message"              = "这不能被撤销";
