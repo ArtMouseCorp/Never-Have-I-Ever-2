@@ -346,6 +346,24 @@
                 "given a sexy massage to a man I did not know.",
                 "travelled to a foreign country without a packet of condoms."
             ]
+        },
+        {
+            "id": 7,
+            "name": "Wow!",
+            "image": "wow",
+            "description": "Amazing pastime!",
+            "tasks": [
+                
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Custom",
+            "image": "custom",
+            "description": "Create your tasks!",
+            "tasks": [
+                
+            ]
         }
     ]
 }

@@ -6,6 +6,8 @@ public enum Cell: String {
     case levelTable         = "LevelTableViewCell"
     case language           = "LanguageTableViewCell"
     case customTask         = "CustomTaskTableViewCell"
+    case progressImages     = "ProgressCollectionViewCell"
+    case jokes              = "JokesTableViewCell"
     
 }
 

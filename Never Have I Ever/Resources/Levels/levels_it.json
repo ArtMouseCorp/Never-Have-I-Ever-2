@@ -347,6 +347,24 @@
                 "fatto un massaggio sexy a un uomo che non conosceva.",
                 "viaggiato in un paese straniero senza un pacchetto di preservativi."
             ]
+        },
+        {
+            "id": 7,
+            "name": "Wow!",
+            "image": "wow",
+            "description": "Passatempo incredibile!",
+            "tasks": [
+                
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Custom",
+            "image": "custom",
+            "description": "Crea i tuoi compiti!",
+            "tasks": [
+                
+            ]
         }
     ]
 }

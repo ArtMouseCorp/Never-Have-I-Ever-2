@@ -1,0 +1,40 @@
+{
+    "jokes": [
+        {
+            "id": 1,
+            "title": "Idiot au gymnase",
+            "image": "jokes.1",
+            "text": "Je viens de voir un idiot à la salle de gym... Il a mis une bouteille d'eau dans le support à Pringles sur le tapis de course !"
+        },
+        {
+            "id": 2,
+            "title": "Examen MCAT",
+            "image": "jokes.2",
+            "text": "Après un examen de MCAT, un père demande à son fils : \"Comment ça s'est passé, fiston ?\". Le jeune homme, l'air plutôt réprobateur, répond : \"Ça s'est bien passé papa. En fait, ça s'est tellement bien passé que je vais le repasser l'année prochaine.\""
+        },
+        {
+            "id": 3,
+            "title": "Je peux me garer ici ?",
+            "image": "jokes.3",
+            "text": "Un homme s'arrête sur le trottoir et demande au policier : \"Je peux me garer ici ?\"\n\"Non\", répond le policier.\n\"Et toutes ces autres voitures ?\"\n\"Elles n'ont pas demandé !\""
+        },
+        {
+            "id": 4,
+            "title": "Spectacle de talents",
+            "image": "jokes.4",
+            "text": "Père : Pourquoi as-tu reçu cette médaille ?\nRingo : Pour avoir chanté.\nPère : Pourquoi as-tu reçu cette grosse médaille ?\nRingo : Pour s'être arrêté."
+        },
+        {
+            "id": 5,
+            "title": "Horoscope",
+            "image": "jokes.5",
+            "text": "Mon horoscope disait que j'allais avoir le cœur brisé dans 12 ans... Alors j'ai acheté un chiot pour me remonter le moral."
+        },
+        {
+            "id": 6,
+            "title": "Saved a friend",
+            "image": "jokes.6",
+            "text": "Qu'est-ce qui t'a poussé à aller sur cette dangereuse étendue de glace et à risquer ta vie pour sauver un ami ? Je devais le faire. Il avait mes patins."
+        }
+    ]
+}

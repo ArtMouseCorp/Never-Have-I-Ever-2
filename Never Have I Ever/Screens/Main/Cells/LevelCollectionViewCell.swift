@@ -30,14 +30,13 @@ class LevelCollectionViewCell: UICollectionViewCell {
     // MARK: - Custom functions
     
     public func configure(with level: Level, selected: Bool) {
-        
         self.level = level
         
         levelNameLabel.text = level.name
         levelImageView.image = UIImage(named: level.image)
         
-        cellBackgroundView.roundCorners(radius: 15)
-        cellBackgroundView.setBorder(width: 1, color: selected ? .NHOrange : .NHDarkGray)
+        cellBackgroundView.roundCorners(radius: 24)
+        cellBackgroundView.setBorder(width: 2, color: selected ? .NHOrange : .NHDarkGray)
         
         checkboxImageView.image = selected ? .Icons.checkedCircle : .Icons.emptyCircle
     }
@@ -47,7 +46,7 @@ class LevelCollectionViewCell: UICollectionViewCell {
     }
     
     public func select(_ select: Bool = true) {
-        cellBackgroundView.setBorder(width: 1, color: select ? .NHOrange : .NHDarkGray)
+        cellBackgroundView.setBorder(width: 2, color: select ? .NHOrange : .NHDarkGray)
         checkboxImageView.image = select ? .Icons.checkedCircle : .Icons.emptyCircle
     }
     
@@ -67,4 +66,4 @@ class LevelCollectionViewCell: UICollectionViewCell {
  //     \{o o}/
  //      =\o/=
  //       ^ ^
- */
+*/

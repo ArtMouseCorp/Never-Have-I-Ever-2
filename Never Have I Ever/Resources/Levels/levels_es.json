@@ -344,8 +344,26 @@
                 "entregado a un funky juego de roles.",
                 "dormido con una prostituta para una sesión realmente pervertida.",
                 "tenido más de un orgasmo en una sesión de un solo sexo.",
-                "dado  un masaje sexy a un hombre que no conocía.",
+                "dado un masaje sexy a un hombre que no conocía.",
                 "viajado a un país extranjero sin un paquete de condones."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Wow!",
+            "image": "wow",
+            "description": "¡Pasatiempo increíble!",
+            "tasks": [
+                
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Custom",
+            "image": "custom",
+            "description": "¡Crea tus tareas!",
+            "tasks": [
+                
             ]
         }
     ]

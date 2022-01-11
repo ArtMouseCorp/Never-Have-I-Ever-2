@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "menu-jokes.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

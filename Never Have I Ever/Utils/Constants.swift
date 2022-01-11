@@ -5,6 +5,8 @@ let userDefaults = UserDefaults.standard
 enum UDKeys {
     static let appLaunchCount: String           = "appLaunchCount"
     static let language: String                 = "language"
+    static let shownTasks: String               = "shownTasks"
+    static let createdTasks: String             = "createdTasks"
 }
 
 enum AmplitudeEvent {

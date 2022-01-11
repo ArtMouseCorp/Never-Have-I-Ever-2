@@ -347,6 +347,24 @@
                 "donné un massage sexy à un homme qu'elle ne connaissait pas.",
                 "voyagé dans un pays étranger sans emballage de préservatifs."
             ]
+        },
+        {
+            "id": 7,
+            "name": "Wow!",
+            "image": "wow",
+            "description": "Passe-temps incroyable!",
+            "tasks": [
+                
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Custom",
+            "image": "custom",
+            "description": "Créez vos tâches!",
+            "tasks": [
+                
+            ]
         }
     ]
 }

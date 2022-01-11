@@ -347,6 +347,24 @@
                 "einem Mann, den sie nicht kannte, eine sexy Massage gegeben.",
                 "ohne Kondompaket ins Ausland gereist."
             ]
+        },
+        {
+            "id": 7,
+            "name": "Wow!",
+            "image": "wow",
+            "description": "Erstaunlicher zeitvertreib!",
+            "tasks": [
+                
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Custom",
+            "image": "custom",
+            "description": "Erstellen sie ihre aufgaben!",
+            "tasks": [
+                
+            ]
         }
     ]
 }

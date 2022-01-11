@@ -1,0 +1,40 @@
+{
+    "jokes": [
+        {
+            "id": 1,
+            "title": "Idiota en el gimnasio",
+            "image": "jokes.1",
+            "text": "Acabo de ver a un idiota en el gimnasio... ¡Puso una botella de agua en el soporte de las Pringles en la cinta de correr!"
+        },
+        {
+            "id": 2,
+            "title": "Examen MCAT",
+            "image": "jokes.2",
+            "text": "Después de un examen MCAT, un padre le pregunta a su hijo: \"¿Cómo te fue, hijo?\". El joven, con cara de reproche, responde: \"Me fue bien, papá. De hecho, ha ido tan bien que volveré a presentarlo el año que viene.\""
+        },
+        {
+            "id": 3,
+            "title": "¿Puedo aparcar aquí?",
+            "image": "jokes.3",
+            "text": "Un hombre se acerca a la acera y le pregunta al policía: \"¿Puedo aparcar aquí?\"\n\"No\", dice el policía.\n\"¿Y qué pasa con los demás coches?\"\n\"¡No han preguntado!\""
+        },
+        {
+            "id": 4,
+            "title": "Concurso de talentos",
+            "image": "jokes.4",
+            "text": "Padre: ¿Por qué te dieron esa medalla?\nRingo: Por cantar.\nPadre: ¿Por qué te dieron esa gran medalla?\nRingo: Por parar."
+        },
+        {
+            "id": 5,
+            "title": "Horóscopo",
+            "image": "jokes.5",
+            "text": "Mi horóscopo decía que me iban a romper el corazón dentro de 12 años... Así que me compré un cachorro para animarme."
+        },
+        {
+            "id": 6,
+            "title": "Salvó a un amigo",
+            "image": "jokes.6",
+            "text": "Reportero: ¿Qué te hizo salir a ese peligroso estanque de hielo y arriesgar tu vida para salvar a un amigo? Tenía mis patines puestos."
+        }
+    ]
+}

@@ -6,6 +6,8 @@ public enum Popup: String, StoryboardScreen {
     case customTasks    = "CustomTasksPopup"
     case customTask     = "CustomTaskPopup"
     case quit           = "QuitPopup"
+    case image          = "ImagePopup"
+    case demoImage      = "DemoImagePopup"
 }
 
 extension Popup {

@@ -1,0 +1,40 @@
+{
+	"jokes": [
+		{
+			"id": 1,
+			"title": "Idiot at the gym",
+			"image": "jokes.1",
+			"text": "I just saw some idiot at the gym… He put a water bottle in the Pringles holder on the treadmill!"
+		},
+		{
+			"id": 2,
+			"title": "MCAT exam",
+			"image": "jokes.2",
+			"text": "After an MCAT exam, a father asks his son, \"How did it go son?\". Young man, looking rather reproachful, replied, \"It went well dad. In fact, it went so well that I will retake it again next year.\""
+		},
+		{
+			"id": 3,
+			"title": "Can I park here?",
+			"image": "jokes.3",
+			"text": "A man pulls up to the curb and asks the policeman, \"Can I park here?\"\n\"No,\" says the cop.\n\"What about all these other cars?\"\n\"They didn't ask!\""
+		},
+		{
+			"id": 4,
+			"title": "Talent Show",
+			"image": "jokes.4",
+			"text": "Father: What did you get that medal for?\nRingo: For singing.\nFather: What did you get that big medal for?\nRingo: For stopping."
+		},
+		{
+			"id": 5,
+			"title": "Horoscope",
+			"image": "jokes.5",
+			"text": "My horoscope said I was going to get my heart broken in 12 years time… So I bought a puppy to cheer me up."
+		},
+		{
+			"id": 6,
+			"title": "Saved a friend",
+			"image": "jokes.6",
+			"text": "Reporter: What made you go out on that dangerous pond ice and risk your life to save a friend?\nBoy: I had to do it. He had my skates on."
+		}
+	]
+}

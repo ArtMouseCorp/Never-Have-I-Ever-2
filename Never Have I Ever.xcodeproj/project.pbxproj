@@ -74,6 +74,22 @@
 		28B27DD127282F6F00776234 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B27DD027282F6F00776234 /* GoogleService-Info.plist */; };
 		28B34121275D306300FA0A3F /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B34120275D306300FA0A3F /* SubscriptionViewController.swift */; };
 		4A1B6E14277760D10044B85A /* ChristmasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1B6E13277760D10044B85A /* ChristmasViewController.swift */; };
+		4A6F7A03278CBD0600DAAE38 /* DemoImagePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F7A02278CBD0600DAAE38 /* DemoImagePopup.swift */; };
+		4A6F7A05278CCA1C00DAAE38 /* JokesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F7A04278CCA1C00DAAE38 /* JokesTableViewCell.swift */; };
+		4A6F7A07278CCCD300DAAE38 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F7A06278CCCD300DAAE38 /* Joke.swift */; };
+		4A6F7A0F278CCDEF00DAAE38 /* jokes_fr.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F7A09278CCDEE00DAAE38 /* jokes_fr.json */; };
+		4A6F7A10278CCDEF00DAAE38 /* jokes_en.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F7A0A278CCDEE00DAAE38 /* jokes_en.json */; };
+		4A6F7A11278CCDEF00DAAE38 /* jokes_es.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F7A0B278CCDEE00DAAE38 /* jokes_es.json */; };
+		4A6F7A12278CCDEF00DAAE38 /* jokes_it.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F7A0C278CCDEE00DAAE38 /* jokes_it.json */; };
+		4A6F7A13278CCDEF00DAAE38 /* jokes_ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F7A0D278CCDEE00DAAE38 /* jokes_ru.json */; };
+		4A6F7A14278CCDEF00DAAE38 /* jokes_de.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A6F7A0E278CCDEF00DAAE38 /* jokes_de.json */; };
+		4A6F7A17278CE00700DAAE38 /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6F7A16278CE00700DAAE38 /* JokeViewController.swift */; };
+		4AD66BEE278BA43900098843 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66BED278BA43900098843 /* TabBarController.swift */; };
+		4AD66BF0278C5AFE00098843 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66BEF278C5AFE00098843 /* ProgressViewController.swift */; };
+		4AD66BF2278C5B7100098843 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66BF1278C5B7100098843 /* JokesViewController.swift */; };
+		4AD66BF6278C683300098843 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66BF4278C683300098843 /* ProgressCollectionViewCell.swift */; };
+		4AD66BF7278C683300098843 /* ProgressCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD66BF5278C683300098843 /* ProgressCollectionViewCell.xib */; };
+		4AD66C01278C6D5500098843 /* ImagePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD66C00278C6D5500098843 /* ImagePopup.swift */; };
 		94E2F2EF927930CBA5AB09B9 /* Pods_Never_Have_I_Ever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */; };
 /* End PBXBuildFile section */
 
@@ -174,6 +190,22 @@
 		38EE78F739D8C4E92A54353E /* Pods-Never Have I Ever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.debug.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.debug.xcconfig"; sourceTree = "<group>"; };
 		402BCDC6EE9D4594964B2E6A /* Pods-Never Have I Ever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Never Have I Ever.release.xcconfig"; path = "Target Support Files/Pods-Never Have I Ever/Pods-Never Have I Ever.release.xcconfig"; sourceTree = "<group>"; };
 		4A1B6E13277760D10044B85A /* ChristmasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasViewController.swift; sourceTree = "<group>"; };
+		4A6F7A02278CBD0600DAAE38 /* DemoImagePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImagePopup.swift; sourceTree = "<group>"; };
+		4A6F7A04278CCA1C00DAAE38 /* JokesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesTableViewCell.swift; sourceTree = "<group>"; };
+		4A6F7A06278CCCD300DAAE38 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		4A6F7A09278CCDEE00DAAE38 /* jokes_fr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jokes_fr.json; sourceTree = "<group>"; };
+		4A6F7A0A278CCDEE00DAAE38 /* jokes_en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jokes_en.json; sourceTree = "<group>"; };
+		4A6F7A0B278CCDEE00DAAE38 /* jokes_es.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jokes_es.json; sourceTree = "<group>"; };
+		4A6F7A0C278CCDEE00DAAE38 /* jokes_it.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jokes_it.json; sourceTree = "<group>"; };
+		4A6F7A0D278CCDEE00DAAE38 /* jokes_ru.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jokes_ru.json; sourceTree = "<group>"; };
+		4A6F7A0E278CCDEF00DAAE38 /* jokes_de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jokes_de.json; sourceTree = "<group>"; };
+		4A6F7A16278CE00700DAAE38 /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		4AD66BED278BA43900098843 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4AD66BEF278C5AFE00098843 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		4AD66BF1278C5B7100098843 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		4AD66BF4278C683300098843 /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		4AD66BF5278C683300098843 /* ProgressCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressCollectionViewCell.xib; sourceTree = "<group>"; };
+		4AD66C00278C6D5500098843 /* ImagePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePopup.swift; sourceTree = "<group>"; };
 		6A04C38DB0B25D9B7C44F23C /* Pods_Never_Have_I_Ever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Never_Have_I_Ever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE581F1EEAF0F52583B3E451 /* Pods_FirebaseNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -232,6 +264,7 @@
 				28AD80C3271A3B1900D4999E /* Never Have I Ever.entitlements */,
 				28AD8072271A30B900D4999E /* Assets.xcassets */,
 				28AD8086271A316B00D4999E /* Application */,
+				4AD66BF8278C6B6300098843 /* CoreData */,
 				28AD8085271A314E00D4999E /* Extensions */,
 				28AD807E271A30E900D4999E /* Localization */,
 				28AD8081271A30F700D4999E /* Model */,
@@ -292,6 +325,7 @@
 				2822D5F52722DFD7003EA8BC /* Task.swift */,
 				28AD80E4271B1DC000D4999E /* Language.swift */,
 				2822D5D527229F73003EA8BC /* SubscriptionConfig.swift */,
+				4A6F7A06278CCCD300DAAE38 /* Joke.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -299,6 +333,7 @@
 		28AD8082271A30FA00D4999E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4A6F7A08278CCDBC00DAAE38 /* Jokes */,
 				2857719E271C55F200CBEDB0 /* Levels */,
 				28AD8083271A310200D4999E /* Fonts */,
 				2822D5D3272297A8003EA8BC /* subscriptionPage.json */,
@@ -366,15 +401,10 @@
 		28AD80A1271A332500D4999E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				28AD80C4271A3B7100D4999E /* LoadingViewController.swift */,
-				28AD80C6271A3B7E00D4999E /* HomeViewController.swift */,
-				28AD80C8271A3B8900D4999E /* SettingsViewConrtoller.swift */,
-				28AD80CA271A3B9A00D4999E /* ManualViewConrtoller.swift */,
-				28AD80CC271A3BA300D4999E /* GameViewController.swift */,
-				28AD80CE271A3BB000D4999E /* GameOverViewController.swift */,
-				28AD80D0271A3BBB00D4999E /* SubscriptionViewConrtollerOld.swift */,
-				28B34120275D306300FA0A3F /* SubscriptionViewController.swift */,
-				4A1B6E13277760D10044B85A /* ChristmasViewController.swift */,
+				4A6F7A18278CFBD100DAAE38 /* Enter Point */,
+				4A6F7A19278CFBF700DAAE38 /* Main */,
+				4A6F7A1A278CFC3400DAAE38 /* Progress */,
+				4A6F7A15278CDFDB00DAAE38 /* Jokes */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -386,6 +416,8 @@
 				28AD80D6271A3C9900D4999E /* CustomTasksPopup.swift */,
 				28AD80D8271A3CA400D4999E /* CustomTaskPopup.swift */,
 				288A845F27648FE500E17E16 /* QuitPopup.swift */,
+				4AD66C00278C6D5500098843 /* ImagePopup.swift */,
+				4A6F7A02278CBD0600DAAE38 /* DemoImagePopup.swift */,
 			);
 			path = Popups;
 			sourceTree = "<group>";
@@ -393,10 +425,12 @@
 		28AD80A3271A333000D4999E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				4AD66BF3278C681500098843 /* ProgressCell */,
 				28AD80DA271AEF6900D4999E /* LevelCollectionViewCell.swift */,
 				28AD80E6271B204700D4999E /* LanguageTableViewCell.swift */,
 				2857719C271C3AEC00CBEDB0 /* CustomTaskTableViewCell.swift */,
 				285771A3271C680A00CBEDB0 /* LevelTableViewCell.swift */,
+				4A6F7A04278CCA1C00DAAE38 /* JokesTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -420,6 +454,76 @@
 				DE581F1EEAF0F52583B3E451 /* Pods_FirebaseNotificationServiceExtension.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6F7A08278CCDBC00DAAE38 /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				4A6F7A0E278CCDEF00DAAE38 /* jokes_de.json */,
+				4A6F7A0A278CCDEE00DAAE38 /* jokes_en.json */,
+				4A6F7A0B278CCDEE00DAAE38 /* jokes_es.json */,
+				4A6F7A09278CCDEE00DAAE38 /* jokes_fr.json */,
+				4A6F7A0C278CCDEE00DAAE38 /* jokes_it.json */,
+				4A6F7A0D278CCDEE00DAAE38 /* jokes_ru.json */,
+			);
+			path = Jokes;
+			sourceTree = "<group>";
+		};
+		4A6F7A15278CDFDB00DAAE38 /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				4AD66BF1278C5B7100098843 /* JokesViewController.swift */,
+				4A6F7A16278CE00700DAAE38 /* JokeViewController.swift */,
+			);
+			path = Jokes;
+			sourceTree = "<group>";
+		};
+		4A6F7A18278CFBD100DAAE38 /* Enter Point */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80C4271A3B7100D4999E /* LoadingViewController.swift */,
+				4AD66BED278BA43900098843 /* TabBarController.swift */,
+			);
+			path = "Enter Point";
+			sourceTree = "<group>";
+		};
+		4A6F7A19278CFBF700DAAE38 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80C6271A3B7E00D4999E /* HomeViewController.swift */,
+				28AD80CA271A3B9A00D4999E /* ManualViewConrtoller.swift */,
+				28AD80CC271A3BA300D4999E /* GameViewController.swift */,
+				28AD80CE271A3BB000D4999E /* GameOverViewController.swift */,
+				28AD80D0271A3BBB00D4999E /* SubscriptionViewConrtollerOld.swift */,
+				28B34120275D306300FA0A3F /* SubscriptionViewController.swift */,
+				4A1B6E13277760D10044B85A /* ChristmasViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4A6F7A1A278CFC3400DAAE38 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				28AD80C8271A3B8900D4999E /* SettingsViewConrtoller.swift */,
+				4AD66BEF278C5AFE00098843 /* ProgressViewController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		4AD66BF3278C681500098843 /* ProgressCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AD66BF4278C683300098843 /* ProgressCollectionViewCell.swift */,
+				4AD66BF5278C683300098843 /* ProgressCollectionViewCell.xib */,
+			);
+			path = ProgressCell;
+			sourceTree = "<group>";
+		};
+		4AD66BF8278C6B6300098843 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		DF1F1AACB0F7BF79C915F753 /* Pods */ = {
@@ -504,21 +608,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6F7A0F278CCDEF00DAAE38 /* jokes_fr.json in Resources */,
 				2822D5D82722B2EA003EA8BC /* levels_ru.json in Resources */,
 				2822D5DC2722B306003EA8BC /* levels_es.json in Resources */,
 				2822D5E02722B31D003EA8BC /* levels_fr.json in Resources */,
 				2822D5E82722B35B003EA8BC /* levels_zh.json in Resources */,
+				4A6F7A13278CCDEF00DAAE38 /* jokes_ru.json in Resources */,
 				2822D5DA2722B2F9003EA8BC /* levels_de.json in Resources */,
+				4AD66BF7278C683300098843 /* ProgressCollectionViewCell.xib in Resources */,
 				2822D5E42722B341003EA8BC /* levels_sv.json in Resources */,
 				2822D5DE2722B313003EA8BC /* levels_it.json in Resources */,
 				2822D5E92722C2F8003EA8BC /* Localizable.strings in Resources */,
+				4A6F7A10278CCDEF00DAAE38 /* jokes_en.json in Resources */,
 				28AD8076271A30B900D4999E /* LaunchScreen.storyboard in Resources */,
 				28AD8073271A30B900D4999E /* Assets.xcassets in Resources */,
 				2822D5D4272297A8003EA8BC /* subscriptionPage.json in Resources */,
 				28AD8071271A30B500D4999E /* Main.storyboard in Resources */,
+				4A6F7A12278CCDEF00DAAE38 /* jokes_it.json in Resources */,
 				2822D5E22722B32C003EA8BC /* levels_nl.json in Resources */,
 				285771A0271C560900CBEDB0 /* levels_en.json in Resources */,
 				2822D5E62722B350003EA8BC /* levels_fi.json in Resources */,
+				4A6F7A11278CCDEF00DAAE38 /* jokes_es.json in Resources */,
+				4A6F7A14278CCDEF00DAAE38 /* jokes_de.json in Resources */,
 				28B27DD127282F6F00776234 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -598,15 +709,19 @@
 				2857719D271C3AEC00CBEDB0 /* CustomTaskTableViewCell.swift in Sources */,
 				2822D5F62722DFD7003EA8BC /* Task.swift in Sources */,
 				28AD80DB271AEF6900D4999E /* LevelCollectionViewCell.swift in Sources */,
+				4AD66BEE278BA43900098843 /* TabBarController.swift in Sources */,
 				28AD808C271A322700D4999E /* SKProduct.swift in Sources */,
 				285771A4271C680A00CBEDB0 /* LevelTableViewCell.swift in Sources */,
+				4A6F7A17278CE00700DAAE38 /* JokeViewController.swift in Sources */,
 				28AD80D3271A3C0300D4999E /* BasePopupViewController.swift in Sources */,
 				28AD808A271A321700D4999E /* Array.swift in Sources */,
 				28AD806A271A30B500D4999E /* AppDelegate.swift in Sources */,
 				28AD80D5271A3C9000D4999E /* LevelPopup.swift in Sources */,
 				28AD80B6271A359200D4999E /* CoreDataManager.swift in Sources */,
+				4AD66BF6278C683300098843 /* ProgressCollectionViewCell.swift in Sources */,
 				28AD80C5271A3B7100D4999E /* LoadingViewController.swift in Sources */,
 				28AD8092271A327C00D4999E /* UIColor.swift in Sources */,
+				4AD66C01278C6D5500098843 /* ImagePopup.swift in Sources */,
 				28AD80AA271A33B100D4999E /* Storyboards.swift in Sources */,
 				28AD80D1271A3BBB00D4999E /* SubscriptionViewConrtollerOld.swift in Sources */,
 				28AD80BB271A363200D4999E /* State.swift in Sources */,
@@ -616,7 +731,9 @@
 				28AD80C7271A3B7E00D4999E /* HomeViewController.swift in Sources */,
 				28AD80A8271A339F00D4999E /* Cells.swift in Sources */,
 				28AD809A271A32BC00D4999E /* UINavigationController.swift in Sources */,
+				4A6F7A03278CBD0600DAAE38 /* DemoImagePopup.swift in Sources */,
 				28AD80BF271A39F500D4999E /* Popup.swift in Sources */,
+				4A6F7A05278CCA1C00DAAE38 /* JokesTableViewCell.swift in Sources */,
 				28AD80E7271B204700D4999E /* LanguageTableViewCell.swift in Sources */,
 				28AD80E5271B1DC000D4999E /* Language.swift in Sources */,
 				285771A2271C566600CBEDB0 /* NHButton.swift in Sources */,
@@ -630,11 +747,14 @@
 				4A1B6E14277760D10044B85A /* ChristmasViewController.swift in Sources */,
 				28AD8090271A326E00D4999E /* UICollectionView.swift in Sources */,
 				28AD80AC271A33BD00D4999E /* Main.swift in Sources */,
+				4AD66BF2278C5B7100098843 /* JokesViewController.swift in Sources */,
 				2822D5D627229F73003EA8BC /* SubscriptionConfig.swift in Sources */,
 				28AD80D7271A3C9900D4999E /* CustomTasksPopup.swift in Sources */,
 				28AD80B2271A343D00D4999E /* Config.swift in Sources */,
 				28AD80D9271A3CA400D4999E /* CustomTaskPopup.swift in Sources */,
+				4AD66BF0278C5AFE00098843 /* ProgressViewController.swift in Sources */,
 				28AD809E271A32F700D4999E /* UIView.swift in Sources */,
+				4A6F7A07278CCCD300DAAE38 /* Joke.swift in Sources */,
 				28AD8094271A328200D4999E /* UIFont.swift in Sources */,
 				28AD8098271A329900D4999E /* UILabel.swift in Sources */,
 				28AD80CF271A3BB000D4999E /* GameOverViewController.swift in Sources */,
@@ -812,7 +932,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ND5JNA6NP7;
+				DEVELOPMENT_TEAM = 95G2CDLKC7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -830,7 +950,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Everz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -848,7 +968,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ND5JNA6NP7;
+				DEVELOPMENT_TEAM = 95G2CDLKC7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Never Have I Ever/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Never Have I Ever";
@@ -866,7 +986,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.4.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Ever";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haverhavei.Never-Have-I-Everz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

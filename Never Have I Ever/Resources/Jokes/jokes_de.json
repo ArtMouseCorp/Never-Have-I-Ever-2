@@ -1,0 +1,40 @@
+{
+    "jokes": [
+        {
+            "id": 1,
+            "title": "Idiot in der Turnhalle",
+            "image": "jokes.1",
+            "text": "Ich habe gerade einen Idioten im Fitnessstudio gesehen... Er hat eine Wasserflasche in den Pringles-Halter auf dem Laufband gestellt!"
+        },
+        {
+            "id": 2,
+            "title": "MCAT-Prüfung",
+            "image": "jokes.2",
+            "text": "Nach einer MCAT-Prüfung fragt ein Vater seinen Sohn: \"Wie ist es gelaufen, mein Sohn?\". Der junge Mann, der ziemlich vorwurfsvoll dreinschaut, antwortet: \"Es lief gut, Papa. Es lief sogar so gut, dass ich die Prüfung nächstes Jahr wiederholen werde.\""
+        },
+        {
+            "id": 3,
+            "title": "Kann ich hier parken?",
+            "image": "jokes.3",
+            "text": "Ein Mann fährt an den Bordstein und fragt den Polizisten: \"Kann ich hier parken?\"\n\"Nein\", sagt der Polizist.\n \"Und was ist mit all den anderen Autos?\"\n\"Die haben nicht gefragt!\""
+        },
+        {
+            "id": 4,
+            "title": "Talentshow",
+            "image": "jokes.4",
+            "text": "Vater: Wofür hast du die Medaille bekommen?\nRingo: Fürs Singen.\nVater: Wofür hast du diese große Medaille bekommen?\nRingo: Fürs Anhalten."
+        },
+        {
+            "id": 5,
+            "title": "Horoskop",
+            "image": "jokes.5",
+            "text": "In meinem Horoskop stand, dass mir in 12 Jahren das Herz gebrochen werden würde... Also habe ich mir einen Welpen gekauft, um mich aufzumuntern."
+        },
+        {
+            "id": 6,
+            "title": "Einen Freund gerettet",
+            "image": "jokes.6",
+            "text": "Reporter: Was hat dich dazu gebracht, auf das gefährliche Eis des Teiches zu gehen und dein Leben zu riskieren, um einen Freund zu retten? Er hatte meine Schlittschuhe an."
+        }
+    ]
+}

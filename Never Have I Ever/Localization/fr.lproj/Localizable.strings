@@ -54,6 +54,15 @@
 "button.gameOver.repeat"            = "Jouez à nouveau";
 "button.gameOver.rate"              = "Notez-nous";
 
+// MARK: - Progress
+
+"label.progress.my"                         = "Mes progrès";
+"label.progress.description"                = "Pour de meilleurs résultats,\njouez tous les jours";
+"label.progress.gallery"                    = "Galerie";
+"button.progress.show.demo"                 = "Regarder une démo";
+"label.progress.card.unlocked"              = "Carte déverrouillée";
+"label.progress.card.created"               = "Carte personnalisée créée";
+
 // MARK: - Subscription
 
 "button.subscription.restore"       = "Restaurer les achats";

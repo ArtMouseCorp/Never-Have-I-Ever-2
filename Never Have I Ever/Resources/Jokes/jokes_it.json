@@ -1,0 +1,40 @@
+{
+    "jokes": [
+        {
+            "id": 1,
+            "title": "Idiota in palestra",
+            "image": "jokes.1",
+            "text": "Ho appena visto un idiota in palestra... Ha messo una bottiglia d'acqua nel porta Pringles sul tapis roulant!"
+        },
+        {
+            "id": 2,
+            "title": "Esame MCAT",
+            "image": "jokes.2",
+            "text": "Dopo un esame MCAT, un padre chiede al figlio: \"Com'è andata figliolo?\" Il giovane, con un'aria di rimprovero, risponde: \"È andato bene, papà. In effetti, è andato così bene che lo rifarò l'anno prossimo\"."
+        },
+        {
+            "id": 3,
+            "title": "Posso parcheggiare qui?",
+            "image": "jokes.3",
+            "text": "Un uomo si ferma sul marciapiede e chiede al poliziotto: \"Posso parcheggiare qui?\"\n\"No\", dice il poliziotto.\n\"E tutte queste altre macchine?\"\n\"Non l'hanno chiesto!\""
+        },
+        {
+            "id": 4,
+            "title": "Talent Show",
+            "image": "jokes.4",
+            "text": "Padre: Per cosa hai ricevuto quella medaglia?\nRingo: Per aver cantato.\nPadre: Per cosa hai ricevuto quella grande medaglia?\nRingo: Per essersi fermato."
+        },
+        {
+            "id": 5,
+            "title": "Oroscopo",
+            "image": "jokes.5",
+            "text": "Il mio oroscopo diceva che avrei avuto il cuore spezzato tra 12 anni... Così ho comprato un cucciolo per tirarmi su."
+        },
+        {
+            "id": 6,
+            "title": "Salvato un amico",
+            "image": "jokes.6",
+            "text": "Reporter: Cosa ti ha spinto ad uscire su quel pericoloso laghetto di ghiaccio e a rischiare la vita per salvare un amico? Aveva i miei pattini."
+        }
+    ]
+}

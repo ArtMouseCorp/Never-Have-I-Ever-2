@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G211" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ProgressImage" representedClassName="ProgressImage" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+    </entity>
     <entity name="TaskDB" representedClassName="TaskDB" syncable="YES" codeGenerationType="class">
         <attribute name="isSelected" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="levelId" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
@@ -7,5 +10,6 @@
     </entity>
     <elements>
         <element name="TaskDB" positionX="-36" positionY="9" width="128" height="74"/>
+        <element name="ProgressImage" positionX="-27" positionY="45" width="128" height="44"/>
     </elements>
 </model>

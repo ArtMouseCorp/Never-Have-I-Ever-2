@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProgressCollectionViewCell" id="Bgf-CI-uT4" customClass="ProgressCollectionViewCell" customModule="Face_Care" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5tV-4n-GDg">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="116"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zFo-K4-ufS">
+                                <rect key="frame" x="8" y="8" width="84" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Qch-2e-Q0D"/>
+                                    <constraint firstAttribute="width" constant="84" id="vCy-FQ-3Fp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="NH Black"/>
+                        <constraints>
+                            <constraint firstItem="zFo-K4-ufS" firstAttribute="top" secondItem="5tV-4n-GDg" secondAttribute="top" constant="8" id="4P9-h2-tXj"/>
+                            <constraint firstAttribute="trailing" secondItem="zFo-K4-ufS" secondAttribute="trailing" constant="8" id="QX4-rM-3NG"/>
+                            <constraint firstItem="zFo-K4-ufS" firstAttribute="leading" secondItem="5tV-4n-GDg" secondAttribute="leading" constant="8" id="fBk-eC-1KO"/>
+                            <constraint firstAttribute="bottom" secondItem="zFo-K4-ufS" secondAttribute="bottom" constant="8" id="mDh-p3-E0V"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="OBJ-uT-AmG"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="5tV-4n-GDg" secondAttribute="trailing" id="KFd-qA-PLD"/>
+                <constraint firstItem="5tV-4n-GDg" firstAttribute="leading" secondItem="Bgf-CI-uT4" secondAttribute="leading" id="l7w-Lh-v5D"/>
+                <constraint firstAttribute="bottom" secondItem="5tV-4n-GDg" secondAttribute="bottom" id="s8g-ik-u3E"/>
+                <constraint firstItem="5tV-4n-GDg" firstAttribute="top" secondItem="Bgf-CI-uT4" secondAttribute="top" id="zx2-uD-XXW"/>
+            </constraints>
+            <size key="customSize" width="100" height="116"/>
+            <connections>
+                <outlet property="mainImageView" destination="zFo-K4-ufS" id="osY-RW-IPF"/>
+                <outlet property="underImageView" destination="5tV-4n-GDg" id="9fn-Aa-cxa"/>
+            </connections>
+            <point key="canvasLocation" x="50.724637681159422" y="110.49107142857143"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="NH Black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

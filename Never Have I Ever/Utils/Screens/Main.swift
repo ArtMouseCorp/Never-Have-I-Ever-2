@@ -1,7 +1,8 @@
 import UIKit
 
 public enum Main: String, StoryboardScreen {
-    
+        
+    case tabBar         = "TabBarController"
     case loading        = "LoadingViewController"
     case homeNav        = "HomeNavigationController"
     case home           = "HomeViewController"
@@ -11,6 +12,9 @@ public enum Main: String, StoryboardScreen {
     case gameover       = "GameOverViewController"
     case subscription   = "SubscriptionViewController"
     case christmas      = "ChristmasViewController"
+    case jokes          = "JokesViewController"
+    case progress       = "ProgressViewController"
+    case joke           = "JokeViewController"
 }
 
 extension Main {

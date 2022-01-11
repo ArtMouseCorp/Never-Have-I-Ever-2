@@ -54,6 +54,15 @@
 "button.gameOver.repeat"            = "Еще партейку?";
 "button.gameOver.rate"              = "Оцените нас";
 
+// MARK: - Progress
+
+"label.progress.my"                         = "Мой прогресс";
+"label.progress.description"                = "Для достижения наилучш\nрезультатов играйте каждый день.";
+"label.progress.gallery"                    = "Галерея";
+"button.progress.show.demo"                 = "Смотрите демонстрацию";
+"label.progress.card.unlocked"              = "Карт разблокировано";
+"label.progress.card.created"               = "Создано своих карт";
+
 // MARK: - Subscription
 
 "button.subscription.restore"       = "Восстановить покупки";

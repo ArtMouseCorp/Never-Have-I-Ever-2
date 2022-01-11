@@ -14,6 +14,8 @@ class State {
     private var appLaunch: Int = 0
     public var isSubscribed: Bool = false
     
+    public var shownTasks: [String] = []
+    
     public var subscriptionConfig: SubscriptionConfig = .default
     
     public var selectedLevels: [Level] = []
@@ -44,7 +46,7 @@ class State {
     
     public func setLanguage(to languageCode: Language.Code) {
         userDefaults.set(languageCode.rawValue, forKey: UDKeys.language)
-        
+        Joke.getAll()
         SubscriptionConfig.get()
         Level.get()
     }
