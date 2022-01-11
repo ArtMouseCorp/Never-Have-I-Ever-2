@@ -21,7 +21,7 @@ class HomeViewController: BaseViewController {
     
     // MARK: - Variables
     
-    let cellWidth = (UIScreen.main.bounds.width / 2) - 24
+    let cellWidth = UIScreen.main.bounds.width - 64
     var customTasks: [TaskDB] = []
     
     // MARK: - Awake functions
@@ -241,7 +241,7 @@ extension HomeViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 0, left: 16, bottom: 90, right: 16)
+        return UIEdgeInsets(top: 0, left: 0, bottom: 90, right: 0)
     }
     
 }

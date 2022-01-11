@@ -684,39 +684,42 @@
                                 <rect key="frame" x="0.0" y="160" width="414" height="653"/>
                                 <color key="backgroundColor" name="NH Black"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="F4R-fq-ayR">
-                                    <size key="itemSize" width="173" height="171"/>
+                                    <size key="itemSize" width="318" height="284"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="LevelCollectionViewCell" id="sFg-j4-WIj" customClass="LevelCollectionViewCell" customModule="Never_Have_I_Ever" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="173" height="171"/>
+                                        <rect key="frame" x="48" y="0.0" width="318" height="284"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="2xb-Hw-jqk">
-                                            <rect key="frame" x="0.0" y="0.0" width="173" height="171"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="318" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQT-jZ-dTG">
-                                                    <rect key="frame" x="0.0" y="0.0" width="173" height="171"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="318" height="284"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sexy" translatesAutoresizingMaskIntoConstraints="NO" id="yRx-8Q-nCs">
-                                                            <rect key="frame" x="12" y="12" width="149" height="121"/>
+                                                            <rect key="frame" x="12" y="12" width="294" height="198"/>
                                                         </imageView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPH-GP-M6Q">
-                                                            <rect key="frame" x="0.0" y="133" width="173" height="38"/>
+                                                            <rect key="frame" x="0.0" y="210" width="318" height="74"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sexy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="3W3-5s-495">
-                                                                    <rect key="frame" x="65.5" y="7" width="42.5" height="23"/>
-                                                                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
+                                                                    <rect key="frame" x="121.5" y="18" width="75" height="38"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="38" id="LIk-Aa-hpC"/>
+                                                                    </constraints>
+                                                                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="32"/>
                                                                     <color key="textColor" name="NH White"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkbox.unchecked" translatesAutoresizingMaskIntoConstraints="NO" id="cst-xg-ZDP">
-                                                                    <rect key="frame" x="145" y="11" width="16" height="16"/>
+                                                                    <rect key="frame" x="270" y="22" width="30" height="30"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="width" constant="16" id="WYE-JL-8BC"/>
-                                                                        <constraint firstAttribute="height" constant="16" id="ocF-5G-1dJ"/>
+                                                                        <constraint firstAttribute="width" constant="30" id="WYE-JL-8BC"/>
+                                                                        <constraint firstAttribute="height" constant="30" id="ocF-5G-1dJ"/>
                                                                     </constraints>
                                                                 </imageView>
                                                             </subviews>
@@ -724,12 +727,11 @@
                                                             <constraints>
                                                                 <constraint firstItem="3W3-5s-495" firstAttribute="centerX" secondItem="jPH-GP-M6Q" secondAttribute="centerX" id="3xZ-D9-NfU"/>
                                                                 <constraint firstItem="3W3-5s-495" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jPH-GP-M6Q" secondAttribute="leading" constant="21" id="AkX-wZ-7gb"/>
-                                                                <constraint firstAttribute="bottom" secondItem="3W3-5s-495" secondAttribute="bottom" constant="8" id="CnZ-N2-T3K"/>
-                                                                <constraint firstItem="3W3-5s-495" firstAttribute="top" secondItem="jPH-GP-M6Q" secondAttribute="top" constant="7" id="Tjp-67-cCt"/>
-                                                                <constraint firstAttribute="trailing" secondItem="cst-xg-ZDP" secondAttribute="trailing" constant="12" id="jQY-cb-bxk"/>
-                                                                <constraint firstItem="cst-xg-ZDP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3W3-5s-495" secondAttribute="trailing" constant="5" id="leq-f1-Qc3"/>
-                                                                <constraint firstAttribute="height" constant="38" id="ulk-lY-Z1N"/>
+                                                                <constraint firstAttribute="bottom" secondItem="3W3-5s-495" secondAttribute="bottom" constant="18" id="CnZ-N2-T3K"/>
+                                                                <constraint firstItem="3W3-5s-495" firstAttribute="top" secondItem="jPH-GP-M6Q" secondAttribute="top" constant="18" id="Tjp-67-cCt"/>
+                                                                <constraint firstItem="cst-xg-ZDP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="3W3-5s-495" secondAttribute="trailing" constant="12" id="leq-f1-Qc3"/>
                                                                 <constraint firstItem="cst-xg-ZDP" firstAttribute="centerY" secondItem="jPH-GP-M6Q" secondAttribute="centerY" id="xlF-20-fOB"/>
+                                                                <constraint firstAttribute="trailing" secondItem="cst-xg-ZDP" secondAttribute="trailing" constant="18" id="zAQ-mH-s5u"/>
                                                             </constraints>
                                                         </view>
                                                     </subviews>
@@ -752,7 +754,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="lQT-jZ-dTG" secondAttribute="trailing" id="mbC-S7-iIB"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="173" height="171"/>
+                                        <size key="customSize" width="318" height="284"/>
                                         <connections>
                                             <outlet property="bottomTapView" destination="jPH-GP-M6Q" id="Xp9-7p-npR"/>
                                             <outlet property="cellBackgroundView" destination="lQT-jZ-dTG" id="cIi-vG-XYX"/>
@@ -832,7 +834,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s3b-jX-URG">
-                                <rect key="frame" x="30" y="205.5" width="354" height="485"/>
+                                <rect key="frame" x="30" y="195" width="354" height="506"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Couple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKo-QR-tl7">
                                         <rect key="frame" x="116" y="30" width="122" height="41"/>
@@ -841,10 +843,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="couple" translatesAutoresizingMaskIntoConstraints="NO" id="XWY-vC-UWS">
-                                        <rect key="frame" x="82.5" y="81" width="189" height="232"/>
+                                        <rect key="frame" x="73.5" y="81" width="207" height="253"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HtN-oc-ehA">
-                                        <rect key="frame" x="16" y="333" width="322" height="54"/>
+                                        <rect key="frame" x="16" y="354" width="322" height="54"/>
                                         <string key="text">Возьмите друзей и сядьте в круг.
 (или станьте, или не в круг, всем наплевать).</string>
                                         <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="16"/>
@@ -852,7 +854,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoR-V3-gDE" customClass="NHButton" customModule="Never_Have_I_Ever" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="417" width="322" height="52"/>
+                                        <rect key="frame" x="16" y="438" width="322" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="52" id="Tih-on-KXS"/>
                                         </constraints>
@@ -3084,7 +3086,7 @@ then 5,99$ / week</string>
         <image name="christmasLogo" width="339" height="207"/>
         <image name="clock" width="26" height="26"/>
         <image name="close" width="32" height="32"/>
-        <image name="couple" width="189" height="232"/>
+        <image name="couple" width="207" height="253"/>
         <image name="dislike" width="41" height="41"/>
         <image name="dollar" width="32" height="32"/>
         <image name="down" width="32" height="32"/>
@@ -3105,7 +3107,7 @@ then 5,99$ / week</string>
         <image name="next" width="68" height="68"/>
         <image name="russia" width="180" height="180"/>
         <image name="settings" width="32" height="32"/>
-        <image name="sexy" width="163" height="208"/>
+        <image name="sexy" width="154" height="195"/>
         <image name="subscriptionBackground" width="379" height="822"/>
         <image name="subscriptionHightlight" width="379" height="164"/>
         <image name="support" width="32" height="32"/>
