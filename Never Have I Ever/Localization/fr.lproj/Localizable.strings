@@ -1,4 +1,10 @@
 
+// MARK: - Tab Bar
+
+"tabbar.tab.0"                              = "Niveaux";
+"tabbar.tab.1"                              = "Progrès";
+"tabbar.tab.2"                              = "Blagues";
+
 // MARK: - Home
 
 "button.home.play"                  = "Jouer à";

@@ -1,4 +1,10 @@
 
+// MARK: - Tab Bar
+
+"tabbar.tab.0"                              = "级别";
+"tabbar.tab.1"                              = "进展";
+"tabbar.tab.2"                              = "笑话";
+
 // MARK: - Home
 
 "button.home.play"                  = "播放";
